@@ -1,0 +1,77 @@
+[
+	{
+		"description": "developer1",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "designer2",
+		"image": "assets/img/mask/designer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer3",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "designer4",
+		"image": "assets/img/mask/designer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer5",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer6",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "illustrator7",
+		"image": "assets/img/mask/designer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer8",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer9",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "illustrator10",
+		"image": "assets/img/mask/designer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer11",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "designer12",
+		"image": "assets/img/mask/designer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer13",
+		"image": "assets/img/mask/developer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "designer14",
+		"image": "assets/img/mask/designer.jpg",
+		"duration": 300
+	},
+	{
+		"description": "developer + designer",
+		"image": "assets/img/mask/all.jpg",
+		"duration": 300
+	}
+]

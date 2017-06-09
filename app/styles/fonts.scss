@@ -1,0 +1,81 @@
+h1, h2, h3, h4, h5 {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 24px;
+  color: $primary;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  color: $primary;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 16px;
+  color: $primary;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 14px;
+  color: $primary;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+
+//Adding new fonts
+
+//Roboto
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/Roboto-Regular.ttf");
+  font-weight: 300;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/Roboto-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/Roboto-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/Roboto-Light.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/Roboto-Bold.ttf");
+  font-weight: 500;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/Roboto-Black.ttf");
+  font-weight: 700;
+  font-weight: 600;
+  font-style: normal;
+}

@@ -1,0 +1,17 @@
+// Normalize
+@import "normalize.scss";
+
+//Vendor
+@import "materialdesignicons.css";
+
+//Constants
+@import "constants.scss";
+@import "colors.scss";
+@import "fonts.scss";
+@import "mixins.scss";
+@import "animations.scss";
+
+// Styles
+@import "general.scss";
+@import "home.scss";
+@import "nav.scss";

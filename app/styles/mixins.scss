@@ -1,0 +1,179 @@
+/*Genral Mixins*/
+@mixin nopads() {
+    padding: 0px;
+    margin: 0px;
+}
+
+@mixin wh($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin sq($value) {
+    width: $value;
+    height: $value;
+}
+
+@mixin circle($diameter) {
+    @include border-radius($diameter / 2);
+    width: $diameter;
+    height: $diameter;
+    text-align: center;
+    line-height: $diameter;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin center() {
+    display: block;
+    margin: 0 auto;
+}
+
+@mixin center-absolute($width) {
+    position: absolute;
+    left: $width;
+}
+
+@mixin absolute($w, $h) {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: $w;
+	height: $h;
+}
+
+@mixin ellipsis(){
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin txtwrap(){
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+@mixin saturate($value) {
+    filter: saturate($value);
+}
+
+@mixin brightness($value) {
+    filter: brightness($value);
+}
+
+@mixin transit() {
+    transition: all 0.3s ease;
+}
+
+@mixin dropshadow($horz, $vert) {   
+    box-shadow: $horz $vert 31px 2px $black75;
+}
+
+@mixin dropglow($color) {
+    box-shadow: 0px 20px 27px -17px $color;
+}
+
+@mixin ellipses($w) {
+    width: $w;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin outline-action($color1, $color2){
+	border: 1px solid $color1;
+	color: $color1;
+	background: none;
+	@include transit();
+	border-radius: $radius;
+	&:hover {
+		&:not(.disabled){
+			cursor: pointer;
+			background: $color1;
+			color: $color2!important;
+			a, i, span {
+				color: $color2!important;
+			}
+		}
+	}
+	a, i, span {
+		color: $color1;
+	}
+}
+
+@mixin btn() {
+	height: 24px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 0px 20px;
+    background: $gray-lighter;
+    box-shadow: 0px 3px $gray;
+    &:not([disabled]) {
+    	cursor: pointer;
+    	@include transit();
+    	&:hover {
+    		color: $white;
+    		background: $primary;
+    		box-shadow: 0px 3px $primary-darker;
+    	}
+    }
+    &.primary {
+    	background: $primary-lighter;
+    	box-shadow: 0px 3px $primary-darker;
+    	&:not([disabled]) {
+	    	&:hover {
+	    		color: $primary-darker;
+	    		background: $primary-lightest;
+	    		box-shadow: 0px 3px $primary-darkest;
+	    	}
+	    }
+    }
+    &[disabled] {
+		cursor: not-allowed;
+	}
+}
+
+@mixin box-outline($color1, $color2) {
+	border: 1px solid $color1;
+	color: $color1;
+	background: transparent;
+	cursor: pointer;
+	@include transit();
+	&:hover {
+		color: $color2;
+		background-color: $color1;
+	}
+}
+
+@mixin shadow-allsides(){
+    box-shadow: 0px 0px 50px $black50;
+}
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+/*gradients*/
+@mixin grd-diagonal-transparent($color) {
+	background: $primary;
+	background: linear-gradient(135deg, $color 0%, $color 3%, $transparent 59%, $transparent 100%);
+}
+
+@mixin grd-diagonal($color1, $color2) {
+	background: $color1;
+	background: linear-gradient(135deg, $color1 0%, $color1 3%, $color2 59%, $color2 100%);
+}
+
+/*filters and effects*/
+@mixin brightness($value) {
+	filter: brightness($value);
+}

@@ -1,0 +1,35 @@
+//home
+
+#home {
+	.brand-intro {
+		h2 > .plus {
+			font-weight: bold;
+		}
+	}
+
+	.brand {
+		width: 100%;
+		vertical-align: middle;
+		.brand-canvas {
+			
+		}
+		.brand-images {
+			position: absolute;
+			top: calc(50% - 250px);
+			left: calc(50% - 250px);
+			.home-img {
+				@include sq(100%);
+				clip-path: url(#brandPath);
+				display: none;
+				&.active {
+					display: block;
+				}
+			}
+		}
+	}
+	.brand-intro {
+	    width: 300px;
+	    display: block;
+	    margin: 0 auto;
+	}
+}

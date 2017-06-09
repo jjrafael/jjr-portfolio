@@ -1,0 +1,13 @@
+<nav class="{{data.isOpen}}">
+    <div class="nav-inner">
+        <div class="nav-close">
+            <div class="nav-close-line"></div>
+            <div class="nav-close-line"></div>
+        </div>
+        {{#each data.menu}}
+        <div class="nav-item">
+            <h3 class="nav-item-text">{{this}}</h3>
+        </div>
+        {{/each}}
+    </div>
+</nav>

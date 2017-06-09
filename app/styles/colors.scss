@@ -1,0 +1,42 @@
+// --------------------------------------------------
+// start: Primary and Identity colors
+// --------------------------------------------------
+$white: #fff;
+$black: #000;
+$transparent: rgba(0,0,0,0);
+
+$white10: rgba(255,255,255,0.1);
+$white25: rgba(255,255,255,0.25);
+$white50: rgba(255,255,255,0.5);
+$white75: rgba(255,255,255,0.75);
+$black25: rgba(0,0,0,0.25);
+$black50: rgba(0,0,0,0.5);
+$black75: rgba(0,0,0,0.75);
+
+$gray: #aaa;
+$gray-light: #cccccc;
+$gray-lighter: #e2e2e2;
+$gray-lightest: #f3f3f3;
+$gray-dark: #565656;
+$gray-darker: #323232;
+$gray-darkest: #323232;
+$gray-secondary: #f9f9f9;
+$gray-lighter50: rgba(226, 226, 226, 0.5);
+
+$primary: #50E381;
+$primary-bright: #02FF56;
+$primary-light: lighten(#50E381, 25%);
+$primary-lighter: lighten(#50E381, 50%);
+$primary-lightest: lighten(#50E381, 80%);
+$primary-dark: lighten(#50E381, 25%);
+$primary-darker: lighten(#50E381, 50%);
+$primary-darkest: lighten(#50E381, 80%);
+$primary50: rgba(80,227,129,0.5);
+$primary25: rgba(80,129,227,0.25);
+
+$clr-bg: $black;
+$clr-inner: #E6E6E6;
+
+// --------------------------------------------------
+// end: Primary and Identity colors
+// --------------------------------------------------

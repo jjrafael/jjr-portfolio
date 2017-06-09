@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+	@include nopads();
+	font-family: "Roboto", Helvetica;
+	font-size: 12;
+	color: $primary;
+	background: $clr-bg;
+}
+
+.hidden {
+	display: none!important;
+}
