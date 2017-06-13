@@ -1,0 +1,157 @@
+[
+	{
+		"id": "plp-1",
+		"title": "MyTimeline App",
+		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"link": "",
+		"note": "Finalist",
+		"date": "Jan 2013",
+		"client": {
+			"name": "University of Pasig City",
+			"img": "assets/img/brands/client.png",
+			"link": ""
+		},
+		"colors": {
+			"primary": "green",
+			"secondary": "turquoise"
+		},
+		"role": "Software Developer, UI Designer",
+		"tools": [
+			"html5",
+			"css3",
+			"javascript",
+			"photoshop",
+			"sublime",
+			"git",
+			"grunt"
+		],
+		"images": [
+			"assets/img/projects/one/one-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "obs-1",
+		"title": "OBS Website",
+		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"link": "https://obs.ph",
+		"note": "Link closed",
+		"date": "May 2013",
+		"client": {
+			"name": "Out-of-the-box Solutions",
+			"img": "assets/img/brands/client.png",
+			"link": "http://obs.ph"
+		},
+		"colors": {
+			"primary": "pink",
+			"secondary": "red"
+		},
+		"role": "Web Developer, UI Designer",
+		"tools": [
+			"html5",
+			"css3",
+			"javascript",
+			"photoshop",
+			"sublime",
+			"git",
+			"grunt"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "obs-2",
+		"title": "Sailfin Payroll",
+		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"link": "",
+		"note": "Link not available",
+		"date": "Sep 2013",
+		"client": {
+			"name": "Out-of-the-box Solutions",
+			"img": "assets/img/brands/client.png",
+			"link": "http://obs.ph"
+		},
+		"colors": {
+			"primary": "pink",
+			"secondary": "red"
+		},
+		"role": "PHP Developer, UI Design, Logo Design",
+		"tools": [
+			"html5",
+			"css3",
+			"javascript",
+			"photoshop",
+			"sublime",
+			"git",
+			"grunt"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "tap-1",
+		"title": "theAsianParent Groups",
+		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"link": "https://lorem.com",
+		"note": "This is an internal project",
+		"date": "Jun 2014",
+		"client": {
+			"name": "Tickled Media",
+			"img": "assets/img/brands/client.png",
+			"link": "http://tickledmedia.com"
+		},
+		"colors": {
+			"primary": "pink",
+			"secondary": "red"
+		},
+		"role": "Front End Developer",
+		"tools": [
+			"html5",
+			"css3",
+			"javascript",
+			"photoshop",
+			"sublime",
+			"git",
+			"grunt"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "one-2",
+		"title": "Project Two",
+		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"link": "https://lorem.com",
+		"note": "",
+		"date": "May 2015",
+		"client": {
+			"name": "Client ABC",
+			"img": "assets/img/brands/client.png",
+			"link": "http://clientabc.com"
+		},
+		"colors": {
+			"primary": "pink",
+			"secondary": "red"
+		},
+		"role": "Astronaut",
+		"tools": [
+			"html5",
+			"css3",
+			"javascript",
+			"photoshop",
+			"sublime",
+			"git",
+			"grunt"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "true"
+	}
+]

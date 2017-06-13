@@ -28,9 +28,9 @@ $primary-bright: #02FF56;
 $primary-light: lighten(#50E381, 25%);
 $primary-lighter: lighten(#50E381, 50%);
 $primary-lightest: lighten(#50E381, 80%);
-$primary-dark: lighten(#50E381, 25%);
-$primary-darker: lighten(#50E381, 50%);
-$primary-darkest: lighten(#50E381, 80%);
+$primary-dark: darken(#50E381, 25%);
+$primary-darker: darken(#50E381, 50%);
+$primary-darkest: darken(#50E381, 80%);
 $primary50: rgba(80,227,129,0.5);
 $primary25: rgba(80,129,227,0.25);
 

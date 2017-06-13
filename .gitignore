@@ -1,0 +1,59 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+nohup.out
+
+
+# Grunt Files #
+###############
+node_modules
+dist
+build
+.tmp
+.sass-cache
+*.log
+
+# Handlebars #
+##############
+app/scripts/templates.js
+scripts/templates.js
+
+
+# Asset Files #
+###############
+app/info
+
+# Settings #
+##################
+settings.json
+
+# Idea files #
+#################
+.idea/.name
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/*
+.idea
+
+
+# Other Files #
+###############
+ca.crt
+ca.csr
+ca.key
+server.crt
+server.csr
+server.key
+server.key.org
+/nbproject/private/
+# Preprocessed Files #
+######################

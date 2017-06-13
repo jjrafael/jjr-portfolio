@@ -4,6 +4,7 @@ JJR.extend('Nav', function(App) {
 
     var stateMap = {
         menu: [
+            'home',
             'about',
             'projects',
             'contact'
@@ -21,16 +22,20 @@ JJR.extend('Nav', function(App) {
     };
 
     var scrollToSection = function(el) {
-        var $item = el;
-        var $nav = $item.closest('nav');
-        var section = $item.text().toLowerCase();
+        var item = el;
+        var nav = $(item).closest('nav');
+        var section = $(item).text().toLowerCase().trim();
+        var offset = 20; //Offset of 20px
 
-        console.log('jj menu2: ', section);
+        $('html, body').animate({
+            scrollTop: $('#'+section).offset().top + offset
+        }, 500);
+
+        $('nav').removeClass('open');
     }
 
-    var toggleNav = function(el){
-         var $nav = el;
-
+    var toggleNav = function(){
+        console.log('jj toggleNav');
          $('nav').toggleClass('open');
     }
 
@@ -58,9 +63,9 @@ JJR.extend('Nav', function(App) {
 
         $('.nav-item').on('click', function(e){
             if($(this).closest('nav').hasClass('open')){
-                console.log('jj navitem click');
+                //console.log('jj navitem click');
+                scrollToSection(this);
             }
-            //scrollToSection(this);
         });
     };
 

@@ -13,3 +13,22 @@ html, body {
 .hidden {
 	display: none!important;
 }
+
+.page-wrapper {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.screen-overlay {
+	display: none;
+	@include sq(100%);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: $clr-bg;
+	color: $primary;
+    z-index: 11;
+	&.active {
+		display: block;
+	}
+}

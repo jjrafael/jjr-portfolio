@@ -3,7 +3,7 @@ nav {
 	z-index: 10;
 	overflow: hidden;
 	@include transit();
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	.nav-inner {
