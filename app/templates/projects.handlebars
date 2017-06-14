@@ -12,7 +12,7 @@
 				<p>{{this.paragraph}}</p>
 				<div class="suboverview">
 					{{#if this.link}}
-						<a href="{{this.link}}">Link</a>
+						<a href="{{this.link}}" target="_blank">Link</a>
 					{{/if}}
 					{{#if this.note}}
 						<p>{{this.note}}</p>
@@ -26,6 +26,8 @@
 					<i class="mdi mdi-plus"></i>
 					more details
 				</div>
+			{{else}}
+				<div class="btn-more disabled"></div>
 			{{/ifCond}}
 		</div>
 		<div class="right-column">

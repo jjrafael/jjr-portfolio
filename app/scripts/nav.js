@@ -35,8 +35,13 @@ JJR.extend('Nav', function(App) {
     }
 
     var toggleNav = function(){
-        console.log('jj toggleNav');
-         $('nav').toggleClass('open');
+        $('nav').toggleClass('open');
+
+        if($('nav').hasClass('open')){
+            $('body').css('overflow', 'hidden');
+        }else{
+            $('body').css('overflow', '');
+        }
     }
 
     var render = function() {

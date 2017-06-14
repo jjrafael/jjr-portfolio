@@ -26,12 +26,28 @@ JJR.extend('Projects', function(App) {
         $container.html(Handlebars.Templates['projects']({'data': stateMap.projects}));
     }
 
+    var toggleProjectDetails = function(el) {
+        var cont = $(el).closest('.project-container');
+        $(cont).toggleClass('open');
+
+        if($(cont).hasClass('open')){
+            $('body').css('overflow', 'hidden');
+        }else{
+            $('body').css('overflow', '');
+        }
+        
+    }
+
     var showError = function(xhr) {
         console.log('data failed');
     }
 
     var bind = function() {
-        
+        var $container = $('.projects-wrapper');
+
+        $container.on('click', '.btn-more', function(){
+            toggleProjectDetails(this);
+        });
     };
 
     var load = function($container) {    

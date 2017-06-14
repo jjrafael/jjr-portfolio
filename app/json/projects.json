@@ -2,9 +2,9 @@
 	{
 		"id": "plp-1",
 		"title": "MyTimeline App",
-		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"paragraph": "The all-in-one calendar, remider, notes, photo-journal and anything that you keep to yourself. An android app developed for our college thesis, one of finalists that were able to compete for Intercollegiate IT Event.",
 		"link": "",
-		"note": "Finalist",
+		"note": "Source codes were kept in campus library",
 		"date": "Jan 2013",
 		"client": {
 			"name": "University of Pasig City",
@@ -12,18 +12,26 @@
 			"link": ""
 		},
 		"colors": {
-			"primary": "green",
-			"secondary": "turquoise"
+			"primary": "#50E381",
+			"secondary": "#bde350"
 		},
-		"role": "Software Developer, UI Designer",
+		"role": [
+			"Software Developer",
+			"UI Designer"
+		],
 		"tools": [
-			"html5",
-			"css3",
-			"javascript",
-			"photoshop",
-			"sublime",
-			"git",
-			"grunt"
+			"Javascript",
+			"HTML",
+			"CSS",
+			"jQuery",
+			"Notepad++",
+			"Phonegap",
+			"Cordova",
+			"Android Studio",
+			"Eclipse",
+			"jQuery UI",
+			"Photoshop",
+			"XAMPP"
 		],
 		"images": [
 			"assets/img/projects/one/one-1.jpg"
@@ -33,7 +41,7 @@
 	{
 		"id": "obs-1",
 		"title": "OBS Website",
-		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"paragraph": "My OJT-company-turned-first-company, I created a responsive website for our startup team.",
 		"link": "https://obs.ph",
 		"note": "Link closed",
 		"date": "May 2013",
@@ -43,18 +51,23 @@
 			"link": "http://obs.ph"
 		},
 		"colors": {
-			"primary": "pink",
-			"secondary": "red"
+			"primary": "#50E381",
+			"secondary": "#bde350"
 		},
-		"role": "Web Developer, UI Designer",
+		"role": [
+			"Web Developer",
+			"UI Designer"
+		],
 		"tools": [
-			"html5",
-			"css3",
-			"javascript",
-			"photoshop",
-			"sublime",
-			"git",
-			"grunt"
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Notepad++",
+			"Photoshop",
+			"XAMPP",
+			"jQuery",
+			"puTTy",
+			"Filezilla"
 		],
 		"images": [
 			"assets/img/projects/one/one-2.jpg"
@@ -64,7 +77,7 @@
 	{
 		"id": "obs-2",
 		"title": "Sailfin Payroll",
-		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
+		"paragraph": "A Payroll application powered using Joomla. Sailfin was launch on Philippines' Software Freedom Day event in Aklan",
 		"link": "",
 		"note": "Link not available",
 		"date": "Sep 2013",
@@ -74,18 +87,62 @@
 			"link": "http://obs.ph"
 		},
 		"colors": {
-			"primary": "pink",
-			"secondary": "red"
+			"primary": "#50E381",
+			"secondary": "#bde350"
 		},
-		"role": "PHP Developer, UI Design, Logo Design",
+		"role": [
+			"Software Developer",
+			"UI Design",
+			"Logo Design"
+		],
 		"tools": [
-			"html5",
-			"css3",
-			"javascript",
-			"photoshop",
-			"sublime",
-			"git",
-			"grunt"
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"jQuery",
+			"Notepad++",
+			"XAMPP",
+			"php",
+			"mySQL",
+			"joomla",
+			"Photoshop",
+			"illustrator",
+			"Filezilla"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-1",
+		"title": "Portfolio v1",
+		"paragraph": "First Professional Porfolio website",
+		"link": "https://jjrafael.byethost7.com/version2",
+		"note": "Not updated since 2015",
+		"date": "Nov 2013",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/client.png",
+			"link": ""
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"role": [
+			"Web Developer",
+			"UI Design"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"jQuery",
+			"Notepad++",
+			"XAMPP",
+			"Photoshop",
+			"Filezilla"
 		],
 		"images": [
 			"assets/img/projects/one/one-2.jpg"
@@ -95,28 +152,36 @@
 	{
 		"id": "tap-1",
 		"title": "theAsianParent Groups",
-		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
-		"link": "https://lorem.com",
-		"note": "This is an internal project",
-		"date": "Jun 2014",
+		"paragraph": "An Q&A Community platform for Asian Parents, this project was launch already in SG, and soon on other Asian neighbors under the new name, ParentTown",
+		"link": "https://parenttown.com",
+		"note": "Recently renamed to ParentTown",
+		"date": "Jul 2014",
 		"client": {
 			"name": "Tickled Media",
 			"img": "assets/img/brands/client.png",
 			"link": "http://tickledmedia.com"
 		},
 		"colors": {
-			"primary": "pink",
-			"secondary": "red"
+			"primary": "#50E381",
+			"secondary": "#bde350"
 		},
-		"role": "Front End Developer",
+		"role": [
+			"Front End Developer"
+		],
 		"tools": [
-			"html5",
-			"css3",
-			"javascript",
-			"photoshop",
-			"sublime",
+			"HTML5",
+			"CSS3",
+			"jQuery",
+			"Javascript",
+			"less",
+			"Crunch",
+			"Notepad++",
+			"wordpress",
+			"php",
+			"Photoshop",
 			"git",
-			"grunt"
+			"SourceTree",
+			"XAMPP"
 		],
 		"images": [
 			"assets/img/projects/one/one-2.jpg"
@@ -124,34 +189,276 @@
 		"hasMore": "true"
 	},
 	{
-		"id": "one-2",
-		"title": "Project Two",
-		"paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias ",
-		"link": "https://lorem.com",
+		"id": "tap-2",
+		"title": "Pregnant.sg Mobile",
+		"paragraph": "Optimized and responsive mobile website across different devices",
+		"link": "https://m.pregnant.sg",
 		"note": "",
-		"date": "May 2015",
+		"date": "Oct 2015",
 		"client": {
-			"name": "Client ABC",
+			"name": "Tickled Media",
 			"img": "assets/img/brands/client.png",
-			"link": "http://clientabc.com"
+			"link": "http://tickledmedia.com"
 		},
 		"colors": {
-			"primary": "pink",
-			"secondary": "red"
+			"primary": "#50E381",
+			"secondary": "#bde350"
 		},
-		"role": "Astronaut",
+		"role": [
+			"Web Designer"
+		],
 		"tools": [
-			"html5",
-			"css3",
-			"javascript",
-			"photoshop",
-			"sublime",
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"Notepad++",
 			"git",
-			"grunt"
+			"SourceTree",
+			"XAMPP",
+			"jQuery"
 		],
 		"images": [
 			"assets/img/projects/one/one-2.jpg"
 		],
 		"hasMore": "true"
+	},
+	{
+		"id": "tap-3",
+		"title": "theAsianParent ReBranding",
+		"paragraph": "Redesigned the team's parenting portal and Localization across different languages/countries",
+		"link": "https://theasianparent.com",
+		"note": "change .com to .ph/.th/.my/.id/.sg",
+		"date": "Oct 2015",
+		"client": {
+			"name": "Tickled Media",
+			"img": "assets/img/brands/client.png",
+			"link": "http://tickledmedia.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"role": [
+			"Software Developer",
+			"UI Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"Notepad++",
+			"git",
+			"SourceTree",
+			"XAMPP",
+			"jQuery"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "lotus-1",
+		"title": "Betica Website",
+		"paragraph": "Improve UI of the company website, add Articles section that fetched posts from company blog",
+		"link": "https://betica.com",
+		"note": "",
+		"date": "Apr 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/client.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"role": [
+			"Web Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"php",
+			"filezilla"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-2",
+		"title": "Betica Blog",
+		"paragraph": "Redesigned Company blog using Wordpress",
+		"link": "https://betica.com/blog",
+		"note": "",
+		"date": "Apr 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/client.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"role": [
+			"Web Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"wordpress"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "lotus-3",
+		"title": "ATHENA",
+		"paragraph": "Sportsbook events analysis application, to help the support team on tickets",
+		"link": "",
+		"note": "Internal Project",
+		"date": "Apr 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/client.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"role": [
+			"Web Developer",
+			"UI Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"less",
+			"grunt",
+			"github",
+			"mify",
+			"REST API",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"node.js",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "lotus-4",
+		"title": "Sportsman Mapping Tool",
+		"paragraph": "An application for mapping events to its proper live video data across different streaming services.",
+		"link": "",
+		"note": "Internal Project",
+		"date": "Jul 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/client.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"role": [
+			"Web Developer",
+			"UI Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"less",
+			"grunt",
+			"github",
+			"mify",
+			"REST API",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"node.js",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "lotus-5",
+		"title": "Merx",
+		"paragraph": "First project as lead + developer, Merx is a Content Management System for our clients across different sportsbook brands",
+		"link": "",
+		"note": "Internal Project",
+		"date": "Dec 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/client.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"role": [
+			"Project Lead",
+			"Web Developer",
+			"UI Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"less",
+			"grunt",
+			"github",
+			"mify",
+			"REST API",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"node.js",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/one/one-2.jpg"
+		],
+		"hasMore": "false"
 	}
 ]

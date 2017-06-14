@@ -2,56 +2,56 @@
 	{
 		"description": "multimedia artist",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "photography",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "web developer",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "designer",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "traveller",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "front end enthusiast",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "illustrator",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "interaction",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "interface",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "javascript",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "developer + designer",
 		"image": "assets/img/mask/all.jpg",
-		"duration": 300
+		"duration": 500
 	}
 ]
