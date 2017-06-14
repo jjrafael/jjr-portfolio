@@ -17,6 +17,11 @@ var JJR = (function (){
 
         App.Nav.load();
         App.Brand.load();
+        App.Projects.load();
+
+        setTimeout(function(){
+            App.Brand.toggleOverlay();
+        }, 2000);
     };
 
     var errorCallBack = function(data, options) {

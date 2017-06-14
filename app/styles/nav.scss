@@ -3,7 +3,7 @@ nav {
 	z-index: 10;
 	overflow: hidden;
 	@include transit();
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	.nav-inner {
@@ -45,10 +45,17 @@ nav {
 			margin-top: 10px;
 			.nav-close {
 				margin-top: 20px;
-				margin-bottom: 30px;
+				margin-bottom: 0px;
+				@include sq(30px);
 				&:hover {
 					.nav-close-line {
 						background: $black;
+						&:first-child {
+							transform: rotate(135deg);
+						}
+						&:last-child {
+							transform: rotate(-135deg);
+						}
 					}
 				}
 			}

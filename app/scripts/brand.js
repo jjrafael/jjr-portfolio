@@ -30,7 +30,7 @@ JJR.extend('Brand', function(App) {
         animateContents(stateMap.contents);
         window.setInterval(function () {
             animateContents(stateMap.contents);
-        }, 80000); // repeat forever
+        }, 10000); // repeat forever
     }
 
     var animateContents =function(data){
@@ -54,17 +54,22 @@ JJR.extend('Brand', function(App) {
         })
     };
 
+    var toggleOverlay = function() {
+        $('.screen-overlay').toggleClass('active');
+        //$('body').css('overflow', 'hidden');
+        // if($('.screen-overlay').hasClass('active')){
+        //     $('body').css('overflow', 'hidden');
+        // }else{
+        //     $('body').css('overflow', '');
+        // }
+    }
+
     var bind = function() {
         // var $container = $('.panel-left');
         // $container.on('mouseenter mouseleave', 'li', function(e){
         //     $container.toggleClass('active');
         //     $container.next().toggleClass('left-open');
         //     $('footer.onlogin').toggleClass('slide-left');
-        // });
-        // $container.on('click', 'li', function(){
-        //     redirectPath(this);
-        // });
-        // $('.preview-select').on('click', '.dropdown-menu li', App.Channels.previewOrigin);
     };
 
     var load = function($container) {    
@@ -73,7 +78,8 @@ JJR.extend('Brand', function(App) {
     };
 
     return {
-        load: load
+        load: load,
+        toggleOverlay: toggleOverlay
     }
 
 });

@@ -1,0 +1,50 @@
+<div class="projects-inner clearfix">
+	{{#each data}}
+	<div class="project-container" id="{{this.id}}">
+		<div class="left-column">
+			<div class="image-container">
+				{{#each this.images}}
+					<img src="{{this}}"/>
+				{{/each}}
+			</div>	
+			<div class="overview">
+				<h4>{{this.title}}</h4>
+				<p>{{this.paragraph}}</p>
+				<div class="suboverview">
+					{{#if this.link}}
+						<a href="{{this.link}}" target="_blank">Link</a>
+					{{/if}}
+					{{#if this.note}}
+						<p>{{this.note}}</p>
+					{{/if}}
+				</div>
+			</div>
+		</div>
+		<div class="mid-column">
+			{{#ifCond this.hasMore '===' 'true'}}
+				<div class="btn-more">
+					<i class="mdi mdi-plus"></i>
+					more details
+				</div>
+			{{else}}
+				<div class="btn-more disabled"></div>
+			{{/ifCond}}
+		</div>
+		<div class="right-column">
+			<div class="brand-container" style="background-color: {{this.colors.primary}}; background: linear-gradient(135deg, {{this.colors.primary}} 0%, {{this.colors.secondary}} 100%);">
+				<img src="{{this.client.img}}" data-link="{{this.client.link}}" title="{{this.client.name}}"/>
+			</div>
+			<div class="date">
+				{{this.date}}
+			</div>
+			<div class="tools">
+				<ul>
+					{{#each this.tools}}
+						<li class="tool-item">{{this}}</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	</div>
+	{{/each}}
+</div>

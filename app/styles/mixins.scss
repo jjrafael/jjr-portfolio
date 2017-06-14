@@ -71,6 +71,10 @@
     transition: all 0.3s ease;
 }
 
+@mixin shadow($color) {
+    box-shadow: 0px 0px 10px 2px $color;
+}
+
 @mixin dropshadow($horz, $vert) {   
     box-shadow: $horz $vert 31px 2px $black75;
 }

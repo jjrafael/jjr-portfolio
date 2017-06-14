@@ -1,77 +1,57 @@
 [
 	{
-		"description": "developer1",
+		"description": "multimedia artist",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "designer2",
+		"description": "photography",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "developer3",
+		"description": "web developer",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "designer4",
+		"description": "designer",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "developer5",
+		"description": "traveller",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "developer6",
+		"description": "front end enthusiast",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "illustrator7",
+		"description": "illustrator",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "developer8",
+		"description": "interaction",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "developer9",
+		"description": "interface",
 		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
-		"description": "illustrator10",
+		"description": "javascript",
 		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
-	},
-	{
-		"description": "developer11",
-		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
-	},
-	{
-		"description": "designer12",
-		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
-	},
-	{
-		"description": "developer13",
-		"image": "assets/img/mask/developer.jpg",
-		"duration": 300
-	},
-	{
-		"description": "designer14",
-		"image": "assets/img/mask/designer.jpg",
-		"duration": 300
+		"duration": 500
 	},
 	{
 		"description": "developer + designer",
 		"image": "assets/img/mask/all.jpg",
-		"duration": 300
+		"duration": 500
 	}
 ]
