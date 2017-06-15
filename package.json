@@ -1,6 +1,11 @@
 {
   "name": "Portfolio2017",
   "description": "Portfoio 2017",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/jjrafael/jjr-portfolio"
+    },
+    "license": "ISC",
   "version": "0.1.0",
   "devDependencies": {
     "connect-modrewrite": "^0.7.9",
