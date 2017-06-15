@@ -28,7 +28,7 @@
 	}
 	.project-container {
 		width: 100%;
-		min-height: 400px;
+		min-height: 600px;
 		position: relative;
 		.mid-column {
 			position: absolute;
@@ -57,7 +57,7 @@
 				//padding: 5px;
 				padding-top: 12px;
 				margin-left: -5px;
-				margin-top: 100px;
+				margin-top: 200px;
 				@include transit();
 				&:not(.disabled) {
 					cursor: pointer;
@@ -97,15 +97,15 @@
 		}
 		.right-column {
 			float: left;
-			width: calc(50% - 10px);
+			width: calc(50% - 20px);
 			height: 100%;
-			padding-left: 10px;
+			padding-left: 30px;
 			margin-left: 20px;
 			position: relative;
 		}
 		.image-container {
 			position: absolute;
-			top: 0px;
+			top: 100px;
 			right: 60px;
 			overflow: hidden;
 			img {
@@ -122,6 +122,7 @@
 			display: block;
 			position: absolute;
 			right: 20px;
+			top: 170px;
 			@include shadow($black25);
 			h4 {
 				font-weight: bold;
@@ -150,7 +151,7 @@
 		}
 		.brand-container {
 			@include wh(100px, 80px);
-			margin-top: 70px;
+			margin-top: 170px;
 		    margin-left: 0px;
 		    float: left;
 		    img {
@@ -159,6 +160,36 @@
 		    	margin: 0 auto;
 		    	margin-top: 12px;
 		    }
+		}
+		.roles-wrapper {
+			float: left;
+			margin-top: 138px;
+			ul {
+				list-style: none;
+				padding-left: 2px;
+				li {
+					min-width: 120px;
+					height: 30px;
+					line-height: 30px;
+					text-align: left;
+					padding: 0px 10px;
+					text-transform: uppercase;
+					font-weight: 200;
+					background: $secondary;
+					color: $black;
+					display: block;
+					margin-bottom: 2px;
+					&:nth-child(2) {
+						background: $secondary-dark;
+					}
+					&:nth-child(3) {
+						background: $secondary-darker;
+					}
+					&:nth-child(4) {
+						background: $secondary-darkest;
+					}
+				}
+			}
 		}
 		.date {
 			height: 30px;
@@ -171,7 +202,7 @@
 			display: block;
 			padding: 0px 5px;
 			text-align: center;
-			margin-top: 150px;
+			margin-top: 250px;
 			@include shadow($black25);
 		}
 		.tools {
@@ -194,7 +225,7 @@
 			}
 		}
 		.details-wrapper {
-			padding: 80px;
+			padding: 5vh 80px;
 		}
 		.details-container {
 			width: 260px;

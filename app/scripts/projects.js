@@ -53,12 +53,12 @@ JJR.extend('Projects', function(App) {
                        'box-shadow' : '0px 0px 10px 2px rgba(0,0,0,0,0.25)'
 
                     });
-                }, stateMap.intervalAnimDetails + 180);
+                }, stateMap.intervalAnimDetails + 230);
                 setTimeout(function(){
                     $(el).find('.details-inner').animate({
                         opacity: '1'
                     });
-                }, stateMap.intervalAnimDetails + 200);
+                }, stateMap.intervalAnimDetails + 250);
                 stateMap.intervalAnimDetails = stateMap.intervalAnimDetails + 300;
             });
     }

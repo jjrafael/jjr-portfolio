@@ -62,6 +62,13 @@
 			<div class="brand-container" style="background-color: {{this.colors.primary}}; background: linear-gradient(135deg, {{this.colors.primary}} 0%, {{this.colors.secondary}} 100%);">
 				<img src="{{this.client.img}}" data-link="{{this.client.link}}" title="{{this.client.name}}"/>
 			</div>
+			<div class="roles-wrapper">
+				<ul>
+					{{#each this.roles}}
+						<li>{{this}}</li>
+					{{/each}}
+				</ul>
+			</div>
 			<div class="date">
 				{{this.date}}
 			</div>

@@ -32,4 +32,11 @@
 	    display: block;
 	    margin: 0 auto;
 	}
+
+	#brandAnim {
+		#XMLID_17_ {
+			stroke-dasharray: 100;
+			animation: dash 5s linear;
+		}
+	}
 }

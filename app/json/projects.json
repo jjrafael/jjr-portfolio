@@ -15,7 +15,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Software Developer",
 			"UI Designer"
 		],
@@ -54,7 +54,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Web Developer",
 			"UI Designer"
 		],
@@ -90,7 +90,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Software Developer",
 			"UI Design",
 			"Logo Design"
@@ -130,7 +130,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Web Developer",
 			"UI Design"
 		],
@@ -165,7 +165,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Front End Developer"
 		],
 		"tools": [
@@ -204,7 +204,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Web Designer"
 		],
 		"tools": [
@@ -239,7 +239,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Software Developer",
 			"UI Designer"
 		],
@@ -275,7 +275,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Web Designer"
 		],
 		"tools": [
@@ -310,7 +310,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Web Designer"
 		],
 		"tools": [
@@ -344,7 +344,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Web Developer",
 			"UI Designer"
 		],
@@ -389,7 +389,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Web Developer",
 			"UI Designer"
 		],
@@ -434,7 +434,7 @@
 			"primary": "#50E381",
 			"secondary": "#bde350"
 		},
-		"role": [
+		"roles": [
 			"Project Lead",
 			"Web Developer",
 			"UI Designer"
