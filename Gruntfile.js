@@ -296,14 +296,10 @@ module.exports = function(grunt) {
                     src: [
                         '*.{ico,png,txt,htaccess,swf}',
                         'images.json',
-                        'quicklinks.json',
+                        'json/**/*',
                         'assets/**/*',
                         '**/*.html',
                         'styles/fonts/**/*.*',
-                        'locales/**/*',
-            'app/platform/*',
-                        // 'sisplayer/*',
-                        // 'jwplayer/*',
                         'scripts/**/*'
                     ]
                 }]
@@ -367,13 +363,6 @@ module.exports = function(grunt) {
 
 
     grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target,build) {
-        if (target === 'dist') {
-            if (build === 'internal') {
-                return grunt.task.run(['build:internal', 'connect:dist:keepalive']);
-            } else {
-                return grunt.task.run(['build', 'connect:dist:keepalive']);
-            }
-        }
         config.internal = grunt.option('internal') || false;
         grunt.task.run([
             'clean:server',
