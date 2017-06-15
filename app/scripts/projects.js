@@ -3,7 +3,8 @@ JJR.extend('Projects', function(App) {
     var configMap = {};
 
     var stateMap = {
-        projects: null
+        projects: null,
+        intervalAnimDetails: 500
     };
 
     var jqueryMap = {};
@@ -32,10 +33,34 @@ JJR.extend('Projects', function(App) {
 
         if($(cont).hasClass('open')){
             $('body').css('overflow', 'hidden');
+            showProjectDetails(cont);
         }else{
             $('body').css('overflow', '');
         }
         
+    }
+
+    var showProjectDetails = function(cont) {
+        stateMap.intervalAnimDetails = 500;
+            $(cont).find('.details-container').each(function(){
+                var el = $(this);
+                setTimeout(function() {
+                    $(el).addClass('animate');    
+                }, stateMap.intervalAnimDetails);
+                setTimeout(function(){
+                    $(el).css({
+                       'background' : 'black',
+                       'box-shadow' : '0px 0px 10px 2px rgba(0,0,0,0,0.25)'
+
+                    });
+                }, stateMap.intervalAnimDetails + 180);
+                setTimeout(function(){
+                    $(el).find('.details-inner').animate({
+                        opacity: '1'
+                    });
+                }, stateMap.intervalAnimDetails + 200);
+                stateMap.intervalAnimDetails = stateMap.intervalAnimDetails + 300;
+            });
     }
 
     var showError = function(xhr) {
