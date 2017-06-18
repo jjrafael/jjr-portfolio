@@ -123,6 +123,9 @@
     		transform-origin: top center;
     		.brand-images {
     			left: calc(50% - 200px);
+    			.home-img {
+    				width: 100%;
+    			}
     		}
 		}
 	}

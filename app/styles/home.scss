@@ -18,7 +18,8 @@
 			top: calc(50% - 250px);
 			left: calc(50% - 250px);
 			.home-img {
-				@include sq(100%);
+				width: 90%;
+				height: 100%;
 				clip-path: url(#brandPath);
 				display: none;
 				&.active {
