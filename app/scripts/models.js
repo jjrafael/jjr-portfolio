@@ -32,6 +32,26 @@ JJR.extend('Model', function(App) {
 		});
     };
 
+    var getExperiences = function(callBack, errorCallBack) {
+        var url = configMap.url;
+        //App.Util.loader('open');
+        $.ajax({
+          url: url + 'xp.json?a='+Math.random(),
+          type: "GET",
+          dataType: "json",
+          success: function(data){
+            if (typeof callBack === 'function') {
+                callBack(data);
+            }
+          },
+          error: function(xhr){
+            if (typeof errorCallBack === 'function') {
+                errorCallBack(xhr);
+            }
+          }
+        });
+    };
+
     var getProjects = function(callBack, errorCallBack) {
         var url = configMap.url;
         //App.Util.loader('open');
@@ -52,10 +72,33 @@ JJR.extend('Model', function(App) {
         });
     };
 
+    var getProjectDetail = function(id, callBack, errorCallBack) {
+        var url = configMap.url;
+        //App.Util.loader('open');
+        $.ajax({
+          url: url + 'projects/'+id+'.json?a='+Math.random(),
+          type: "GET",
+          dataType: "json",
+          success: function(data){
+            if (typeof callBack === 'function') {
+                callBack(data, id);
+            }
+          },
+          error: function(xhr){
+            if (typeof errorCallBack === 'function') {
+                errorCallBack(id, xhr);
+            }
+          }
+        });
+    };
+
+
 
     return $.extend(configMap, {
     	getHomeContents: getHomeContents,
-        getProjects: getProjects
+        getExperiences: getExperiences,
+        getProjects: getProjects,
+        getProjectDetail: getProjectDetail
     }, true);
 
 

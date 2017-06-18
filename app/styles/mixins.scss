@@ -48,6 +48,18 @@
 	height: $h;
 }
 
+@mixin clearfix() {
+    &:before {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+        display: table;
+        content: " ";
+    }
+}
+
 @mixin ellipsis(){
     text-overflow: ellipsis;
     white-space: nowrap;

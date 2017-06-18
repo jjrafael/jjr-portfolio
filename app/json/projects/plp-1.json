@@ -1,0 +1,47 @@
+{
+	"id": "plp-1",
+	"title": "MyTimeline App",
+	"paragraph": "The all-in-one calendar, remider, notes, photo-journal and anything that you keep to yourself. An android app developed for our college thesis, one of finalists that were able to compete for Intercollegiate IT Event.",
+	"link": "",
+	"note": "Source codes were kept in campus library",
+	"date": "Jan 2013",
+	"client": {
+		"name": "University of Pasig City",
+		"img": "assets/img/brands/client.png",
+		"link": ""
+	},
+	"colors": {
+		"primary": "#50E381",
+		"secondary": "#bde350"
+	},
+	"roles": [
+		"Software Developer",
+		"UI Designer"
+	],
+	"cards": [
+		{
+			"id": "plp-1-1",
+			"title": "card one",
+			"paragraph": "paragraph",
+			"image": "assets/img/projects/one/one-1.jpg",
+			"footnote": "remiderderder",
+			"type": "column"
+		},
+		{
+			"id": "plp-1-2",
+			"title": "card two",
+			"paragraph": "paragraph",
+			"image": "assets/img/projects/one/one-1.jpg",
+			"footnote": "remiderderder",
+			"type": "column"
+		},
+		{
+			"id": "plp-1-3",
+			"title": "card two",
+			"paragraph": "paragraph",
+			"image": "assets/img/projects/one/one-1.jpg",
+			"footnote": "remiderderder",
+			"type": "column"
+		}
+	]
+}

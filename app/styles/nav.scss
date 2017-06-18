@@ -86,6 +86,14 @@ nav {
 						color: $primary;
 					}
 				}
+				&.active {
+					background: $primary;
+					color: $black;
+					&:hover {
+						background: $primary-darkest;
+						color: $primary;
+					}
+				}
 			}
 		}
 		&:hover {

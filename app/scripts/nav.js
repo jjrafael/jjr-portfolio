@@ -5,11 +5,16 @@ JJR.extend('Nav', function(App) {
     var stateMap = {
         menu: [
             'home',
-            'about',
+            'experiences',
             'projects',
-            'contact'
+            'lets talk'
         ],
-        isOpen: false
+        isOpen: false,
+        sectionDistance: {
+            'home': 0,
+            'experiences': 0,
+            'projects': 0
+        }
     };
 
     var jqueryMap = {};
@@ -25,13 +30,29 @@ JJR.extend('Nav', function(App) {
         var item = el;
         var nav = $(item).closest('nav');
         var section = $(item).text().toLowerCase().trim();
+        var section_trim = section.replace(/\s/g,'');
         var offset = 20; //Offset of 20px
+        if(section_trim === 'letstalk'){
+            if($('.talk-wrapper').length === 0){
+                App.Talk.load();
+            }else{
+                App.Talk.showTalkSection();
+            }
+        }else{
+            $('html, body').animate({
+                scrollTop: $('#'+section_trim).offset().top + offset
+            }, 500);
 
-        $('html, body').animate({
-            scrollTop: $('#'+section).offset().top + offset
+            if(section_trim === 'experiences'){
+                App.Experiences.animateGraphs();
+            }
+        }
+        
+        activateMenu($(item).text());
+        setTimeout(function(){
+            $('nav').removeClass('open');
+            $('body').css('overflow', '');
         }, 500);
-
-        $('nav').removeClass('open');
     }
 
     var toggleNav = function(){
@@ -44,6 +65,48 @@ JJR.extend('Nav', function(App) {
         }
     }
 
+    var activateMenu = function(menu) {
+        var menu = menu.trim();
+
+        $('.nav-item:not([data-menu="'+menu+'"])').removeClass('active');
+        $('.nav-item[data-menu="'+menu+'"]').addClass('active');
+    }
+
+    var inspectPage = function() {
+        var cont = $('.page-wrapper');
+        var scrollTop = $(window).scrollTop();
+        var sectionDistance = stateMap.sectionDistance;
+        var nearestSect = '';
+        $(cont).each(function(){
+            elementOffset = $(this).offset().top,
+            distance      = Math.abs(elementOffset - scrollTop);
+            sectionDistance[$(this).attr('id')] = distance;
+        });
+        
+        if(sectionDistance['home'] < sectionDistance['experiences'] && sectionDistance['home'] < sectionDistance['projects']){
+            nearestSect = 'home';
+        }else {
+            if(sectionDistance['experiences'] < sectionDistance['projects']){
+                nearestSect = 'experiences';
+            }else{
+                nearestSect = 'projects';
+            }
+        }
+
+        activateSection(nearestSect);
+    }
+
+    var activateSection = function(section) {
+        $('body').attr('data-page', section);
+        $('.page-wrapper:not(#'+section+')').removeClass('active');
+        $('#'+section).addClass('active');
+        activateMenu(section);
+
+        if(section === 'experiences'){
+            App.Experiences.animateGraphs();
+        }
+    }
+
     var render = function() {
         var $nav = $('.nav-wrapper');
         var data = {
@@ -51,6 +114,10 @@ JJR.extend('Nav', function(App) {
             isOpen: stateMap.isOpen === true ? 'open' : ''
         }
         $nav.html(Handlebars.Templates['nav']({'data': data}));
+
+        // setTimeout(function(){
+        //     //inspectPage();
+        // }, 1000)
     };
 
     var bind = function() {
@@ -72,6 +139,10 @@ JJR.extend('Nav', function(App) {
                 scrollToSection(this);
             }
         });
+
+        $(window).scroll(function(){
+            inspectPage();
+        });
     };
 
     var load = function($container) {
@@ -80,7 +151,9 @@ JJR.extend('Nav', function(App) {
     };
 
     return {
-        load: load
+        load: load,
+        inspectPage: inspectPage,
+        activateMenu: activateMenu
     }
 
 });

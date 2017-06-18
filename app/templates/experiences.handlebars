@@ -1,0 +1,50 @@
+<div class="xp-wrapper">
+{{#each data}}
+	<div class="xp-container">
+		<div class="graph-wrap">
+			<h1>{{this.projects}}</h1>
+			{{#ifCond this.company '===' 'elfam merks'}}
+				<h5>illustrations</h5>
+			{{else}}
+				<h5>projects</h5>
+			{{/ifCond}}
+			<div class="graph-inner">
+				<div class="bar-wrap" data-field="dev" data-perc="{{this.lvl-dev}}">
+					<div class="bar"></div>
+				</div>
+				<div class="bar-wrap" data-field="des" data-perc="{{this.lvl-des}}">
+					<div class="bar"></div>
+				</div>
+				<div class="bar-wrap" data-field="illus" data-perc="{{this.lvl-illus}}">
+					<div class="bar"></div>
+				</div>
+				<div class="bar-wrap" data-field="others" data-perc="{{this.lvl-others}}">
+					<div class="bar"></div>
+				</div>
+			</div>
+		</div>
+		<div class="details">
+			<h4>{{this.title}}</h4>
+			<h5 class="xp-company">{{this.company}} </h5>
+			<h5 class="xp-city">{{this.city}}</h5>
+			{{#each this.years}}
+				<h6 class="xp-year">{{this}}</h6>
+			{{/each}}
+		</div>
+	</div>
+{{/each}}
+	<div class="xp-footer">
+		<div class="xp-status" data-field="dev">
+			Development
+		</div>
+		<div class="xp-status" data-field="des">
+			UI Design
+		</div>
+		<div class="xp-status" data-field="illus">
+			GD/Illustrations
+		</div>
+		<div class="xp-status" data-field="others">
+			Others (Database, Server-side, Marketing)
+		</div>
+	</div>
+</div>

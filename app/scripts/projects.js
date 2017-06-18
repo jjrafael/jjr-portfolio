@@ -29,18 +29,28 @@ JJR.extend('Projects', function(App) {
 
     var toggleProjectDetails = function(el) {
         var cont = $(el).closest('.project-container');
+        var id = cont.attr('id');
         $(cont).toggleClass('open');
 
         if($(cont).hasClass('open')){
             $('body').css('overflow', 'hidden');
-            showProjectDetails(cont);
+            if($(cont).find('.details-container').length === 0){
+                App.Model.getProjectDetail(id, renderProjectDetails, noDetailsFound);
+            }
         }else{
             $('body').css('overflow', '');
         }
         
     }
 
-    var showProjectDetails = function(cont) {
+    var renderProjectDetails = function(data, id) {
+        var $container = $('#'+id+'.project-container');
+        $container.find('.details-wrapper').html(Handlebars.Templates['project']({'data': data}));
+        showProjectDetails(id);
+    }
+
+    var showProjectDetails = function(id) {
+        var cont = $('#'+id+'.project-container');
         stateMap.intervalAnimDetails = 500;
             $(cont).find('.details-container').each(function(){
                 var el = $(this);
@@ -63,8 +73,14 @@ JJR.extend('Projects', function(App) {
             });
     }
 
+    var noDetailsFound = function(id) {
+        var cont = $('#'+id+'.project-container');
+        var errHtml = '<div class="err-msg">No details available yet</div>';
+        $(cont).find('.details-wrapper').html(errHtml);
+    }
+
     var showError = function(xhr) {
-        console.log('data failed');
+        console.log('data failed: ', xhr);
     }
 
     var bind = function() {

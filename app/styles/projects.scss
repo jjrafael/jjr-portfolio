@@ -221,11 +221,23 @@
 				padding: 0px 10px;
 				line-height: 25px;
 				text-align: center;
-				font-weight: 200;
+				font-weight: 500;
+				font-size: 10px;
+				text-transform: uppercase;
 			}
 		}
 		.details-wrapper {
-			padding: 5vh 80px;
+			.err-msg {
+		  		width: 100%;
+		  		line-height: 50px;
+		  		font-size: 14px;
+		  		font-weight: 200;
+		  		padding: 10px;
+		  		border: 1px solid $black;
+		  		text-align: center;
+		  		color: $black;
+		  		display: none;
+		  	}
 		}
 		.details-container {
 			width: 260px;
@@ -240,10 +252,21 @@
 		  	position: relative;
 		  	overflow: hidden;
 		  	float: left;
+		  	margin-bottom: 10px;
 		  	@include transit();
+		  	&[data-type="column"] {
+		  		width: 260px;
+		  	}
+		  	&[data-type="whole"] {
+		  		width: 80%;
+		  	}
 		  	.details-inner {
 		  		opacity: 0;
 		  		transition: all 1.5s ease;
+		  		p {
+		  			color: $white;
+		  			font-weight: 200;
+		  		}
 		  	}
 		  	.img-wrap {
 		  		width: 100%;
@@ -262,9 +285,17 @@
 		  		position: absolute;
 		  		bottom: 0px;
 		  		left: 0px;
-		  		background: $gray-darkest;
 		  		color: $white50;
 		  		padding: 15px;
+		  		&:before {
+		  			content: "";
+		  			position: absolute;
+		  			top: 0px;
+		  			left: 15px;
+		  			width: 50px;
+		  			height: 1px;
+		  			background: $white25;
+		  		};
 		  	}
 			&:before,
 			&:after {
@@ -285,6 +316,10 @@
 			&:after {
 				bottom: 0;
 				right: 0;
+			}
+
+			&:hover {
+				@include shadow($black25);
 			}
 				  
 			&.animate {
@@ -339,6 +374,12 @@
 				left: 0px;
 				position: fixed;
 				z-index: 13;
+			}
+			.details-wrapper {
+				padding: 5vh 80px;
+				.err-msg {
+					display: block;
+				}
 			}
 			.details-container {
 				display: block;

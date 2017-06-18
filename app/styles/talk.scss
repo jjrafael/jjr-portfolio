@@ -1,0 +1,85 @@
+#talk {
+	.talk-wrapper {
+		display: none;
+		opacity: 0;
+		background: $black50;
+		left: -120%;
+		position: fixed;
+		top: 0px;
+		z-index: 4;
+		@include transit();
+		&.active {
+			display: block;
+		}
+		.talk-left {
+			width: 50%;
+			height: 100vh;
+			background: $primary-lighter;
+			position: relative;
+			float: left;
+			@include transit();
+			color: $black;
+			h1, h2, h3, h4, h5 {
+				color: $black;
+			}
+			h1 {
+				margin-bottom: 20px;
+			}
+			h4 {
+				font-weight: 200;
+				text-transform: none;
+				line-height: 20px;
+			}
+			.collage-wrap {
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+			}
+		}
+		.talk-right{
+			width: 50%;
+			height: 100vh;
+			background: $gray-darkest;
+			position: relative;
+			float: left;
+			@include transit();
+			.talk-inner {
+				margin-top: calc(25% + 10px);
+			}
+		}
+		.talk-inner {
+			padding: 15%;
+			margin-top: 80px;
+			opacity: 0;
+			height: 75%;
+		}
+		.contact-wrapper {
+			padding-top: 10px;
+			.contact-item {
+				height: 30px;
+				line-height: 30px;
+				border: 1px solid transparent;
+				cursor: pointer;
+				padding: 0px 10px;
+				@include transit();
+				i.mdi {
+					color: $white;
+					margin-right: 10px;
+				}
+				&:hover{
+					border-color: $primary;
+				}
+				a {
+					font-style: none;
+					color: $primary;
+				}
+			}
+		}
+		.collage-wrap {
+			width: 100%;
+			height: 25%;
+			display: block;
+			background: $white25;
+		}
+	}
+}
