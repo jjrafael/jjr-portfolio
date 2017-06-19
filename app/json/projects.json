@@ -8,7 +8,7 @@
 		"date": "Jan 2013",
 		"client": {
 			"name": "University of Pasig City",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/plp.png",
 			"link": ""
 		},
 		"colors": {
@@ -16,7 +16,7 @@
 			"secondary": "#bde350"
 		},
 		"roles": [
-			"Software Developer",
+			"App Developer",
 			"UI Designer"
 		],
 		"tools": [
@@ -34,7 +34,7 @@
 			"XAMPP"
 		],
 		"images": [
-			"assets/img/projects/one/one-1.jpg"
+			"assets/img/projects/plp/plp-1.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -47,7 +47,7 @@
 		"date": "May 2013",
 		"client": {
 			"name": "Out-of-the-box Solutions",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/obs.png",
 			"link": "http://obs.ph"
 		},
 		"colors": {
@@ -70,7 +70,7 @@
 			"Filezilla"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/obs/obs-1.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -83,7 +83,7 @@
 		"date": "Sep 2013",
 		"client": {
 			"name": "Out-of-the-box Solutions",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/obs.png",
 			"link": "http://obs.ph"
 		},
 		"colors": {
@@ -91,7 +91,7 @@
 			"secondary": "#bde350"
 		},
 		"roles": [
-			"Software Developer",
+			"Web Developer",
 			"UI Design",
 			"Logo Design"
 		],
@@ -110,7 +110,7 @@
 			"Filezilla"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/obs/obs-2.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -123,7 +123,7 @@
 		"date": "Nov 2013",
 		"client": {
 			"name": "JJR",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/jjr.png",
 			"link": ""
 		},
 		"colors": {
@@ -145,20 +145,48 @@
 			"Filezilla"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/jjr/jjr-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-3",
+		"title": "Laro ng Lahi",
+		"paragraph": "A set of illustrations for an article of theAsianParent Philippnes. Article by former Mega Magazine Editor-in-chief, Carla Perlas. ",
+		"link": "https://ph.theasianparent.com/rules-of-popular-laro-ng-lahi-games/",
+		"note": "",
+		"date": "Jan 2017",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.000webhostapp.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"	
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/jje/jjr-3.jpg"
 		],
 		"hasMore": "true"
 	},
 	{
 		"id": "tap-1",
 		"title": "theAsianParent Groups",
-		"paragraph": "An Q&A Community platform for Asian Parents, this project was launch already in SG, and soon on other Asian neighbors under the new name, ParentTown",
+		"paragraph": "An Q&A Community platform for Asian Parents, this project was launch already in SG and India, and soon on other Asian neighbors under the new name, ParentTown",
 		"link": "https://parenttown.com",
 		"note": "Recently renamed to ParentTown",
 		"date": "Jul 2014",
 		"client": {
 			"name": "Tickled Media",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/tap.png",
 			"link": "http://tickledmedia.com"
 		},
 		"colors": {
@@ -166,7 +194,7 @@
 			"secondary": "#bde350"
 		},
 		"roles": [
-			"Front End Developer"
+			"Front End Dev"
 		],
 		"tools": [
 			"HTML5",
@@ -184,7 +212,65 @@
 			"XAMPP"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/tap/tap-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-2",
+		"title": "Elfam Merks Shirt Designs",
+		"paragraph": "Co-owned Merchandise/Design team. Our first collection for a fund-raising project of an Australia-based Scholarship Organization.",
+		"link": "",
+		"note": "We have raised 20,000 on first batch of our designs",
+		"date": "Mar 2015",
+		"client": {
+			"name": "Elfam Merks",
+			"img": "assets/img/brands/jjr.png",
+			"link": "http://jjrafael.000webhostapp.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Lead Artist",
+			"Co-owner"		
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "devcon-1",
+		"title": "DevCon Summit Shirt + Materials",
+		"paragraph": "DevCon PH is the biggest developer conference in the Philippines, joined the team and collaborate for 2015 Shirt design and marketing assets.",
+		"link": "https://summit.devcon.ph",
+		"note": "",
+		"date": "Sep 2015",
+		"client": {
+			"name": "DevCon",
+			"img": "assets/img/brands/devcon.png",
+			"link": "http://devcon.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Creative Co-Lead",
+			"Graphic Designer"		
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/devcon/devcon-1.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -194,10 +280,10 @@
 		"paragraph": "Optimized and responsive mobile website across different devices",
 		"link": "https://m.pregnant.sg",
 		"note": "",
-		"date": "Oct 2015",
+		"date": "Sep 2015",
 		"client": {
 			"name": "Tickled Media",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/tap.png",
 			"link": "http://tickledmedia.com"
 		},
 		"colors": {
@@ -219,20 +305,20 @@
 			"jQuery"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/tap/tap-2.jpg"
 		],
 		"hasMore": "true"
 	},
 	{
 		"id": "tap-3",
 		"title": "theAsianParent ReBranding",
-		"paragraph": "Redesigned the team's parenting portal and Localization across different languages/countries",
+		"paragraph": "Redesigned the company's parenting portal and Localization across different languages/countries",
 		"link": "https://theasianparent.com",
 		"note": "change .com to .ph/.th/.my/.id/.sg",
 		"date": "Oct 2015",
 		"client": {
 			"name": "Tickled Media",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/tap.png",
 			"link": "http://tickledmedia.com"
 		},
 		"colors": {
@@ -240,8 +326,7 @@
 			"secondary": "#bde350"
 		},
 		"roles": [
-			"Software Developer",
-			"UI Designer"
+			"Front End Developer"
 		],
 		"tools": [
 			"HTML5",
@@ -255,9 +340,37 @@
 			"jQuery"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/tap/tap-3.jpg"
 		],
 		"hasMore": "false"
+	},
+	{
+		"id": "jjr-3",
+		"title": "Deadpool x Star Wars Force Awakens",
+		"paragraph": "As a Marvel comics hoarder, I created a Mash-Up Fan-art illustration",
+		"link": "http://jjrafael.deviantart.com",
+		"note": "",
+		"date": "Jan 2016",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "http://jjrafael.000webhostapp.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"	
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-3.jpg"
+		],
+		"hasMore": "true"
 	},
 	{
 		"id": "lotus-1",
@@ -268,7 +381,7 @@
 		"date": "Apr 2016",
 		"client": {
 			"name": "Lotus Labs",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/lotus.png",
 			"link": "http://betica.com"
 		},
 		"colors": {
@@ -290,7 +403,7 @@
 			"filezilla"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/lotus/lotus-1.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -303,7 +416,7 @@
 		"date": "Apr 2016",
 		"client": {
 			"name": "Lotus Labs",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/lotus.png",
 			"link": "http://betica.com"
 		},
 		"colors": {
@@ -324,7 +437,7 @@
 			"wordpress"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/lotus/lotus-2.jpg"
 		],
 		"hasMore": "false"
 	},
@@ -334,10 +447,10 @@
 		"paragraph": "Sportsbook events analysis application, to help the support team on tickets",
 		"link": "",
 		"note": "Internal Project",
-		"date": "Apr 2016",
+		"date": "Jun 2016",
 		"client": {
 			"name": "Lotus Labs",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/lotus.png",
 			"link": "http://betica.com"
 		},
 		"colors": {
@@ -361,7 +474,7 @@
 			"grunt",
 			"github",
 			"mify",
-			"REST API",
+			"APIs",
 			"Postman",
 			"gitx",
 			"Bootstrap",
@@ -369,9 +482,9 @@
 			"npm"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/lotus/lotus-3.jpg"
 		],
-		"hasMore": "false"
+		"hasMore": "true"
 	},
 	{
 		"id": "lotus-4",
@@ -382,7 +495,7 @@
 		"date": "Jul 2016",
 		"client": {
 			"name": "Lotus Labs",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/lotus.png",
 			"link": "http://betica.com"
 		},
 		"colors": {
@@ -406,7 +519,7 @@
 			"grunt",
 			"github",
 			"mify",
-			"REST API",
+			"APIs",
 			"Postman",
 			"gitx",
 			"Bootstrap",
@@ -414,9 +527,38 @@
 			"npm"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/lotus/lotus-4.jpg"
 		],
 		"hasMore": "false"
+	},
+	{
+		"id": "devcon-2",
+		"title": "DevCon Summit 2016 Branding",
+		"paragraph": "On my second year with DevCon, I created Branding and Style guides for the Marketing team. I also worked on the UI for DevCon Summit 2016 website. ",
+		"link": "https://summit.devcon.ph",
+		"note": "Link will only be available this month, since we'll upload soon the new 2017 website",
+		"date": "Aug 2016",
+		"client": {
+			"name": "DevCon Philippines",
+			"img": "assets/img/brands/devcon.png",
+			"link": "http://devcon.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Creative Co-Lead",
+			"Graphic Designer"		
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/devcon/devcon-2.jpg"
+		],
+		"hasMore": "true"
 	},
 	{
 		"id": "lotus-5",
@@ -427,7 +569,7 @@
 		"date": "Dec 2016",
 		"client": {
 			"name": "Lotus Labs",
-			"img": "assets/img/brands/client.png",
+			"img": "assets/img/brands/lotus.png",
 			"link": "http://betica.com"
 		},
 		"colors": {
@@ -452,7 +594,7 @@
 			"grunt",
 			"github",
 			"mify",
-			"REST API",
+			"APIs",
 			"Postman",
 			"gitx",
 			"Bootstrap",
@@ -460,7 +602,211 @@
 			"npm"
 		],
 		"images": [
-			"assets/img/projects/one/one-2.jpg"
+			"assets/img/projects/lotus/lotus-5.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-6",
+		"title": "Esports Sportsbook",
+		"paragraph": "An Esports betting webapp, which explores the interface based on how real games feels. Soon to be deployed in Kenya.",
+		"link": "",
+		"note": "Link Soon",
+		"date": "Feb 2017",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Project Lead",
+			"Front End Dev",
+			"UI Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"less",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"Illustrator",
+			"Bootstrap",
+			"node.js",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-6.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-7",
+		"title": "Project Omega",
+		"paragraph": "A Whitelabelling of Sportsbook webapp that can be customized through different themes developed. This was presented on Global Gaming Expo Asia in Macau last May 2017.",
+		"link": "",
+		"note": "Link not yet available",
+		"date": "Dec 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Project Lead",
+			"Web Developer",
+			"UI Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"less",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"node.js",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-7.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-3",
+		"title": "Marvel Headshots",
+		"paragraph": "You know i still got some sparetime to do what i still love.",
+		"link": "https://jjrafael.deviantart.com",
+		"note": "",
+		"date": "Jan 2017",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.000webhostapp.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"	
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-3.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-8",
+		"title": "Phoenix",
+		"paragraph": "A collection of applications/tools for Sportsbook, spanning from customer manager, event manager, risk manager and so many more. This is set to present on Global Gaming Expo in Vienna later this year.",
+		"link": "",
+		"note": "Current Project",
+		"date": "Apr 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Project Lead",
+			"Web Developer",
+			"UI Designer"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"less",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"node.js",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-8.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "devcon-3",
+		"title": "DevCon Summit 2017 Website",
+		"paragraph": "On my 3rd year with DevCon, I collaborate with developers in PH Community to create this year's website",
+		"link": "https://summit.devcon.ph",
+		"note": "Current Project, Link soon",
+		"date": "Jun 2017",
+		"client": {
+			"name": "DevCon Philippines",
+			"img": "assets/img/brands/devcon.png",
+			"link": "http://devcon.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Developer",
+			"UI Designer"	
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"jQuery",
+			"git",
+			"gitlab",
+			"Photoshop",
+			"Illustrator",
+			"Wordpress",
+			"node.js",
+			"NPM"
+		],
+		"images": [
+			"assets/img/projects/devcon/devcon-3.jpg"
 		],
 		"hasMore": "true"
 	}
