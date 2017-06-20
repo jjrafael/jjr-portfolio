@@ -204,7 +204,8 @@
 			"less",
 			"Crunch",
 			"Notepad++",
-			"wordpress",
+			"APIs",
+			"FB Parse",
 			"php",
 			"Photoshop",
 			"git",
@@ -221,7 +222,7 @@
 		"title": "Elfam Merks Shirt Designs",
 		"paragraph": "Co-owned Merchandise/Design team. Our first collection for a fund-raising project of an Australia-based Scholarship Organization.",
 		"link": "",
-		"note": "We have raised 20,000 on first batch of our designs",
+		"note": "We have raised 20,000PHP on first batch of our designs",
 		"date": "Mar 2015",
 		"client": {
 			"name": "Elfam Merks",
