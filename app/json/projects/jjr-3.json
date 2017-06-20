@@ -1,0 +1,54 @@
+{
+	"id": "jjr-3",
+	"title": "Laro ng Lahi",
+	"paragraph": "A set of illustrations for an article of theAsianParent Philippnes. Article by former Mega Magazine Editor-in-chief, Carla Perlas. ",
+	"link": "https://ph.theasianparent.com/rules-of-popular-laro-ng-lahi-games/",
+	"note": "",
+	"date": "Jan 2017",
+	"client": {
+		"name": "JJR",
+		"img": "assets/img/brands/jjr.png",
+		"link": "https://jjrafael.000webhostapp.com"
+	},
+	"colors": {
+		"primary": "#50E381",
+		"secondary": "#bde350"
+	},
+	"roles": [
+		"Illustrator"	
+	],
+	"cards": [
+		{
+			"id": "jjr-3-1",
+			"title": "Laro ng Lahi",
+			"paragraph": "Though I'm already a Developer for the team, I was tapped to do an illustration for an articles as a celebration of National Traditions Month.",
+			"image": "assets/img/projects/jjr/cards/jjr-3-1.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-3-2",
+			"title": "Wriiten by Carla 'Lacar' Perlas",
+			"paragraph": "Article was written by former Regional Chief Editor for theAsianParent and former Editor-In-Chief of Smart Parenting Magazine ",
+			"image": "assets/img/projects/jjr/cards/jjr-3-2.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-3-3",
+			"title": "Playful Colors",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-3-3.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-3-4",
+			"title": "More",
+			"paragraph": "I want to do more article illustrations though :D ",
+			"image": "assets/img/projects/jjr/cards/jjr-3-4.jpg",
+			"footnote": "",
+			"type": "column"
+		}
+	]
+}

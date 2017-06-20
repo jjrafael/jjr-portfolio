@@ -1,6 +1,6 @@
 [
 	{
-		"id": "plp-1",
+		"id": "jjr-1",
 		"title": "MyTimeline App",
 		"paragraph": "The all-in-one calendar, remider, notes, photo-journal and anything that you keep to yourself. An android app developed for our college thesis, one of finalists that were able to compete for Intercollegiate IT Event.",
 		"link": "",
@@ -8,7 +8,7 @@
 		"date": "Jan 2013",
 		"client": {
 			"name": "University of Pasig City",
-			"img": "assets/img/brands/plp.png",
+			"img": "assets/img/brands/jjr.png",
 			"link": ""
 		},
 		"colors": {
@@ -34,7 +34,7 @@
 			"XAMPP"
 		],
 		"images": [
-			"assets/img/projects/plp/plp-1.jpg"
+			"assets/img/projects/jjr/jjr-1.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -115,7 +115,7 @@
 		"hasMore": "true"
 	},
 	{
-		"id": "jjr-1",
+		"id": "jjr-2",
 		"title": "Portfolio v1",
 		"paragraph": "First Professional Porfolio website",
 		"link": "https://jjrafael.byethost7.com/version2",
@@ -145,7 +145,7 @@
 			"Filezilla"
 		],
 		"images": [
-			"assets/img/projects/jjr/jjr-1.jpg"
+			"assets/img/projects/jjr/jjr-2.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -173,7 +173,7 @@
 			"Illustrator"
 		],
 		"images": [
-			"assets/img/projects/jje/jjr-3.jpg"
+			"assets/img/projects/jjr/jjr-3.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -217,7 +217,7 @@
 		"hasMore": "true"
 	},
 	{
-		"id": "jjr-2",
+		"id": "jjr-4",
 		"title": "Elfam Merks Shirt Designs",
 		"paragraph": "Co-owned Merchandise/Design team. Our first collection for a fund-raising project of an Australia-based Scholarship Organization.",
 		"link": "",
@@ -241,7 +241,7 @@
 			"Illustrator"
 		],
 		"images": [
-			"assets/img/projects/jjr/jjr-2.jpg"
+			"assets/img/projects/jjr/jjr-4.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -307,11 +307,11 @@
 		"images": [
 			"assets/img/projects/tap/tap-2.jpg"
 		],
-		"hasMore": "true"
+		"hasMore": "false"
 	},
 	{
 		"id": "tap-3",
-		"title": "theAsianParent ReBranding",
+		"title": "theAsianParent ReDesigned",
 		"paragraph": "Redesigned the company's parenting portal and Localization across different languages/countries",
 		"link": "https://theasianparent.com",
 		"note": "change .com to .ph/.th/.my/.id/.sg",
@@ -345,7 +345,7 @@
 		"hasMore": "false"
 	},
 	{
-		"id": "jjr-3",
+		"id": "jjr-5",
 		"title": "Deadpool x Star Wars Force Awakens",
 		"paragraph": "As a Marvel comics hoarder, I created a Mash-Up Fan-art illustration",
 		"link": "http://jjrafael.deviantart.com",
@@ -368,7 +368,7 @@
 			"Illustrator"
 		],
 		"images": [
-			"assets/img/projects/jjr/jjr-3.jpg"
+			"assets/img/projects/jjr/jjr-5.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -405,7 +405,7 @@
 		"images": [
 			"assets/img/projects/lotus/lotus-1.jpg"
 		],
-		"hasMore": "true"
+		"hasMore": "false"
 	},
 	{
 		"id": "lotus-2",
@@ -561,6 +561,34 @@
 		"hasMore": "true"
 	},
 	{
+		"id": "lotus-9",
+		"title": "Sportsbook Mobile Native App",
+		"paragraph": "Sports betting application for Android and iOS devices. Project was created using React Native",
+		"link": "",
+		"note": "No link available",
+		"date": "Oct 2016",
+		"client": {
+			"name": "Lotus Labs Inc",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI Designer"		
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-9.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
 		"id": "lotus-5",
 		"title": "Merx",
 		"paragraph": "First project as lead + developer, Merx is a Content Management System for our clients across different sportsbook brands",
@@ -699,7 +727,7 @@
 		"hasMore": "true"
 	},
 	{
-		"id": "jjr-3",
+		"id": "jjr-6",
 		"title": "Marvel Headshots",
 		"paragraph": "You know i still got some sparetime to do what i still love.",
 		"link": "https://jjrafael.deviantart.com",
@@ -722,7 +750,7 @@
 			"Illustrator"
 		],
 		"images": [
-			"assets/img/projects/jjr/jjr-3.jpg"
+			"assets/img/projects/jjr/jjr-6.jpg"
 		],
 		"hasMore": "true"
 	},

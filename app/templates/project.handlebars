@@ -8,9 +8,11 @@
 			<h4>{{this.title}}</h4>
 			<p>{{this.paragraph}}</p>
 		</div>
-		<div class="subdetails">
-			{{this.footnote}}
-		</div>
+		{{#if this.footnote}}
+			<div class="subdetails">
+				{{this.footnote}}
+			</div>
+		{{/if}}
 	</div>
 </div>
 {{/each}}
