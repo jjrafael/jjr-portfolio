@@ -75,6 +75,14 @@ JJR.extend('Talk', function(App) {
                 showTalkSection('close');
             }
         });
+
+        $('.btn-talk').on('click', function(){
+            if($('.talk-wrapper').length === 0){
+                load();
+            }else{
+                showTalkSection();
+            }
+        });
     };
 
     var load = function($container) {    
