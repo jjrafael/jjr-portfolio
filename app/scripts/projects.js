@@ -94,7 +94,7 @@ JJR.extend('Projects', function(App) {
     var bind = function() {
         var $container = $('.projects-wrapper');
 
-        $container.on('click', '.btn-more', function(){
+        $container.on('click', '.btn-more:not(.disabled)', function(){
             toggleProjectDetails(this);
         });
     };
