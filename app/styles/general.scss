@@ -48,8 +48,8 @@ html, body {
 		@include sq(100%);
 		#logo-stroke {
 			stroke-dasharray: 1500;
-			  stroke-dashoffset: 1500;
-			  animation: dash2 2s linear infinite;
+			stroke-dashoffset: 1500;
+			animation: dash2 2s linear infinite;
 		}
 	}
 }

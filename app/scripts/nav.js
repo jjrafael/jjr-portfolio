@@ -105,6 +105,21 @@ JJR.extend('Nav', function(App) {
         if(section === 'experiences'){
             App.Experiences.animateGraphs();
         }
+
+        activateTopCorner(section);
+    }
+
+    var activateTopCorner = function(section) {
+        var cont = $('.topcorner');
+
+        $(cont).find('h5:not(.bold)').text(section);
+        if(section === 'home'){
+            $(cont).removeClass('active');
+            $(cont).css('opacity', 0);
+        }else{
+            $(cont).addClass('active');
+            $(cont).css('opacity', 1);
+        }
     }
 
     var render = function() {

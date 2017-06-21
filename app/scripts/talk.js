@@ -17,6 +17,7 @@ JJR.extend('Talk', function(App) {
 
     var showTalkSection = function(val) {
         var cont = $('.talk-wrapper');
+        var topcorn = $('.topcorner')
         if(val === 'close'){
             $('body').css('overflow', '');
             setTimeout(function(){
@@ -27,6 +28,7 @@ JJR.extend('Talk', function(App) {
             }, 150);
             setTimeout(function(){
                 $(cont).addClass('active');
+                $(topcorn).addClass('active');
                 $(cont).animate({
                     'left': -2800,
                     'opacity': 0
@@ -46,6 +48,7 @@ JJR.extend('Talk', function(App) {
             }, 150);
             setTimeout(function(){
                 $(cont).addClass('active');
+                $(topcorn).removeClass('active');
                 $(cont).animate({
                     'left': 0,
                     'opacity': 1

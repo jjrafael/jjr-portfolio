@@ -105,3 +105,46 @@ nav {
 		}
 	}
 }
+
+.topcorner {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	display: none;
+	height: 40px;
+    width: 130px;
+	text-transform: uppercase;
+	z-index: 10;
+	opacity: 0;
+	@include transit();
+	&:hover {
+		color: $primary-lightest;
+	}
+	&.active {
+		display: block;
+	}
+	&[data-menu="letstalk"] {
+		.topcorner-text {
+			display: none;
+		}
+	}
+	.topcorner-text {
+		width: 70%;
+		float: left;
+	    text-align: right;
+	    @include transit();
+	}
+	.topcorner-logo {
+		width: 25%;
+		float: left;
+		svg {
+			@include sq(100%);
+			#logo-corner {
+				stroke-dasharray: 1500;
+				stroke-dashoffset: 1500;
+				animation: dash2 2s linear infinite;
+			}
+		}
+
+	}
+}
