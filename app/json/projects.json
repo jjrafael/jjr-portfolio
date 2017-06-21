@@ -159,7 +159,7 @@
 		"client": {
 			"name": "JJR",
 			"img": "assets/img/brands/jjr.png",
-			"link": "https://jjrafael.000webhostapp.com"
+			"link": "https://jjrafael.github.io"
 		},
 		"colors": {
 			"primary": "#50E381",
@@ -227,7 +227,7 @@
 		"client": {
 			"name": "Elfam Merks",
 			"img": "assets/img/brands/jjr.png",
-			"link": "http://jjrafael.000webhostapp.com"
+			"link": "http://jjrafael.github.io"
 		},
 		"colors": {
 			"primary": "#50E381",
@@ -355,7 +355,7 @@
 		"client": {
 			"name": "JJR",
 			"img": "assets/img/brands/jjr.png",
-			"link": "http://jjrafael.000webhostapp.com"
+			"link": "http://jjrafael.github.io"
 		},
 		"colors": {
 			"primary": "#50E381",
@@ -471,7 +471,7 @@
 			"git",
 			"Sublime Text",
 			"Handlebars",
-			"less",
+			"scss",
 			"grunt",
 			"github",
 			"mify",
@@ -516,7 +516,7 @@
 			"git",
 			"Sublime Text",
 			"Handlebars",
-			"less",
+			"scss",
 			"grunt",
 			"github",
 			"mify",
@@ -564,7 +564,7 @@
 	{
 		"id": "lotus-9",
 		"title": "Sportsbook Mobile Native App",
-		"paragraph": "Sports betting application for Android and iOS devices. Project was created using React Native",
+		"paragraph": "Sports betting application for Android and iOS devices. Project was developed using React Native",
 		"link": "",
 		"note": "No link available",
 		"date": "Oct 2016",
@@ -619,7 +619,7 @@
 			"git",
 			"Sublime Text",
 			"Handlebars",
-			"less",
+			"scss",
 			"grunt",
 			"github",
 			"mify",
@@ -665,7 +665,7 @@
 			"git",
 			"Sublime Text",
 			"Handlebars",
-			"less",
+			"scss",
 			"grunt",
 			"github",
 			"mify",
@@ -711,7 +711,7 @@
 			"git",
 			"Sublime Text",
 			"Handlebars",
-			"less",
+			"scss",
 			"grunt",
 			"github",
 			"mify",
@@ -737,7 +737,7 @@
 		"client": {
 			"name": "JJR",
 			"img": "assets/img/brands/jjr.png",
-			"link": "https://jjrafael.000webhostapp.com"
+			"link": "https://jjrafael.github.io"
 		},
 		"colors": {
 			"primary": "#50E381",
@@ -772,8 +772,7 @@
 			"secondary": "#bde350"
 		},
 		"roles": [
-			"Project Lead",
-			"Web Developer",
+			"Front End Developer",
 			"UI Designer"
 		],
 		"tools": [
@@ -784,15 +783,15 @@
 			"jQuery",
 			"git",
 			"Sublime Text",
-			"Handlebars",
-			"less",
-			"grunt",
+			"React",
+			"Redux",
+			"scss",
 			"github",
-			"mify",
+			"Webpack",
 			"APIs",
 			"Postman",
-			"gitx",
-			"Bootstrap",
+			"JSX",
+			"ES6",
 			"node.js",
 			"npm"
 		],
@@ -832,7 +831,8 @@
 			"Illustrator",
 			"Wordpress",
 			"node.js",
-			"NPM"
+			"NPM",
+			"scss"
 		],
 		"images": [
 			"assets/img/projects/devcon/devcon-3.jpg"

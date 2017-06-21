@@ -28,9 +28,29 @@ html, body {
 	left: 0px;
 	background: $clr-bg;
 	color: $primary;
-    z-index: 11;
+    z-index: 14;
 	&.active {
 		display: block;
+	}
+	h1 {
+	    text-align: center;
+    	font-weight: 100;
+	}
+}
+
+.loader-container {
+	@include sq(200px);
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	margin-top: calc(25% - 100px);
+	svg {
+		@include sq(100%);
+		#logo-stroke {
+			stroke-dasharray: 1500;
+			  stroke-dashoffset: 1500;
+			  animation: dash2 2s linear infinite;
+		}
 	}
 }
 
@@ -52,6 +72,7 @@ footer {
 			@include transit();
 			display: block;
 			margin: 0 auto;
+			text-transform: uppercase;
 			&:hover {
 				background: $primary-darker;
 			}

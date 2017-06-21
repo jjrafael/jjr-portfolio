@@ -143,6 +143,15 @@ JJR.extend('Nav', function(App) {
         $(window).scroll(function(){
             inspectPage();
         });
+
+        $('.btn-talk').on('click', function(){
+            console.log('jj btn talk clk');         
+            if($('.talk-wrapper').length === 0){
+                App.Talk.load();
+            }else{
+                App.Talk.showTalkSection();
+            }
+        });
     };
 
     var load = function($container) {

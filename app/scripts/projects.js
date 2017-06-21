@@ -33,6 +33,7 @@ JJR.extend('Projects', function(App) {
         $(cont).toggleClass('open');
 
         if($(cont).hasClass('open')){
+            App.Brand.toggleOverlay('open');
             $('body').css('overflow', 'hidden');
             if($(cont).find('.details-container').length === 0){
                 App.Model.getProjectDetail(id, renderProjectDetails, noDetailsFound);
@@ -46,7 +47,11 @@ JJR.extend('Projects', function(App) {
     var renderProjectDetails = function(data, id) {
         var $container = $('#'+id+'.project-container');
         $container.find('.details-wrapper').html(Handlebars.Templates['project']({'data': data}));
-        showProjectDetails(id);
+        setTimeout(function(){
+            App.Brand.toggleOverlay('close');  
+            showProjectDetails(id);
+        }, 800);
+        
     }
 
     var showProjectDetails = function(id) {
@@ -77,6 +82,7 @@ JJR.extend('Projects', function(App) {
         var cont = $('#'+id+'.project-container');
         var errHtml = '<div class="err-msg">No details available yet</div>';
         $(cont).find('.details-wrapper').html(errHtml);
+        App.Brand.toggleOverlay('close'); 
     }
 
     var showError = function(xhr) {

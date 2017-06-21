@@ -54,14 +54,17 @@ JJR.extend('Brand', function(App) {
         })
     };
 
-    var toggleOverlay = function() {
-        $('.screen-overlay').toggleClass('active');
-        //$('body').css('overflow', 'hidden');
-        // if($('.screen-overlay').hasClass('active')){
-        //     $('body').css('overflow', 'hidden');
-        // }else{
-        //     $('body').css('overflow', '');
-        // }
+    var toggleOverlay = function(val) {
+        if(val){
+            if(val === 'close'){
+                $('.screen-overlay').removeClass('active');
+            }else{
+                $('.screen-overlay').addClass('active');
+            }
+        }else{
+            $('.screen-overlay').toggleClass('active');
+        }
+        
     }
 
     var bind = function() {

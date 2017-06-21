@@ -22,7 +22,7 @@ var JJR = (function (){
 
         setTimeout(function(){
             App.Brand.toggleOverlay();
-        }, 2000);
+        }, 3000);
     };
 
     var errorCallBack = function(data, options) {
