@@ -1,0 +1,63 @@
+{
+	"id": "jjr-4",
+		"title": "Elfam Merks Shirt Designs",
+		"paragraph": "Co-owned Merchandise/Design team. Our first collection for a fund-raising project of an Australia-based Scholarship Organization.",
+		"link": "",
+		"note": "We have raised 20,000PHP on first batch of our designs",
+		"date": "Mar 2015",
+		"client": {
+			"name": "Elfam Merks",
+			"img": "assets/img/brands/jjr.png",
+			"link": "http://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Lead Artist",
+			"Co-owner"		
+		],
+	"cards": [
+		{
+			"id": "jjr-4-1",
+			"title": "Established for a reason",
+			"paragraph": "Two years ago, I've built a design team that create designs for an exchange of good relationship and purpose.",
+			"image": "assets/img/projects/jjr/cards/jjr-4-1.jpg",
+			"footnote": "Hello OBS, Geekineers and 8Layers Fam!",
+			"type": "column"
+		},
+		{
+			"id": "jjr-4-2",
+			"title": "Merks Berks",
+			"paragraph": "We're only consists of 6 people, and they're all friends of mine since college. But i'm the only artist doing design and leading the company.",
+			"image": "assets/img/projects/jjr/cards/jjr-4-2.jpg",
+			"footnote": "1 artist, 3 marketing and 2 operations = YEAH!",
+			"type": "column"
+		},
+		{
+			"id": "jjr-4-3",
+			"title": "Project Tee",
+			"paragraph": "Our first project was co-sponsored by SSVP, an Australia-based Foundation that provides scholdarships. Though we've start on very small investments, we're able to duplicate our sales and raised money for a fund-rasing purpose.",
+			"image": "assets/img/projects/jjr/cards/jjr-4-3.jpg",
+			"footnote": "I used Blender and Photoshop to create these graphics",
+			"type": "column"
+		},
+		{
+			"id": "jjr-4-4",
+			"title": "The Designs",
+			"paragraph": "For whole collaborated project, I have created 7 tees mostly typography designs.",
+			"image": "assets/img/projects/jjr/cards/jjr-4-4.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-4-5",
+			"title": "What's Next?",
+			"paragraph": "Currently, the team was lay low due to other commitments. But maybe one day we'll start working together again, or maybe not. :)",
+			"image": "assets/img/projects/jjr/cards/jjr-4-5.jpg",
+			"footnote": "",
+			"type": "column"
+		}
+	]
+}

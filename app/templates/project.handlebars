@@ -1,18 +1,27 @@
 {{#each data.cards}}
 <div class="details-container" data-type="{{this.type}}" data-id="{{this.id}}">
 	<div class="details-inner">
-		<div class="img-wrap">
-			<img src="{{this.image}}" />
-		</div>
-		<div class="details-wrap">
-			<h4>{{this.title}}</h4>
-			<p>{{this.paragraph}}</p>
-		</div>
-		{{#if this.footnote}}
-			<div class="subdetails">
-				{{this.footnote}}
+		{{#ifCond this.type '===' 'img-only'}}
+			<div class="img-wrap">
+				<img src="{{this.image}}" />
 			</div>
-		{{/if}}
+			{{#if this.title}}
+				<h4>{{this.title}}</h4>
+			{{/if}}
+		{{else}}
+			<div class="img-wrap">
+				<img src="{{this.image}}" />
+			</div>
+			<div class="details-wrap">
+				<h4>{{this.title}}</h4>
+				<p>{{this.paragraph}}</p>
+			</div>
+			{{#if this.footnote}}
+				<div class="subdetails">
+					{{this.footnote}}
+				</div>
+			{{/if}}
+		{{/ifCond}}
 	</div>
 </div>
 {{/each}}

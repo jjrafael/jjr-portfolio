@@ -52,7 +52,7 @@
 		}
 		.left-column {
 			width: 100%;
-			min-height: 440px;
+			min-height: 0px;
 			.image-container {
 				right: 100px;
 				> img {
@@ -176,14 +176,22 @@
 			&.open {
 				.details-wrapper {
 					padding: 15px 20px;
+					.details-container {
+						width: calc(100% - 10px);
+					}
 					.img-wrap {
 					    height: 170px;
+					}
+					&[data-type="img-only"] {
+						.img-wrap {
+							height: 270px!important;
+						}
 					}
 				}
 			}
 		}
 		.left-column {
-			min-height: 440px;
+			//min-height: 440px;
 			padding-top: 30px;
 			padding-right: 0px;
 			.image-container {

@@ -1,0 +1,54 @@
+{
+	"id": "jjr-5",
+		"title": "Deadpool x Star Wars Force Awakens",
+		"paragraph": "As a Marvel comics hoarder, I created a Mash-Up Fan-art illustration",
+		"link": "http://jjrafael.deviantart.com",
+		"note": "",
+		"date": "Jan 2016",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "http://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"	
+		],
+	"cards": [
+		{
+			"id": "jjr-5-1",
+			"title": "First full-poster illustration",
+			"paragraph": "Being a full-time Developer, It's hard to do a full size posters with much details.",
+			"image": "assets/img/projects/jjr/cards/jjr-5-1.jpg",
+			"footnote": "Yep, makes me proud when i do stuff aside from my work.",
+			"type": "column"
+		},
+		{
+			"id": "jjr-5-2",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-5-2.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-5-3",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-5-3.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-5-4",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-5-4.jpg",
+			"footnote": "",
+			"type": "img-only"
+		}
+	]
+}

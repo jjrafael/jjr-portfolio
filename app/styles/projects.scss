@@ -260,9 +260,27 @@
 		  	&[data-type="whole"] {
 		  		width: 80%;
 		  	}
+		  	&[data-type="img-only"] {
+		  		height: 270px;
+		  		position: relative;
+		  		.img-wrap {
+		  			height: 270px;
+		  		}
+		  		h4 {
+		  			position: absolute;
+		  			bottom: 0px;
+		  			width: 100%;
+		  			height: auto;
+		  			background-color: $black50;
+		  			color: $primary;
+		  		}
+		  	}
 		  	.details-inner {
 		  		opacity: 0;
 		  		transition: all 1.5s ease;
+		  		h4 {
+		  			padding-bottom: 8px;
+		  		}
 		  		p {
 		  			color: $white;
 		  			font-weight: 200;
@@ -290,6 +308,7 @@
 		  		left: 0px;
 		  		color: $white50;
 		  		padding: 15px;
+	  		    font-size: 12px;
 		  		&:before {
 		  			content: "";
 		  			position: absolute;

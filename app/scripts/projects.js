@@ -37,6 +37,8 @@ JJR.extend('Projects', function(App) {
             $('body').css('overflow', 'hidden');
             if($(cont).find('.details-container').length === 0){
                 App.Model.getProjectDetail(id, renderProjectDetails, noDetailsFound);
+            }else{
+                App.Brand.toggleOverlay('close');
             }
         }else{
             $('body').css('overflow', '');
