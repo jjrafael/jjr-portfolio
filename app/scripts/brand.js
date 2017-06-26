@@ -25,12 +25,12 @@ JJR.extend('Brand', function(App) {
         stateMap.contents = data;
 
         $container.html(Handlebars.Templates['home']({'data': stateMap.contents}));
-        $container.find('.home-img:first-child').addClass('active');
+        // $container.find('.home-img:first-child').addClass('active');
 
-        animateContents(stateMap.contents);
-        window.setInterval(function () {
-            animateContents(stateMap.contents);
-        }, 10000); // repeat forever
+        // animateContents(stateMap.contents);
+        // window.setInterval(function () {
+        //     animateContents(stateMap.contents);
+        // }, 10000); // repeat forever
     }
 
     var animateContents =function(data){

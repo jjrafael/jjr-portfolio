@@ -51,7 +51,9 @@ JJR.extend('Nav', function(App) {
         activateMenu($(item).text());
         setTimeout(function(){
             $('nav').removeClass('open');
-            $('body').css('overflow', '');
+            if(!$('.talk-wrapper').hasClass('active')){
+                $('body').css('overflow', '');
+            }
         }, 500);
     }
 

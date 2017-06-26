@@ -28,6 +28,7 @@
 			}
 			.xp-footer {
 				padding: 0px 20px;
+				bottom: 0px;
 				.xp-status {
 					min-width: 100px;
 				}
@@ -42,7 +43,6 @@
 				.mid-column {
 					right: 0px;
 					overflow-y: auto;
-					right: 0px;
 					background: $primary;
 				}
 				.btn-more {
@@ -52,9 +52,9 @@
 			&:first-child {
 				.right-column {
 					.tools {
-						bottom: -20px;
+						bottom: -50px;
 					}
-					padding-top: 100px;
+					/*padding-top: 100px;*/
 				}
 			}
 		}
@@ -100,8 +100,13 @@
 			.tools {
 			    position: absolute;
 			    right: 0px;
+			    width: 92%;
+			    width: -o-calc(100% - 100px);
+			    width: -webkit-calc(100% - 100px);
+			    width: -moz-calc(100% - 100px);
 			    width: calc(100% - 100px);
 			    bottom: 0px;
+			    top: 40px;
 			    .tool-item {
 			    	float: right;
 			    }
@@ -137,6 +142,10 @@
 			transform: scale(0.6);
     		transform-origin: top center;
     		.brand-images {
+    			left: 40%;
+    			left: -o-calc(50% - 200px);
+    			left: -webkit-calc(50% - 200px);
+    			left: -moz-calc(50% - 200px);
     			left: calc(50% - 200px);
     			.home-img {
     				width: 100%;
@@ -179,8 +188,13 @@
 		.project-container {
 			@include clearfix();
 			&:first-child {
+				.right-column {
+					.tools {
+						bottom: -20px;
+					}
+				}
 				.left-column {
-					padding-top: 100px;
+					margin-top: 100px;
 				}
 				.mid-column {
 					.btn-more {
@@ -192,6 +206,10 @@
 				.details-wrapper {
 					padding: 15px 20px;
 					.details-container {
+						width: 95%;
+						width: -o-calc(100% - 10px);
+						width: -webkit-calc(100% - 10px);
+						width: -moz-calc(100% - 10px);
 						width: calc(100% - 10px);
 					}
 					.img-wrap {
@@ -226,6 +244,10 @@
 
 			}
 			.roles-wrapper {
+				width: 92%;
+				width: -o-calc(100% - 100px);
+				width: -webkit-calc(100% - 100px);
+				width: -moz-calc(100% - 100px);
 			    width: calc(100% - 100px);
     			float: left;
     			ul > li {

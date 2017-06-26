@@ -1,6 +1,7 @@
 //home
 
 #home {
+	margin-bottom: 100px;
 	.brand-intro {
 		h2 > .plus {
 			font-weight: bold;
@@ -15,17 +16,34 @@
 		}
 		.brand-images {
 			position: absolute;
-			top: calc(50% - 250px);
+			left: 42%;
+		    left: -webkit-calc(50% - 250px);
+		    left: -moz-calc(50% - 250px);
 			left: calc(50% - 250px);
+			top: 42%;
+		    top: -webkit-calc(50% - 250px);
+		    top: -moz-calc(50% - 250px);
+		    top: calc(50% - 250px);
 			.home-img {
 				width: 90%;
 				height: 100%;
-				clip-path: url(#brandPath);
+				-o-clip-path: url(#brandPath);
+				-webkit-clip-path: url(#brandPath);
+				-moz-clip-path: url(#brandPath);
 				display: none;
 				&.active {
 					display: block;
 				}
 			}
+		}
+		.brand-img {
+		    @include sq(300px);
+		    display: block;
+		    margin: 0px auto;
+		    background: url(/assets/jjr-mask.gif) center no-repeat;
+		    background-size: 100%;
+		    margin-top: 100px;
+		    margin-bottom: 50px;
 		}
 	}
 	.brand-intro {

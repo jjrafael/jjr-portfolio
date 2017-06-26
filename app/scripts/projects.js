@@ -97,6 +97,8 @@ JJR.extend('Projects', function(App) {
         $container.on('click', '.btn-more:not(.disabled)', function(){
             toggleProjectDetails(this);
         });
+
+        
     };
 
     var load = function($container) {    
