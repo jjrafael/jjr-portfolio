@@ -536,8 +536,8 @@
 		"id": "devcon-2",
 		"title": "DevCon Summit 2016 Branding",
 		"paragraph": "On my second year with DevCon, I created Branding and Style guides for the Marketing team. I also worked on the UI for DevCon Summit 2016 website. ",
-		"link": "https://summit.devcon.ph",
-		"note": "Link will only be available this month, since we'll upload soon the new 2017 website",
+		"link": "https://summit.devcon.ph/2016",
+		"note": "",
 		"date": "Aug 2016",
 		"client": {
 			"name": "DevCon Philippines",
@@ -780,9 +780,9 @@
 			"CSS3",
 			"Javascript",
 			"Photoshop",
-			"jQuery",
+			"Sketch",
+			"Invision",
 			"git",
-			"Sublime Text",
 			"React",
 			"Redux",
 			"scss",
@@ -805,7 +805,7 @@
 		"title": "DevCon Summit 2017 Website",
 		"paragraph": "On my 3rd year with DevCon, I collaborate with developers in PH Community to create this year's website",
 		"link": "https://summit.devcon.ph",
-		"note": "Current Project, Link soon",
+		"note": "Gitlab repo available",
 		"date": "Jun 2017",
 		"client": {
 			"name": "DevCon Philippines",
@@ -829,10 +829,11 @@
 			"gitlab",
 			"Photoshop",
 			"Illustrator",
-			"Wordpress",
+			"Handlebars",
 			"node.js",
 			"NPM",
-			"scss"
+			"scss",
+			"Gulp"
 		],
 		"images": [
 			"assets/img/projects/devcon/devcon-3.jpg"

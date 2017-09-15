@@ -82,7 +82,7 @@ JJR.extend('Projects', function(App) {
 
     var noDetailsFound = function(id) {
         var cont = $('#'+id+'.project-container');
-        var errHtml = '<div class="err-msg">No details available yet</div>';
+        var errHtml = '<div class="err-msg">No details yet. Shoot me a message to discuss them.</div>';
         $(cont).find('.details-wrapper').html(errHtml);
         App.Brand.toggleOverlay('close'); 
     }
