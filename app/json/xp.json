@@ -1,11 +1,39 @@
 [
 	{
+		"title": "developer + designer",
+		"company": "Freelance",
+		"city": "pasig",
+		"country": "philippines",
+		"years": [
+			"aug 2019 - present"
+		],
+		"projects":"1",
+		"lvl-dev": "80",
+		"lvl-des": "20",
+		"lvl-illus": "0",
+		"lvl-others": "0"
+	},
+	{
+		"title": "senior front-end developer",
+		"company": "myassets inc",
+		"city": "makati",
+		"country": "philippines",
+		"years": [
+			"jan 2018 - jun 2019"
+		],
+		"projects":"3",
+		"lvl-dev": "80",
+		"lvl-des": "20",
+		"lvl-illus": "0",
+		"lvl-others": "0"
+	},
+	{
 		"title": "web developer",
 		"company": "lotus labs inc",
 		"city": "taguig",
 		"country": "philippines",
 		"years": [
-			"dec 2015 - present"
+			"dec 2015 - jan 2018"
 		],
 		"projects":"14",
 		"lvl-dev": "70",
