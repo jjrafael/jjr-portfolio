@@ -301,6 +301,9 @@
 		  		height: 230px;
 		  		background: $primary-dark;
 		  		overflow: hidden;
+		  		background-size: cover;
+		  		background-position: center;
+		  		background-repeat: no-repeat;
 		  		img {
 		  			width: 100%;
 		  		}

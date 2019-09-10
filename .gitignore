@@ -12,6 +12,7 @@ nohup.out
 
 # Grunt Files #
 ###############
+/node_modules
 node_modules
 dist
 build

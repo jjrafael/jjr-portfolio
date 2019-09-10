@@ -9,7 +9,6 @@ var JJR = (function (){
         App.$container = $container;
 
         if(App.init.length > 0){
-
             for(var i=0; i < App.init.length; i++){
                 App.init[i]();
             }

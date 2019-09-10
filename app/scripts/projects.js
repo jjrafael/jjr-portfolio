@@ -4,7 +4,8 @@ JJR.extend('Projects', function(App) {
 
     var stateMap = {
         projects: null,
-        intervalAnimDetails: 500
+        intervalAnimDetails: 500,
+        sort: 'desc',
     };
 
     var jqueryMap = {};
@@ -23,7 +24,8 @@ JJR.extend('Projects', function(App) {
 
     var renderTimeline = function(data) {
         var $container = $('.projects-wrapper');
-        stateMap.projects = data;
+        var isReverse = stateMap.sort === 'desc';
+        stateMap.projects = isReverse ? data.reverse() : data;
         $container.html(Handlebars.Templates['projects']({'data': stateMap.projects}));
     }
 
@@ -68,7 +70,6 @@ JJR.extend('Projects', function(App) {
                     $(el).css({
                        'background' : 'black',
                        'box-shadow' : '0px 0px 10px 2px rgba(0,0,0,0,0.25)'
-
                     });
                 }, stateMap.intervalAnimDetails + 230);
                 setTimeout(function(){

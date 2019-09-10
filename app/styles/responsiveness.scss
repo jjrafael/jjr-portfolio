@@ -134,6 +134,9 @@
 			}
 		}
 	}
+	.float-cont {
+		bottom: 10px;
+	}
 }
 
 @media screen and (min-width:100px) and (max-width:414px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
@@ -211,6 +214,8 @@
 						width: -webkit-calc(100% - 10px);
 						width: -moz-calc(100% - 10px);
 						width: calc(100% - 10px);
+						height: unset;
+						padding-bottom: 70px;
 					}
 					.img-wrap {
 					    height: 170px;
@@ -301,5 +306,8 @@
 		.collage-wrap {
 			display: none!important;
 		}
+	}
+	.float-cont {
+		bottom: 10px;
 	}
 }

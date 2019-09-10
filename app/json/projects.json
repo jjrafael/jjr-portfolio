@@ -760,7 +760,7 @@
 		"title": "Phoenix",
 		"paragraph": "A collection of applications/tools for Sportsbook, spanning from customer manager, event manager, risk manager and so many more. This is set to present on Global Gaming Expo in Vienna later this year.",
 		"link": "",
-		"note": "Current Project",
+		"note": "",
 		"date": "Apr 2016",
 		"client": {
 			"name": "Lotus Labs",
@@ -805,7 +805,7 @@
 		"title": "DevCon Summit 2017 Website",
 		"paragraph": "On my 3rd year with DevCon, I collaborate with developers in PH Community to create this year's website",
 		"link": "https://summit.devcon.ph",
-		"note": "Current Project, Link soon",
+		"note": "",
 		"date": "Jun 2017",
 		"client": {
 			"name": "DevCon Philippines",
@@ -836,6 +836,106 @@
 		],
 		"images": [
 			"assets/img/projects/devcon/devcon-3.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "myas-1",
+		"title": "MyAssets App",
+		"paragraph": "Most comprehensive tool for asset and financial management and analytics",
+		"link": "https://app.myassets.com",
+		"note": "Still under development",
+		"date": "May 2019",
+		"client": {
+			"name": "Mosed Inc.",
+			"img": "assets/img/brands/myas.png",
+			"link": "http://mosedcorp.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Front End Developer"
+		],
+		"tools": [
+			"HTML5",
+			"Javascript",
+			"NodeJS",
+			"React",
+			"Redux",
+			"Jest",
+			"Webpack",
+			"Babel",
+			"Axios",
+			"React-Router",
+			"Lodash",
+			"PropTypes",
+			"D3",
+			"MixPanel",
+			"ESLint",
+			"Socket.io",
+			"git",
+			"bitbucket",
+			"Sketch",
+			"Invision",
+			"Icomoon",
+			"Docker",
+			"Zeplin",
+			"NPM",
+			"sass",
+			"Jira",
+			"Confluence"
+		],
+		"images": [
+			"assets/img/projects/myas/myas-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-7",
+		"title": "Alias Web Game",
+		"paragraph": "I love tabletop games that I transformed one to digital game using React/Redux and Firebase",
+		"link": "https://aliasdecks.web.app/",
+		"note": "Free to play!",
+		"date": "Sep 2019",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Full Stack Developer",
+			"UI Designer"	
+		],
+		"tools": [
+			"HTML5",
+			"Javascript",
+			"NodeJS",
+			"React",
+			"Redux",
+			"Jest",
+			"Webpack",
+			"Babel",
+			"Firebase",
+			"Cloud Hosting",
+			"React-Router",
+			"Lodash",
+			"Firestore",
+			"G-Analytics",
+			"git",
+			"github",
+			"Illustrator",
+			"Icomoon",
+			"NPM",
+			"sass"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-7.jpg"
 		],
 		"hasMore": "true"
 	}

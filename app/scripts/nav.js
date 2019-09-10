@@ -87,11 +87,24 @@ JJR.extend('Nav', function(App) {
         
         if(sectionDistance['home'] < sectionDistance['experiences'] && sectionDistance['home'] < sectionDistance['projects']){
             nearestSect = 'home';
+            activeFloatingCont(false);
         }else {
             if(sectionDistance['experiences'] < sectionDistance['projects']){
                 nearestSect = 'experiences';
+                activeFloatingCont(false);
             }else{
+                var item = $('.project-container:nth-child(2)');
+                var footer = $('footer');
+                var itemOffset = item.offset() ? item.offset().top : 0;
+                var itemDistance = itemOffset - scrollTop;
+                var footerOffset = footer.offset().top;
+                var footerDistance = footerOffset - scrollTop;
+                var itemIsNearest = itemDistance < 0;
+                var footerIsNearest = footerDistance < 800;
+                var showCont = itemIsNearest && !footerIsNearest;
+                
                 nearestSect = 'projects';
+                activeFloatingCont(showCont);
             }
         }
 
@@ -109,6 +122,15 @@ JJR.extend('Nav', function(App) {
         }
 
         activateTopCorner(section);
+    }
+
+    var activeFloatingCont = function(show) {
+        var cont = $('.float-cont');
+        if(show){
+            $(cont).addClass('active');
+        }else{
+            $(cont).removeClass('active');
+        }
     }
 
     var activateTopCorner = function(section) {
@@ -152,7 +174,6 @@ JJR.extend('Nav', function(App) {
 
         $('.nav-item').on('click', function(e){
             if($(this).closest('nav').hasClass('open')){
-                //console.log('jj navitem click');
                 scrollToSection(this);
             }
         });
@@ -161,8 +182,7 @@ JJR.extend('Nav', function(App) {
             inspectPage();
         });
 
-        $('.btn-talk').on('click', function(){
-            console.log('jj btn talk clk');         
+        $('.btn-talk').on('click', function(){       
             if($('.talk-wrapper').length === 0){
                 App.Talk.load();
             }else{
