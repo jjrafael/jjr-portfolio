@@ -143,19 +143,6 @@ module.exports = function(grunt) {
             ]
         },
 
-
-        filerev: {
-            dist: {
-                src: [
-                    '<%= config.dist %>/scripts/**/*.js',
-                    '<%= config.dist %>/styles/**/*.css',
-                    // '<%= config.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}',
-                    // '<%= config.dist %>/css/fonts/*',
-                    // '!<%= config.dist %>/images/ignore/*.{png,jpg,jpeg,gif,webp,svg}'
-                ]
-            }
-        },
-
         /*
         // Replace references to the images in the compiled js and css files, and the html views
         filerev_replace: {
@@ -405,7 +392,6 @@ module.exports = function(grunt) {
             'concat',
             'cssmin',
             'uglify',
-            'filerev',
             'filerev_assets',
             'copy:dist',
 
