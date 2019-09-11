@@ -24,7 +24,7 @@
 			"title": "Established for a reason",
 			"paragraph": "Two years ago, I've built a design team that create designs for an exchange of good relationship and purpose.",
 			"image": "assets/img/projects/jjr/cards/jjr-4-1.jpg",
-			"footnote": "Hello OBS, Geekineers and 8Layers Fam!",
+			"footnote": "",
 			"type": "column"
 		},
 		{
@@ -40,7 +40,7 @@
 			"title": "Project Tee",
 			"paragraph": "Our first project was co-sponsored by SSVP, an Australia-based Foundation that provides scholdarships. Though we've start on very small investments, we're able to duplicate our sales and raised money for a fund-rasing purpose.",
 			"image": "assets/img/projects/jjr/cards/jjr-4-3.jpg",
-			"footnote": "I used Blender and Photoshop to create these graphics",
+			"footnote": "",
 			"type": "column"
 		},
 		{
@@ -54,7 +54,7 @@
 		{
 			"id": "jjr-4-5",
 			"title": "What's Next?",
-			"paragraph": "Currently, the team was lay low due to other commitments. But maybe one day we'll start working together again, or maybe not. :)",
+			"paragraph": "Currently, the team was lay low due to other commitments. But maybe one day we'll start working together again.",
 			"image": "assets/img/projects/jjr/cards/jjr-4-5.jpg",
 			"footnote": "",
 			"type": "column"
