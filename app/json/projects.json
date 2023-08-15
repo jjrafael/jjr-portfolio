@@ -939,5 +939,52 @@
 			"assets/img/projects/jjr/jjr-7.jpg"
 		],
 		"hasMore": "true"
+	},
+	{
+		"id": "hhi-1",
+		"title": "Headhuntr.io",
+		"paragraph": "Delivering qualified candidates on every search. A recruitment platform integrated with data algorithm, scheduled calls and more.",
+		"link": "https://app.headhuntr.io/",
+		"note": "Succesfully launched on 2022 despite pandemic challenges",
+		"date": "Jan 2020",
+		"client": {
+			"name": "Talent Scout Inc",
+			"img": "assets/img/brands/hhi.png",
+			"link": "https://www.headhuntr.io/"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI/UX Designer",
+			"Front-End Developer"	
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator",
+			"Adobe XD",
+			"Zeplin",
+			"Google Jamboard",
+			"Wireframing",
+			"Design Documentationn",
+			"HTML5",
+			"Javascript",
+			"ReactJS",
+			"Redux Chrome Tool",
+			"Sass",
+			"Icomoon",
+			"High Charts",
+			"Ant.Design",
+			"Git",
+			"Webpack",
+			"Github",
+			"Jira",
+			"MS Teams"
+		],
+		"images": [
+			"assets/img/projects/hhi/hhi-1.jpg"
+		],
+		"hasMore": "true"
 	}
 ]

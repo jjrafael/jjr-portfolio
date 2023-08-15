@@ -1,12 +1,12 @@
 {
   "name": "Portfolio2017",
-  "description": "Portfoio 2017",
+  "description": "Portfoio v3 (2023 Edition)",
   "repository": {
     "type": "git",
     "url": "https://github.com/jjrafael/jjr-portfolio"
   },
   "license": "ISC",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "devDependencies": {
     "connect-modrewrite": "^0.7.12",
     "grunt": "^0.4.5",
