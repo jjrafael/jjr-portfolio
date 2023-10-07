@@ -20,8 +20,23 @@ var JJR = (function (){
         App.Projects.load();
 
         setTimeout(function(){
+            var pathname = window.location.pathname;
+            var id = pathname ? pathname.substring(1) : false;
+            var cont = id ? $('#'+id+'.project-container') : false;
+            var contExists = id ? cont.length : 0;
+            var isWalkthru = id ? cont.find('.mid-column[data-type="walkthru"]').length : 0;
+            
+            if(id && contExists && isWalkthru) {
+                App.Projects.openProjectDetails(id);
+            } else {
+                //remove extra pathname
+                window.history.pushState({}, '' , '/');
+            }
+        }, 1000);
+
+        setTimeout(function(){
             App.Brand.toggleOverlay();
-        }, 3000);
+        }, 2300);
     };
 
     var errorCallBack = function(data, options) {

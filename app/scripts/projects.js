@@ -33,8 +33,9 @@ JJR.extend('Projects', function(App) {
         var cont = $(el).closest('.project-container');
         var id = cont.attr('id');
         $(cont).toggleClass('open');
-
+        
         if($(cont).hasClass('open')){
+            //opening project details
             App.Brand.toggleOverlay('open');
             $('body').css('overflow', 'hidden');
             if($(cont).find('.details-container').length === 0){
@@ -43,17 +44,39 @@ JJR.extend('Projects', function(App) {
                 App.Brand.toggleOverlay('close');
             }
         }else{
+            //closing project details
             $('body').css('overflow', '');
+            window.history.pushState({}, '' , '/');
         }
         
     }
 
-    var renderProjectDetails = function(data, id) {
-        var $container = $('#'+id+'.project-container');
-        $container.find('.details-wrapper').html(Handlebars.Templates['project']({'data': data}));
-        setTimeout(function(){
-            App.Brand.toggleOverlay('close');  
-            showProjectDetails(id);
+    var openProjectDetails = function(id) {
+        var cont = $('#'+id+'.project-container');
+        var contExists = cont.length;
+        var isDirectLink = true;
+        var isWalkthru = 0;
+        
+        if(contExists){
+            isWalkthru = cont.find('.mid-column[data-type="walkthru"]').length;
+            //opening project details
+            $(cont).toggleClass('open');
+            $('body').css('overflow', 'hidden');
+            App.Model.getProjectDetail(id, renderProjectDetails, noDetailsFound, (!!isWalkthru && !!isDirectLink));
+        }
+    }
+
+    var renderProjectDetails = function(data, id, isDirectLink) {
+        var cont = $('#'+id+'.project-container');
+        var type = data.type ? data.type : 'project';
+        
+        cont.find('.details-wrapper').html(Handlebars.Templates[type]({'data': data}));
+        setTimeout(function(){            
+            //exemption if opening thru direct link
+            if(!isDirectLink){
+                App.Brand.toggleOverlay('close');  
+                showProjectDetails(id);
+            }
         }, 800);
         
     }
@@ -108,7 +131,8 @@ JJR.extend('Projects', function(App) {
     };
 
     return {
-        load: load
+        load: load,
+        openProjectDetails: openProjectDetails
     }
 
 });

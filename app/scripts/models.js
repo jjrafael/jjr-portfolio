@@ -72,7 +72,7 @@ JJR.extend('Model', function(App) {
         });
     };
 
-    var getProjectDetail = function(id, callBack, errorCallBack) {
+    var getProjectDetail = function(id, callBack, errorCallBack, isDirectLink) {
         var url = configMap.url;
         //App.Util.loader('open');
         $.ajax({
@@ -81,7 +81,7 @@ JJR.extend('Model', function(App) {
           dataType: "json",
           success: function(data){
             if (typeof callBack === 'function') {
-                callBack(data, id);
+                callBack(data, id, isDirectLink);
             }
           },
           error: function(xhr){

@@ -249,6 +249,15 @@
 		  		display: none;
 		  	}
 		}
+		.walkthru-container {
+			width: 100%;
+		  	color: $white;
+		  	position: relative;
+		  	vertical-align: middle;	
+		  	display: none;
+		  	float: left;
+			@include transit();
+		}
 		.details-container {
 			width: 260px;
 			height: 70vh;
@@ -259,7 +268,6 @@
 		  	vertical-align: middle;	
 		  	display: none;
 		  	margin: 0px 5px;
-		  	position: relative;
 		  	overflow: hidden;
 		  	float: left;
 		  	margin-bottom: 10px;
@@ -394,9 +402,10 @@
 					@include sq(30px);
 					border-radius: 30px;
 					margin-left: -12px;
-					background-color: $primary-lighter;
+					background-color: $gray-secondary;
 				    padding: 5px;
-    				padding-top: 12px;
+					padding-top: 12px;
+					@include transit();
 					.mdi-plus {
 						color: $black;
 						margin-top: -9px;
@@ -413,7 +422,20 @@
 				left: 0px;
 				position: fixed;
 				z-index: 13;
-			    overflow-y: auto;
+				overflow-y: auto;
+				&[data-type="walkthru"] {
+					background: #161616;
+					.btn-more {
+						position: fixed;
+						opacity: 50%;
+						&:hover {
+							opacity: 100%;
+						}
+					}
+					.details-wrapper {
+						padding: 0px;
+					}
+				}
 			}
 			.details-wrapper {
 				padding: 5vh 80px;
@@ -421,7 +443,8 @@
 					display: block;
 				}
 			}
-			.details-container {
+			.details-container,
+			.walkthru-container  {
 				display: block;
 			}
 			.btn-more {
@@ -430,7 +453,9 @@
 			    width: 30px!important;
 			    height: 30px!important;
 			    border-radius: 30px;
-			    color: $black!important;
+				color: $black!important;
+				position: absolute;
+    			z-index: 1;
 			    //margin-left: -12px!important;
 			    &:not(.disabled):hover {
 			    	width: 30px!important;

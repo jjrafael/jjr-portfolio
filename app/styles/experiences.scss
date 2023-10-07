@@ -2,6 +2,8 @@
 	.xp-wrapper {
 		padding-top: 120px;
 		padding-left: 25%;
+		position: relative;
+		height: 95rem;
 		.xp-container {
 			width: 40%;
 		    float: left;
@@ -67,10 +69,10 @@
     			width: 60%;
     			h4 {
     				text-transform:uppercase;
-    				color: $white;
+    				color: $primary;
     				position: relative;
     				margin-bottom: 10px;
-    				padding-bottom: 5px;
+    				padding-bottom: 8px;
     				&:after {
     					content: "";
     					position: absolute;
@@ -83,7 +85,8 @@
     			}
     			h5 {
     				text-transform: capitalize;
-    				font-weight: 200;
+					font-weight: 200;
+					color: $white;
     				&.xp-company {
     					font-weight: 400;
     				}
@@ -93,6 +96,8 @@
     			}
     			h6.xp-year {
 					line-height: 13px;
+					color: $white50;
+					font-weight: 200;
 				}
 		    }
 		}
@@ -102,7 +107,7 @@
 		display: block;
 		text-align: left;
 		position: absolute;
-		bottom: 40px;
+		bottom: 80px;
 		.xp-status {
 			min-width: 150px;
 			padding: 0px 20px 0px 10px;
