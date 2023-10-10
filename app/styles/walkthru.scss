@@ -149,7 +149,7 @@
         .walkthru-scrollBlock {
             height: 350px;
             width: 100%;
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             position: relative;
             overflow: hidden;
             .block-outer {
@@ -200,6 +200,14 @@
                     color: $white;
                 }
             }
+        }
+    }
+    .btn-projects {
+        background: transparent;
+        color: $primary;
+        margin-top: 10px;
+        &:hover {
+            color: $black;
         }
     }
 }

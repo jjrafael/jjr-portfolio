@@ -122,7 +122,10 @@ JJR.extend('Projects', function(App) {
             toggleProjectDetails(this);
         });
 
-        
+        $container.on('click', '.btn-projects', function(){
+            toggleProjectDetails(this);
+        });
+
     };
 
     var load = function($container) {    

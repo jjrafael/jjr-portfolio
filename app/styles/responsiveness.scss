@@ -44,6 +44,48 @@
 					right: 0px;
 					overflow-y: auto;
 					background: $primary;
+					&[data-type="walkthru"] {
+						background: #161616;
+					}
+					.walkthru-banner {
+						height: 50vh;
+						.banner-header {
+							width: 75%;
+						}
+					}
+					.walkthru-summary,
+					.walkthru-divider1 {
+						padding: 20px 0px;
+						width: 100%
+						p {
+							width: 100%;
+							font-size: 12px;
+						}
+					}
+					.block-wrap {
+						margin-bottom: 70px;
+						.img-wrap {
+							width: 100%;
+							height: 400px;
+						}
+						.details-wrap {
+							width: 100%;
+							margin-top: 0px;
+						}
+					}
+					.walkthru-scrollBlock {
+						height: 600px;
+						.block-subouter {
+							width: calc(360px * 5);
+						}
+						.block-wrap {
+							width: 300px;
+							height: 550px;
+							.img-wrap {
+								height: 350px;
+							}
+						}
+					}
 				}
 				.btn-more {
 					float: right;
@@ -207,15 +249,16 @@
 			}
 			&.open {
 				.details-wrapper {
-					padding: 15px 20px;
+					padding: 0px;
 					.details-container {
-						width: 95%;
-						width: -o-calc(100% - 10px);
-						width: -webkit-calc(100% - 10px);
-						width: -moz-calc(100% - 10px);
-						width: calc(100% - 10px);
+						width: 80%;
+						width: -o-calc(100% - 40px);
+						width: -webkit-calc(100% - 40px);
+						width: -moz-calc(100% - 40px);
+						width: calc(100% - 40px);
 						height: unset;
-						padding-bottom: 70px;
+						padding-bottom: 40px;
+						margin: 20px 20px 0px;
 					}
 					.img-wrap {
 					    height: 170px;
@@ -223,6 +266,45 @@
 					&[data-type="img-only"] {
 						.img-wrap {
 							height: 270px!important;
+						}
+					}
+					.walkthru-container {
+						.banner-header {
+							.banner-title {
+								font-size: 30px;
+							}
+							.banner-subtitle {
+								font-size: 18px;
+							}
+						}
+						.walkthru-summary,
+						.walkthru-divider1 {
+							p {
+								font-size: 12px;
+							}
+						}
+						.walkthru-fadeBlock {
+							padding: 20px;
+							.block-wrap {
+								display: flow-root;
+								height: auto;
+								.img-wrap {
+									height: 200px;
+								}
+							}
+						}
+						.walkthru-scrollBlock {
+							.block-subouter {
+								width: calc(330px * 5);
+								padding-left: 20px;
+								.block-wrap {
+									width: 300px;
+    								margin-right: 20px;
+									.img-wrap {
+										height: 350px;
+									}
+								}
+							}
 						}
 					}
 				}

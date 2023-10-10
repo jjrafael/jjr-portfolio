@@ -182,7 +182,7 @@ JJR.extend('Nav', function(App) {
             inspectPage();
         });
 
-        $('.btn-talk').on('click', function(){       
+        $('.btn-talk').on('click', function(){      
             if($('.talk-wrapper').length === 0){
                 App.Talk.load();
             }else{
