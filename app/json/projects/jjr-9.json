@@ -1,0 +1,70 @@
+{
+	"id": "jjr-9",
+	"title": "2023 Virals Revisioned",
+	"paragraph": "Every end of the month of 2023, I used to curate a collection of trending subjects within that month. But revised using my own art style.",
+	"link": "https://instagram.com/jjrafael.works",
+	"note": "Available in my instagram",
+	"date": "Apr 2023",
+	"client": {
+		"name": "JJR",
+		"img": "assets/img/brands/jjr.png",
+		"link": "https://jjrafael.github.io"
+	},
+	"colors": {
+		"primary": "#50E381",
+		"secondary": "#bde350"
+	},
+	"roles": [
+		"Illustrator"
+	],
+	"cards": [
+		{
+			"id": "jjr-9-1",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-9-1.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-9-2",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-9-2.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-9-3",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-9-3.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-9-4",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-9-4.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-9-5",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-9-5.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-9-6",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-9-6.jpg",
+			"footnote": "",
+			"type": "img-only"
+		}
+	]
+}

@@ -1063,6 +1063,68 @@
 		"hasMore": "true"
 	},
 	{
+		"id": "jjr-10",
+		"detailsType": "cards",
+		"title": "Small worlds",
+		"paragraph": "Little sphere of my journey through different region of the Philippines. Visualize key moments of my travel with alegra-inspired illustrations.",
+		"link": "https://instagram.com/jjrafael.works",
+		"note": "Available in my instagram",
+		"date": "Nov 2022",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-10.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-9",
+		"detailsType": "cards",
+		"title": "2023 Virals Revisioned",
+		"paragraph": "Every end of the month of 2023, I used to curate a collection of trending subjects within that month. But revised using my own art style.",
+		"link": "https://instagram.com/jjrafael.works",
+		"note": "Available in my instagram",
+		"date": "Apr 2023",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-9.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
 		"id": "jjr-8",
 		"detailsType": "cards",
 		"title": "Merks Games",
@@ -1151,7 +1213,7 @@
 		"images": [
 			"assets/img/projects/hhi/hhi-3.jpg"
 		],
-		"hasMore": "true"
+		"hasMore": "false"
 	},
 	{
 		"id": "hhi-1",
