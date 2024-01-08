@@ -6,6 +6,7 @@ JJR.extend('Nav', function(App) {
         menu: [
             'home',
             'experiences',
+            'tools',
             'projects',
             'lets talk'
         ],
@@ -13,7 +14,8 @@ JJR.extend('Nav', function(App) {
         sectionDistance: {
             'home': 0,
             'experiences': 0,
-            'projects': 0
+            'projects': 0,
+            'tools': 0
         }
     };
 
@@ -85,12 +87,15 @@ JJR.extend('Nav', function(App) {
             sectionDistance[$(this).attr('id')] = distance;
         });
         
-        if(sectionDistance['home'] < sectionDistance['experiences'] && sectionDistance['home'] < sectionDistance['projects']){
+        if(sectionDistance['home'] < sectionDistance['experiences'] && sectionDistance['home'] < sectionDistance['tools'] && sectionDistance['home'] < sectionDistance['projects']){
             nearestSect = 'home';
             activeFloatingCont(false);
         }else {
-            if(sectionDistance['experiences'] < sectionDistance['projects']){
+            if(sectionDistance['experiences'] < sectionDistance['projects'] && sectionDistance['experiences'] < sectionDistance['tools']){
                 nearestSect = 'experiences';
+                activeFloatingCont(false);
+            }else if((sectionDistance['tools'] < sectionDistance['projects'])){
+                nearestSect = 'tools';
                 activeFloatingCont(false);
             }else{
                 var item = $('.project-container:nth-child(2)');

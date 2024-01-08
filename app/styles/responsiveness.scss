@@ -202,6 +202,7 @@
 		.xp-wrapper {
 			padding-top: 0px;
 			padding-left: 0px;
+			height: 100rem;
 			@include clearfix();
 			.xp-container {
 				padding-top: 20px;
@@ -226,6 +227,15 @@
 			}
 			.xp-footer {
 			    margin-bottom: -80px;
+			}
+		}
+	}
+	#tools {
+		.tools-wrapper {
+			.tools-inner {
+				.tabs {
+					display: grid;
+				}
 			}
 		}
 	}
