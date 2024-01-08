@@ -20,9 +20,12 @@
 			"App Developer",
 			"UI Designer"
 		],
+		"category": [
+			"dev", "des", "others"
+		],
 		"tools": [
 			"Javascript",
-			"HTML",
+			"HTML5",
 			"CSS",
 			"jQuery",
 			"Notepad++",
@@ -59,6 +62,9 @@
 		"roles": [
 			"Web Developer",
 			"UI Designer"
+		],
+		"category": [
+			"dev", "des"
 		],
 		"tools": [
 			"HTML5",
@@ -97,6 +103,9 @@
 			"Web Developer",
 			"UI Design",
 			"Logo Design"
+		],
+		"category": [
+			"dev", "des"
 		],
 		"tools": [
 			"HTML5",
@@ -138,6 +147,9 @@
 			"Web Developer",
 			"UI Design"
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -173,6 +185,9 @@
 		"roles": [
 			"Illustrator"	
 		],
+		"category": [
+			"illus"
+		],
 		"tools": [
 			"Photoshop",
 			"Illustrator"
@@ -201,6 +216,9 @@
 		},
 		"roles": [
 			"Front End Dev"
+		],
+		"category": [
+			"dev"
 		],
 		"tools": [
 			"HTML5",
@@ -244,6 +262,9 @@
 			"Lead Artist",
 			"Co-owner"		
 		],
+		"category": [
+			"illus", "others"
+		],
 		"tools": [
 			"Photoshop",
 			"Illustrator"
@@ -274,6 +295,9 @@
 			"Creative Co-Lead",
 			"Graphic Designer"		
 		],
+		"category": [
+			"illus"
+		],
 		"tools": [
 			"Photoshop",
 			"Illustrator"
@@ -303,6 +327,9 @@
 		"roles": [
 			"Web Designer"
 		],
+		"category": [
+			"dev"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -312,7 +339,8 @@
 			"git",
 			"SourceTree",
 			"XAMPP",
-			"jQuery"
+			"jQuery",
+			"Wordpress"
 		],
 		"images": [
 			"assets/img/projects/tap/tap-2.jpg"
@@ -339,6 +367,9 @@
 		"roles": [
 			"Front End Developer"
 		],
+		"category": [
+			"dev"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -348,7 +379,8 @@
 			"git",
 			"SourceTree",
 			"XAMPP",
-			"jQuery"
+			"jQuery",
+			"Wordpress"
 		],
 		"images": [
 			"assets/img/projects/tap/tap-3.jpg"
@@ -374,6 +406,9 @@
 		},
 		"roles": [
 			"Illustrator"	
+		],
+		"category": [
+			"illus"
 		],
 		"tools": [
 			"Photoshop",
@@ -403,6 +438,9 @@
 		},
 		"roles": [
 			"Web Designer"
+		],
+		"category": [
+			"dev", "des"
 		],
 		"tools": [
 			"HTML5",
@@ -440,6 +478,9 @@
 		"roles": [
 			"Web Designer"
 		],
+		"category": [
+			"des", "illus"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -448,7 +489,8 @@
 			"jQuery",
 			"git",
 			"Sublime Text",
-			"wordpress"
+			"wordpress",
+			"Social Media"
 		],
 		"images": [
 			"assets/img/projects/lotus/lotus-2.jpg"
@@ -476,6 +518,9 @@
 			"Web Developer",
 			"UI Designer"
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -486,6 +531,7 @@
 			"Sublime Text",
 			"Handlebars",
 			"scss",
+			"css",
 			"grunt",
 			"github",
 			"mify",
@@ -493,7 +539,7 @@
 			"Postman",
 			"gitx",
 			"Bootstrap",
-			"node.js",
+			"nodeJS",
 			"npm"
 		],
 		"images": [
@@ -522,6 +568,9 @@
 			"Web Developer",
 			"UI Designer"
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -532,6 +581,7 @@
 			"Sublime Text",
 			"Handlebars",
 			"scss",
+			"css",
 			"grunt",
 			"github",
 			"mify",
@@ -539,8 +589,9 @@
 			"Postman",
 			"gitx",
 			"Bootstrap",
-			"node.js",
-			"npm"
+			"nodeJS",
+			"npm",
+			"Prototypes"
 		],
 		"images": [
 			"assets/img/projects/lotus/lotus-4.jpg"
@@ -568,9 +619,17 @@
 			"Creative Co-Lead",
 			"Graphic Designer"		
 		],
+		"category": [
+			"des", "illus", "others"
+		],
 		"tools": [
 			"Photoshop",
-			"Illustrator"
+			"Illustrator",
+			"Figma",
+			"blender",
+			"after effects",
+			"premiere pro",
+			"Social Media"
 		],
 		"images": [
 			"assets/img/projects/devcon/devcon-2.jpg"
@@ -597,9 +656,13 @@
 		"roles": [
 			"UI Designer"		
 		],
+		"category": [
+			"des"
+		],
 		"tools": [
 			"Photoshop",
-			"Illustrator"
+			"Illustrator",
+			"Prototypes"
 		],
 		"images": [
 			"assets/img/projects/lotus/lotus-9.jpg"
@@ -628,6 +691,9 @@
 			"Web Developer",
 			"UI Designer"
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -638,6 +704,7 @@
 			"Sublime Text",
 			"Handlebars",
 			"scss",
+			"css",
 			"grunt",
 			"github",
 			"mify",
@@ -645,7 +712,7 @@
 			"Postman",
 			"gitx",
 			"Bootstrap",
-			"node.js",
+			"nodeJS",
 			"npm"
 		],
 		"images": [
@@ -675,6 +742,9 @@
 			"Front End Dev",
 			"UI Designer"
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -685,6 +755,7 @@
 			"Sublime Text",
 			"Handlebars",
 			"scss",
+			"css",
 			"grunt",
 			"github",
 			"mify",
@@ -692,7 +763,7 @@
 			"Postman",
 			"Illustrator",
 			"Bootstrap",
-			"node.js",
+			"nodeJS",
 			"npm"
 		],
 		"images": [
@@ -722,6 +793,9 @@
 			"Web Developer",
 			"UI Designer"
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -732,6 +806,7 @@
 			"Sublime Text",
 			"Handlebars",
 			"scss",
+			"css",
 			"grunt",
 			"github",
 			"mify",
@@ -739,7 +814,7 @@
 			"Postman",
 			"gitx",
 			"Bootstrap",
-			"node.js",
+			"nodeJS",
 			"npm"
 		],
 		"images": [
@@ -767,6 +842,9 @@
 		"roles": [
 			"Illustrator"	
 		],
+		"category": [
+			"illus"
+		],
 		"tools": [
 			"Photoshop",
 			"Wacom"
@@ -780,7 +858,7 @@
 		"id": "lotus-8",
 		"detailsType": "cards",
 		"title": "Phoenix",
-		"paragraph": "A collection of applications/tools for Sportsbook, spanning from customer manager, event manager, risk manager and so many more. This is set to present on Global Gaming Expo in Vienna later this year.",
+		"paragraph": "A collection of applications/tools for Sportsbook, spanning from customer manager, event manager, risk manager and so many more. This was set to present on Global Gaming Expo in Vienna way back 2016",
 		"link": "",
 		"note": "",
 		"date": "Apr 2016",
@@ -797,6 +875,9 @@
 			"Front End Developer",
 			"UI Designer"
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -808,14 +889,16 @@
 			"React",
 			"Redux",
 			"scss",
+			"css",
 			"github",
 			"Webpack",
 			"APIs",
 			"Postman",
 			"JSX",
 			"ES6",
-			"node.js",
-			"npm"
+			"nodeJS",
+			"npm",
+			"Prototypes"
 		],
 		"images": [
 			"assets/img/projects/lotus/lotus-8.jpg"
@@ -843,6 +926,9 @@
 			"Web Developer",
 			"UI Designer"	
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"CSS3",
@@ -852,10 +938,13 @@
 			"gitlab",
 			"Photoshop",
 			"Illustrator",
+			"Figma",
+			"Invision",
 			"Handlebars",
-			"node.js",
+			"nodeJS",
 			"NPM",
 			"scss",
+			"css",
 			"Gulp"
 		],
 		"images": [
@@ -883,6 +972,9 @@
 		"roles": [
 			"Front End Developer"
 		],
+		"category": [
+			"dev"
+		],
 		"tools": [
 			"HTML5",
 			"Javascript",
@@ -908,7 +1000,9 @@
 			"Docker",
 			"Zeplin",
 			"NPM",
-			"sass",
+			"scss",
+			"css",
+			"APIs",
 			"Jira",
 			"Confluence"
 		],
@@ -938,6 +1032,9 @@
 			"Full Stack Developer",
 			"UI Designer"	
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"HTML5",
 			"Javascript",
@@ -958,10 +1055,63 @@
 			"Illustrator",
 			"Icomoon",
 			"NPM",
-			"sass"
+			"scss"
 		],
 		"images": [
 			"assets/img/projects/jjr/jjr-7.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-8",
+		"detailsType": "cards",
+		"title": "Merks Games",
+		"paragraph": "Started as personal project to recall my dev stacks but it turned into something more. Collection of apps/games to play with your friends in real-time!",
+		"link": "https://merks-games.web.app/",
+		"note": "Free to play!",
+		"date": "Dec 2023",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Full Stack Developer",
+			"UI Designer"	
+		],
+		"category": [
+			"dev", "des"
+		],
+		"tools": [
+			"HTML5",
+			"Javascript",
+			"NodeJS",
+			"React",
+			"Redux",
+			"Jest",
+			"Webpack",
+			"Babel",
+			"Firebase",
+			"Cloud Hosting",
+			"React-Router",
+			"Lodash",
+			"Firestore",
+			"G-Analytics",
+			"git",
+			"github",
+			"Illustrator",
+			"Icomoon",
+			"NPM",
+			"scss",
+			"css",
+			"Social Media"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-8.jpg"
 		],
 		"hasMore": "true"
 	},
@@ -986,6 +1136,9 @@
 			"UI/UX Designer",
 			"Front-End Developer"	
 		],
+		"category": [
+			"dev", "des"
+		],
 		"tools": [
 			"Photoshop",
 			"Illustrator",
@@ -993,18 +1146,25 @@
 			"Zeplin",
 			"Google Jamboard",
 			"Wireframing",
-			"Design Documentationn",
+			"Design System",
+			"Prototypes",
 			"HTML5",
 			"Javascript",
-			"ReactJS",
+			"React",
+			"Redux",
+			"React-Router",
 			"Redux Chrome Tool",
-			"Sass",
+			"scss",
+			"css",
+			"npm",
+			"Jest",
 			"Icomoon",
 			"High Charts",
 			"Ant.Design",
 			"Git",
 			"Webpack",
 			"Github",
+			"APIs",
 			"Jira",
 			"MS Teams"
 		],

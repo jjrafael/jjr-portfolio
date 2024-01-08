@@ -1,0 +1,149 @@
+#tools {
+	.tools-wrapper {
+        padding: 20px 0px;
+        .tools-inner {
+            width: 100%;
+            padding: 0px 40px 50px;
+            h3 {
+                color: $white;
+                text-align: center;
+                width: 100%;
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+            h4 {
+                color: $white25;
+                font-style: italic;
+                width: 100%;
+                text-transform: unset;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .tabs {
+                position: relative;
+                width: max-content;
+                border: 1px solid $primary25;
+                border-radius: 20px;
+                margin: 0 auto;
+                overflow: hidden;
+                .tab {
+                    padding: 10px 20px;
+                    transition: all 0.3s ease;
+                    float: left;
+                    color: $white;
+                    line-height: 24px;
+                    &::before {
+                        content: '';
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 10px;
+                        border-radius: 20px;
+                        border: 1px solid $primary;
+                        transition: all 0.3s ease;
+                        float: left;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                        background: $primary25;
+                    }
+                    &[data-category="dev"] {
+                        &::before {
+                            border-color: $primary;
+                        }
+                        &.selected::before {
+                            background: $primary;
+                        }
+                    }
+                    &[data-category="des"] {
+                        &::before {
+                            border-color: $blue;
+                        }
+                        &.selected::before {
+                            background: $blue;
+                        }
+                    }
+                    &[data-category="illus"] {
+                        &::before {
+                            border-color: $orange;
+                        }
+                        &.selected::before {
+                            background: $orange;
+                        }
+                    }
+                    &[data-category="others"] {
+                        &::before {
+                            border-color: $purple;
+                        }
+                        &.selected::before {
+                            background: $purple;
+                        }
+                    }
+                }
+            }
+            .tags {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                .tag {
+                    float: left;
+                    min-width: 60px;
+                    height: 25px;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    border: 1px solid $primary;
+                    padding: 0px 10px;
+                    line-height: 25px;
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        cursor: pointer;
+                        background: $primary25;
+                    }
+                    &[data-category="dev"] {
+                        border-color: $primary;
+                        color: $primary;
+                        &.selected {
+                            background: $primary;
+                            color: $white;
+                        }
+                    }
+                    &[data-category="des"] {
+                        border-color: $blue;
+                        color: $blue;
+                        &.selected {
+                            background: $blue;
+                            color: $white;
+                        }
+                    }
+                    &[data-category="illus"] {
+                        border-color: $orange;
+                        color: $orange;
+                        &.selected {
+                            background: $orange;
+                            color: $white;
+                        }
+                    }
+                    &[data-category="others"] {
+                        border-color: $purple;
+                        color: $purple;
+                        &.selected {
+                            background: $purple;
+                            color: $white;
+                        }
+                    }
+                    .years {
+                        margin-left: 10px;
+                        color: $white;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

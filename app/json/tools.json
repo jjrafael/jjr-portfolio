@@ -1,0 +1,164 @@
+[
+	{
+		"label": "Javascript",
+		"category": "dev",
+		"years": "+10",
+		"rate": 90
+    },
+    {
+		"label": "CSS",
+		"category": "dev",
+		"years": "+10",
+		"rate": 90
+    },
+    {
+		"label": "SCSS",
+		"category": "dev",
+		"years": "7",
+		"rate": 90
+    },
+    {
+		"label": "React",
+		"category": "dev",
+		"years": "7",
+		"rate": 80
+    },
+    {
+		"label": "Redux",
+		"category": "dev",
+		"years": "7",
+		"rate": 70
+    },
+    {
+		"label": "APIs",
+		"category": "dev",
+		"years": "9",
+		"rate": 80
+    },
+    {
+		"label": "git",
+		"category": "dev",
+		"years": "9",
+		"rate": 85
+    },
+    {
+		"label": "npm",
+		"category": "dev",
+		"years": "7",
+		"rate": 70
+    },
+    {
+		"label": "Jest",
+		"category": "dev",
+		"years": "4",
+		"rate": 60
+    },
+    {
+		"label": "Wordpress",
+		"category": "dev",
+		"years": "5",
+		"rate": 75
+    },
+    {
+		"label": "Handlebars",
+		"category": "dev",
+		"years": "7",
+		"rate": 80
+    },
+    {
+		"label": "Prototypes",
+		"category": "des",
+		"years": "7",
+		"rate": 90
+    },
+    {
+		"label": "Zeplin",
+		"category": "des",
+		"years": "4",
+		"rate": 90
+    },
+    {
+		"label": "Adobe XD",
+		"category": "des",
+		"years": "5",
+		"rate": 90
+    },
+    {
+		"label": "Sketch",
+		"category": "des",
+		"years": "3",
+		"rate": 90
+    },
+    {
+		"label": "Figma",
+		"category": "des",
+		"years": "3",
+		"rate": 80
+    },
+    {
+		"label": "Invision",
+		"category": "des",
+		"years": "3",
+		"rate": 85
+    },
+    {
+		"label": "G-Analytics",
+		"category": "des",
+		"years": "4",
+		"rate": 70
+    },
+    {
+		"label": "Design System",
+		"category": "des",
+		"years": "4",
+		"rate": 90
+    },
+    {
+		"label": "Photoshop",
+		"category": "illus",
+		"years": "+10",
+		"rate": 90
+    },
+    {
+		"label": "Illustrator",
+		"category": "illus",
+		"years": "+10",
+		"rate": 80
+    },
+    {
+		"label": "Premiere Pro",
+		"category": "illus",
+		"years": "4",
+		"rate": 70
+    },
+    {
+		"label": "After Effects",
+		"category": "illus",
+		"years": "2",
+		"rate": 50
+    },
+    {
+		"label": "Blender",
+		"category": "illus",
+		"years": "2",
+		"rate": 50
+    },
+    {
+		"label": "Firebase",
+		"category": "others",
+		"years": "4",
+		"rate": 75
+    },
+    {
+		"label": "JIRA",
+		"category": "others",
+		"years": "7",
+		"rate": 90
+    },
+    {
+		"label": "Social Media",
+		"category": "others",
+		"years": "4",
+		"rate": 80
+    }
+]

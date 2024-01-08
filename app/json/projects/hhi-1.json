@@ -49,8 +49,8 @@
 		},
 		{
 			"id": "hhi-1-block4",
-			"title": "Design Guidelines",
-			"paragraph": "This document is an essential part of my design process. This helps me and the team minimize complex and recurring design problems. Using this document, we define design patterns, naming convention, standard screen coverage, common function/page behaviors and all those design basics such as color palettes, typography, iconography and all global/standard elements (too many to mention). This also helps the business analyst reduce repetitive UI-related requirements, as they may mention specific design guidelines on their user stories. I created interactive design guidelines instead of multi-page documents. It is standard to have design or style guidelines before designing a prototype, but for me, this document always grows and evolves as the project expands and develops.",
+			"title": "Design System",
+			"paragraph": "This system is an essential part of my design process. This helps me and the team minimize complex and recurring design problems. With this, we define design patterns, naming convention, standard screen coverage, common function/page behaviors and all those design basics such as color palettes, typography, iconography and all global/standard elements (too many to mention). I created interactive design system instead of multi-page documents. It is standard to have design/style guidelines before designing a prototype, but for me, this system always grows and evolves as the project expands and develops.",
 			"image": "assets/img/projects/hhi/cards/hhi-1-block4.png",
 			"footnote": ""
 		},

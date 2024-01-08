@@ -117,7 +117,7 @@ JJR.extend('Projects', function(App) {
 
     var bind = function() {
         var $container = $('.projects-wrapper');
-
+        
         $container.on('click', '.btn-more:not(.disabled)', function(){
             toggleProjectDetails(this);
         });
@@ -135,6 +135,7 @@ JJR.extend('Projects', function(App) {
 
     return {
         load: load,
+        renderTimeline: renderTimeline,
         openProjectDetails: openProjectDetails
     }
 

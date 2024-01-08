@@ -17,6 +17,7 @@ var JJR = (function (){
         App.Nav.load();
         App.Brand.load();
         App.Experiences.load();
+        App.Tools.load();
         App.Projects.load();
 
         setTimeout(function(){

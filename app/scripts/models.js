@@ -52,6 +52,26 @@ JJR.extend('Model', function(App) {
         });
     };
 
+    var getTools = function(callBack, errorCallBack) {
+      var url = configMap.url;
+      //App.Util.loader('open');
+      $.ajax({
+        url: url + 'tools.json?a='+Math.random(),
+        type: "GET",
+        dataType: "json",
+        success: function(data){
+          if (typeof callBack === 'function') {
+              callBack(data);
+          }
+        },
+        error: function(xhr){
+          if (typeof errorCallBack === 'function') {
+              errorCallBack(xhr);
+          }
+        }
+      });
+  };
+
     var getProjects = function(callBack, errorCallBack) {
         var url = configMap.url;
         //App.Util.loader('open');
@@ -96,9 +116,10 @@ JJR.extend('Model', function(App) {
 
     return $.extend(configMap, {
     	getHomeContents: getHomeContents,
-        getExperiences: getExperiences,
-        getProjects: getProjects,
-        getProjectDetail: getProjectDetail
+      getExperiences: getExperiences,
+      getTools: getTools,
+      getProjects: getProjects,
+      getProjectDetail: getProjectDetail
     }, true);
 
 

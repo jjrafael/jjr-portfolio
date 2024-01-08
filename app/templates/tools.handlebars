@@ -1,0 +1,38 @@
+<div class="tools-wrapper">
+    <div class="tools-inner">
+        <h3>Filter projects by Category</h3>
+        <h4>
+            Select categories or tools to filter projects that are more relevant to what you're looking for
+        </h4>
+        <div class="tabs tabs-category clearfix">
+            <div class="tab" data-category="dev">
+                Front-End Dev
+            </div>
+            <div class="tab" data-category="des">
+                UI/UX
+            </div>
+            <div class="tab" data-category="illus">
+                Illustrations
+            </div>
+            <div class="tab" data-category="others">
+                Others
+            </div>
+        </div>
+    </div>
+    <div class="tools-inner">
+        <h3>Or filter by specific tools</h3>
+        <h4>
+            Below are the most relevant or latest tools I have used or attained
+        </h4>
+        <div class="tags tags-tools">
+            {{#each data}}
+                <div class="tag" data-category={{this.category}} data-tool="{{this.label}}"\>
+                    {{this.label}}
+                    <span class="years">
+                        {{this.years}} YRS
+                    </span>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
