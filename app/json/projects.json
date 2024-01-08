@@ -1119,7 +1119,7 @@
 		"id": "hhi-3",
 		"detailsType": "cards",
 		"title": "Leadhuntr.io",
-		"paragraph": "The data-focused project based on Headhuntr.io. Aiming to cater gaps between data and service in API formats.",
+		"paragraph": "The data-centric project based on Headhuntr.io. Aiming to cater gaps between data and service in API formats.",
 		"note": "Still in development/design phase",
 		"date": "Nov 2023",
 		"client": {
@@ -1143,7 +1143,6 @@
 			"Adobe XD",
 			"Zeplin",
 			"Wireframing",
-			"Design System",
 			"Prototypes",
 			"Ant.Design",
 			"Jira",

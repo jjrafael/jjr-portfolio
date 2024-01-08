@@ -50,6 +50,7 @@ JJR.extend('Tools', function(App) {
         var filtered = [];
 
         $(tags).find('.tag').removeClass('selected');
+        stateMap.selectedTools = [];
         if(isSelected){
             var showTags = $(tags).find('.tag[data-category="'+category+'"]');
             var hideTags = $(tags).find('.tag').not('[data-category="'+category+'"]');
