@@ -1116,6 +1116,45 @@
 		"hasMore": "true"
 	},
 	{
+		"id": "hhi-3",
+		"detailsType": "cards",
+		"title": "Leadhuntr.io",
+		"paragraph": "The data-focused project based on Headhuntr.io. Aiming to cater gaps between data and service in API formats.",
+		"note": "Still in development/design phase",
+		"date": "Nov 2023",
+		"client": {
+			"name": "Talent Scout Inc",
+			"img": "assets/img/brands/hhi.png",
+			"link": "https://www.headhuntr.io/"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI/UX Designer"	
+		],
+		"category": [
+			"des"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator",
+			"Adobe XD",
+			"Zeplin",
+			"Wireframing",
+			"Design System",
+			"Prototypes",
+			"Ant.Design",
+			"Jira",
+			"MS Teams"
+		],
+		"images": [
+			"assets/img/projects/hhi/hhi-3.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
 		"id": "hhi-1",
 		"detailsType": "walkthru",
 		"title": "Headhuntr.io",
