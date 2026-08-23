@@ -1,3 +1,6 @@
+@use "colors" as *;
+@use "mixins" as *;
+
 #talk {
 	.talk-wrapper {
 		display: none;
@@ -9,9 +12,11 @@
 		z-index: 4;
 		@include transit();
 		height: 100%;
+
 		&.active {
 			display: block;
 		}
+
 		.talk-left {
 			width: 50%;
 			height: 100%;
@@ -20,45 +25,58 @@
 			float: left;
 			@include transit();
 			color: $black;
-			h1, h2, h3, h4, h5 {
+
+			h1,
+			h2,
+			h3,
+			h4,
+			h5 {
 				color: $black;
 			}
+
 			h1 {
 				margin-bottom: 20px;
 			}
+
 			h4 {
 				font-weight: 200;
 				text-transform: none;
 				line-height: 20px;
 			}
+
 			.collage-wrap {
 				position: absolute;
 				bottom: 0px;
 				left: 0px;
 			}
 		}
-		.talk-right{
+
+		.talk-right {
 			width: 50%;
 			height: 100%;
 			background: $gray-darkest;
 			position: relative;
 			float: left;
 			@include transit();
+
 			.talk-inner {
 				margin-top: 25.5%;
-			    margin-top: -webkit-calc(25% + 10px);
-			    margin-top: -moz-calc(25% + 10px);
-			    margin-top: calc(25% + 10px);
+				margin-top: -webkit-calc(25% + 10px);
+				margin-top: -moz-calc(25% + 10px);
+				margin-top: calc(25% + 10px);
 			}
 		}
+
 		.talk-inner {
 			padding: 15%;
 			margin-top: 80px;
 			opacity: 0;
 			height: 75%;
 		}
+
 		.contact-wrapper {
 			padding-top: 10px;
+
 			.contact-item {
 				height: 30px;
 				line-height: 30px;
@@ -66,19 +84,23 @@
 				cursor: pointer;
 				padding: 0px 10px;
 				@include transit();
+
 				i.mdi {
 					color: $white;
 					margin-right: 10px;
 				}
-				&:hover{
+
+				&:hover {
 					border-color: $primary;
 				}
+
 				a {
 					font-style: none;
 					color: $primary;
 				}
 			}
 		}
+
 		.collage-wrap {
 			width: 100%;
 			height: 25%;

@@ -1,7 +1,7 @@
 'use strict';
 
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
@@ -31,8 +31,8 @@ module.exports = function(grunt) {
         settings = grunt.file.readJSON('settings.json');
     } else {
         settings = {
-            'connect' : 7070,
-            'hostname' : 'localhost'
+            'connect': 7070,
+            'hostname': 'localhost'
         };
     }
 
@@ -84,10 +84,10 @@ module.exports = function(grunt) {
             },
             livereload: {
                 options: {
-                    middleware: function(connect) {
+                    middleware: function (connect) {
 
                         // the rules that shape our mod-rewrite behavior
-                        var rules = [ '!\/abp\/m+|\/vbl+|\/vfl+|\/vhc+|\/vdr+|\/vto+|\/rss-+|\/api\/+|\\.html|\\.js|\\.css|\\.map|\\.svg|\\.jp(e?)g|\\.png|\\.gif|\\.eot|\\.ttf|\\.woff|\\.aac|\\.ogg|\\.mp3|\\.swf|\\.pdf|\\.ico|\\.appcache$ /index.html'];
+                        var rules = ['!\/abp\/m+|\/vbl+|\/vfl+|\/vhc+|\/vdr+|\/vto+|\/rss-+|\/api\/+|\\.html|\\.js|\\.css|\\.map|\\.svg|\\.jp(e?)g|\\.png|\\.gif|\\.eot|\\.ttf|\\.woff|\\.aac|\\.ogg|\\.mp3|\\.swf|\\.pdf|\\.ico|\\.appcache$ /index.html'];
 
                         return [
                             rewrite(rules),
@@ -122,7 +122,7 @@ module.exports = function(grunt) {
                     ]
                 }]
             },
-            server: ['.sass-cache','.tmp', '<%= config.app %>/scripts/templates.js', '<%= config.dist %>']
+            server: ['.sass-cache', '.tmp', '<%= config.app %>/scripts/templates.js', '<%= config.dist %>']
         },
 
 
@@ -201,7 +201,7 @@ module.exports = function(grunt) {
         // Compiles Sass to CSS and generates necessary files if requested
         sass: {
             options: {
-                // sourcemap: 'none'
+                implementation: require('sass')
             },
             dist: {
                 files: [{
@@ -310,10 +310,10 @@ module.exports = function(grunt) {
                 cwd: '<%= config.app %>/styles',
                 dest: '.tmp/styles/',
                 src: [
-                        '**/*.css',
-                        'fonts/**/*.*',
-                        // 'scripts/**/*'
-                    ]
+                    '**/*.css',
+                    'fonts/**/*.*',
+                    // 'scripts/**/*'
+                ]
 
             }
         },
@@ -331,26 +331,26 @@ module.exports = function(grunt) {
         handlebars: {
             options: {
                 namespace: 'Handlebars.Templates',
-                processName: function(filePath){
-                    var pre = new RegExp( '^'+config.app+'\/templates\/');
-                    return filePath.replace(pre,'').replace(/\.handlebars$/,'');
+                processName: function (filePath) {
+                    var pre = new RegExp('^' + config.app + '\/templates\/');
+                    return filePath.replace(pre, '').replace(/\.handlebars$/, '');
                 }
             },
             all: {
                 files: {
-                    '<%= config.app %>/scripts/templates.js':['<%= config.app %>/templates/**/*.handlebars']
+                    '<%= config.app %>/scripts/templates.js': ['<%= config.app %>/templates/**/*.handlebars']
                 }
             }
         },
-        
+
         cssmin: {
-          dist: {
-            files: {
-              '<%= config.dist %>/styles/main.css': [
-                '.tmp/styles/main.css'
-              ]
+            dist: {
+                files: {
+                    '<%= config.dist %>/styles/main.css': [
+                        '.tmp/styles/main.css'
+                    ]
+                }
             }
-          }
         },
 
 
@@ -362,7 +362,7 @@ module.exports = function(grunt) {
 
 
 
-    grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target,build) {
+    grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target, build) {
         config.internal = grunt.option('internal') || false;
         grunt.task.run([
             'clean:server',
@@ -377,12 +377,12 @@ module.exports = function(grunt) {
         ]);
     });
 
-    grunt.registerTask('build', 'Used for development environment',function(build){
+    grunt.registerTask('build', 'Used for development environment', function (build) {
 
         config.internal = grunt.option('internal') || false;
 
         grunt.config.merge({
-            uglify:{
+            uglify: {
                 options: {
                     mangle: false,
                     beautify: true,
@@ -417,7 +417,7 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.registerTask('default', function() {
+    grunt.registerTask('default', function () {
         grunt.log('Please use `grunt serve` or `grunt build` to use grunt');
     });
 

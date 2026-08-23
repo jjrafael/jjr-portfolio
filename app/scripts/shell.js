@@ -1,5 +1,14 @@
 var JJR = (function (){
     'use strict';
+
+    if ('scrollRestoration' in window.history) {
+        window.history.scrollRestoration = 'manual';
+    }
+
+    window.addEventListener('beforeunload', function() {
+        window.scrollTo(0, 0);
+    });
+
     var App = {
         init: []
     };
@@ -7,6 +16,9 @@ var JJR = (function (){
     var initModule = function( $container ) {
         console.log('Initializing Portfolio...');
         App.$container = $container;
+
+        window.scrollTo(0, 0);
+        $('html, body').scrollTop(0);
 
         if(App.init.length > 0){
             for(var i=0; i < App.init.length; i++){
@@ -32,11 +44,18 @@ var JJR = (function (){
             } else {
                 //remove extra pathname
                 window.history.pushState({}, '' , '/');
+                window.scrollTo(0, 0);
+                $('html, body').scrollTop(0);
             }
         }, 1000);
 
         setTimeout(function(){
-            App.Brand.toggleOverlay();
+            App.Brand.toggleOverlay('close');
+            window.scrollTo(0, 0);
+            $('html, body').scrollTop(0);
+            if (App.Nav && App.Nav.inspectPage) {
+                App.Nav.inspectPage();
+            }
         }, 2300);
     };
 
