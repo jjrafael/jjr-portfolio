@@ -1,24 +1,24 @@
 // Normalize
-@import "normalize.scss";
+@use "normalize";
 
 //Vendor
-@import "materialdesignicons.css";
+@use "materialdesignicons.css";
 
 //Constants
-@import "constants.scss";
-@import "colors.scss";
-@import "fonts.scss";
-@import "mixins.scss";
-@import "animations.scss";
+@use "constants";
+@use "colors";
+@use "fonts";
+@use "mixins";
+@use "animations";
 
 // Styles
-@import "general.scss";
-@import "home.scss";
-@import "nav.scss";
-@import "experiences.scss";
-@import "tools.scss";
-@import "projects.scss";
-@import "walkthru.scss";
-@import "talk.scss";
+@use "general";
+@use "home";
+@use "nav";
+@use "experiences";
+@use "tools";
+@use "projects";
+@use "walkthru";
+@use "talk";
 
-@import "responsiveness.scss";
+@use "responsiveness";

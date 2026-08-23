@@ -1,4 +1,11 @@
-h1, h2, h3, h4, h5, h6 {
+@use "colors" as *;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 0px;
   margin: 0px;
 }
@@ -51,6 +58,7 @@ p {
 a {
   color: $primary-dark;
   cursor: pointer;
+
   &:hover {
     color: $primary;
   }

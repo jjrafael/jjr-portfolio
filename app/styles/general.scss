@@ -1,8 +1,12 @@
+@use "colors" as *;
+@use "mixins" as *;
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	@include nopads();
 	font-family: "Roboto", Helvetica;
 	font-size: 12;
@@ -11,13 +15,14 @@ html, body {
 }
 
 .hidden {
-	display: none!important;
+	display: none !important;
 }
 
 .page-wrapper {
 	width: 100%;
 	min-height: 100%;
-	position: relative;;
+	position: relative;
+	;
 }
 
 .screen-overlay {
@@ -28,13 +33,15 @@ html, body {
 	left: 0px;
 	background: $clr-bg;
 	color: $primary;
-    z-index: 14;
+	z-index: 14;
+
 	&.active {
 		display: block;
 	}
+
 	h1 {
-	    text-align: center;
-    	font-weight: 100;
+		text-align: center;
+		font-weight: 100;
 	}
 }
 
@@ -44,8 +51,10 @@ html, body {
 	margin: 0 auto;
 	position: relative;
 	margin-top: calc(25% - 100px);
+
 	svg {
 		@include sq(100%);
+
 		#logo-stroke {
 			stroke-dasharray: 1500;
 			stroke-dashoffset: 1500;
@@ -64,6 +73,7 @@ html, body {
 	justify-content: center;
 	transition: all 0.3s ease;
 	animation: fade-out 0.3s ease forwards;
+
 	&.active {
 		display: flex;
 		animation: fade-in 0.6s ease forwards;
@@ -72,6 +82,7 @@ html, body {
 
 .btn-wrapper {
 	width: 100%;
+
 	.btn-talk,
 	.btn-projects {
 		width: 150px;
@@ -86,7 +97,8 @@ html, body {
 		display: block;
 		margin: 0 auto;
 		text-transform: uppercase;
-		box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.5);
+		box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.5);
+
 		&:hover {
 			background: $primary-darker;
 		}
@@ -97,6 +109,7 @@ footer {
 	width: 100%;
 	position: relative;
 	padding: 30px 0px;
+
 	.footer-inner {
 		width: 100%;
 		text-align: center;

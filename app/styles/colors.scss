@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // --------------------------------------------------
 // start: Primary and Identity colors
 // --------------------------------------------------
@@ -25,23 +27,23 @@ $gray-lighter50: rgba(226, 226, 226, 0.5);
 
 $primary: #50E381;
 $primary-bright: #02FF56;
-$primary-light: lighten(#50E381, 10%);
-$primary-lighter: lighten(#50E381, 20%);
-$primary-lightest: lighten(#50E381, 30%);
-$primary-dark: darken(#50E381, 10%);
-$primary-darker: darken(#50E381, 20%);
-$primary-darkest: darken(#50E381, 30%);
+$primary-light: color.adjust(#50E381, $lightness: 10%);
+$primary-lighter: color.adjust(#50E381, $lightness: 20%);
+$primary-lightest: color.adjust(#50E381, $lightness: 30%);
+$primary-dark: color.adjust(#50E381, $lightness: -10%);
+$primary-darker: color.adjust(#50E381, $lightness: -20%);
+$primary-darkest: color.adjust(#50E381, $lightness: -30%);
 $primary50: rgba(80,227,129,0.5);
 $primary25: rgba(80,227,129,0.25);
 
 $secondary: #bde350;
 $secondary-bright: #c3ff17;
-$secondary-light: lighten(#bde350, 10%);
-$secondary-lighter: lighten(#bde350, 20%);
-$secondary-lightest: lighten(#bde350, 30%);
-$secondary-dark: darken(#bde350, 10%);
-$secondary-darker: darken(#bde350, 20%);
-$secondary-darkest: darken(#bde350, 30%);
+$secondary-light: color.adjust(#bde350, $lightness: 10%);
+$secondary-lighter: color.adjust(#bde350, $lightness: 20%);
+$secondary-lightest: color.adjust(#bde350, $lightness: 30%);
+$secondary-dark: color.adjust(#bde350, $lightness: -10%);
+$secondary-darker: color.adjust(#bde350, $lightness: -20%);
+$secondary-darkest: color.adjust(#bde350, $lightness: -30%);
 $secondary50: rgba(189,227,80,0.5);
 $secondary25: rgba(189,227,80,0.25);
 
