@@ -24,9 +24,18 @@
         <h4>
             Below are the most relevant or latest tools I have used or attained
         </h4>
+        <div class="tools-search-wrapper">
+            <div class="tools-search-box">
+                <i class="mdi mdi-magnify search-icon"></i>
+                <input type="text" class="tools-search-input" placeholder="Search tools..." autocomplete="off" spellcheck="false" aria-label="Search tools" />
+                <button type="button" class="tools-search-clear" title="Clear search" aria-label="Clear search">
+                    <i class="mdi mdi-close"></i>
+                </button>
+            </div>
+        </div>
         <div class="tags tags-tools">
             {{#each data}}
-            <div class="tag" data-category={{this.category}} data-tool="{{this.label}}" \>
+            <div class="tag" data-category="{{this.category}}" data-tool="{{this.label}}">
                 {{this.label}}
                 <span class="years">
                     {{this.years}} YRS

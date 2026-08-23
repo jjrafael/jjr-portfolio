@@ -6,13 +6,14 @@ JJR.extend('Tools', function(App) {
         tools: [],
         projects: [],
         selectedTools: [],
-        sort: 'desc'
+        sort: 'desc',
+        searchQuery: ''
     };
 
     var jqueryMap = {};
 
     var setjQueryMap = function($container) {
-        jQueryMap = { 
+        jqueryMap = { 
             $container : $container
         };
         return true;
@@ -39,6 +40,28 @@ JJR.extend('Tools', function(App) {
         stateMap.projects = isReverse ? data.reverse() : data;
     }
 
+    var applyToolVisibility = function() {
+        var $container = $('#tools');
+        var $selectedTab = $container.find('.tab.selected');
+        var category = $selectedTab.length ? $selectedTab.data('category') : null;
+        var query = (stateMap.searchQuery || '').toLowerCase().trim();
+
+        $container.find('.tags-tools .tag').each(function() {
+            var $tag = $(this);
+            var tagCategory = $tag.data('category');
+            var toolName = ($tag.data('tool') || '').toString().toLowerCase();
+
+            var matchesCategory = !category || tagCategory === category;
+            var matchesSearch = !query || toolName.indexOf(query) !== -1;
+
+            if (matchesCategory && matchesSearch) {
+                $tag.removeClass('hide');
+            } else {
+                $tag.addClass('hide');
+            }
+        });
+    };
+
     var filterByCategory = function(el) {
         var $container = $('#tools');
         var tabs = $container.find('.tabs');
@@ -51,27 +74,22 @@ JJR.extend('Tools', function(App) {
 
         $(tags).find('.tag').removeClass('selected');
         stateMap.selectedTools = [];
-        if(isSelected){
-            var showTags = $(tags).find('.tag[data-category="'+category+'"]');
-            var hideTags = $(tags).find('.tag').not('[data-category="'+category+'"]');
 
-            $(tabs).find('.tab').not(this).removeClass('selected');
+        if (isSelected) {
+            $(tabs).find('.tab').not(el).removeClass('selected');
             $(el).addClass('selected');
-            
-            showTags.removeClass('hide');
-            hideTags.addClass('hide');
 
             filtered = projects.filter(d => d.category.indexOf(category) !== -1);
-
             App.Projects.renderTimeline(isReverse ? filtered.reverse() : filtered);
-        }else{
+        } else {
             $(tabs).find('.tab').removeClass('selected');
             $(el).removeClass('selected');
 
-            $('.tags-tools .tag').removeClass('hide');
             App.Projects.renderTimeline(isReverse ? projects.reverse() : projects);
         }
-    }
+
+        applyToolVisibility();
+    };
 
     var filterByTools = function(el) {
         var selection = $(el).data('tool').toUpperCase();
@@ -102,7 +120,39 @@ JJR.extend('Tools', function(App) {
         }else{
             App.Projects.renderTimeline(isReverse ? projects.reverse() : projects);
         }
-    }
+    };
+
+    var onSearchInput = function(e) {
+        var $input = $(this);
+        var $container = $('#tools');
+        var $clearBtn = $container.find('.tools-search-clear');
+        var val = $input.val();
+
+        stateMap.searchQuery = val;
+
+        if (val.length > 0) {
+            $clearBtn.addClass('visible');
+        } else {
+            $clearBtn.removeClass('visible');
+        }
+
+        applyToolVisibility();
+    };
+
+    var onClearSearch = function(e) {
+        if (e) {
+            e.preventDefault();
+        }
+        var $container = $('#tools');
+        var $input = $container.find('.tools-search-input');
+        var $clearBtn = $container.find('.tools-search-clear');
+
+        $input.val('');
+        stateMap.searchQuery = '';
+        $clearBtn.removeClass('visible');
+        applyToolVisibility();
+        $input.focus();
+    };
 
     var bind = function() {
         var $container = $('#tools');
@@ -114,6 +164,16 @@ JJR.extend('Tools', function(App) {
         $container.on('click', '.tag', function(){
             filterByTools(this);
         });
+
+        $container.on('input keyup', '.tools-search-input', onSearchInput);
+
+        $container.on('keydown', '.tools-search-input', function(e) {
+            if (e.key === 'Escape' || e.keyCode === 27) {
+                onClearSearch(e);
+            }
+        });
+
+        $container.on('click', '.tools-search-clear', onClearSearch);
     };
 
     var load = function($container) {    
