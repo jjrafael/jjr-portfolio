@@ -1,0 +1,63 @@
+{
+	"id": "jjr-8",
+	"title": "Merks Game",
+	"paragraph": "Started as personal project to recall my dev stacks but it turned into something more. Collection of apps/games to play with your friends in real-time!",
+	"link": "https://merks-games.web.app/",
+	"note": "Free to play!",
+	"date": "Dec 2023",
+	"client": {
+		"name": "JJR",
+		"img": "assets/img/brands/jjr.png",
+		"link": "https://jjrafael.github.io"
+	},
+	"colors": {
+		"primary": "#50E381",
+		"secondary": "#bde350"
+	},
+	"roles": [
+		"Full Stack Developer",
+		"UI Designer"	
+	],
+	"cards": [
+		{
+			"id": "jjr-8-1",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-8-1.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-8-2",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-8-2.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-8-3",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-8-3.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-8-4",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-8-4.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-8-5",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-8-5.jpg",
+			"footnote": "",
+			"type": "column"
+		}
+	]
+}

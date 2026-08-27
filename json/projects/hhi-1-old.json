@@ -1,0 +1,62 @@
+{
+	"id": "hhi-1",
+	"title": "Headhuntr.io",
+	"paragraph": "Delivering qualified candidates on every search. A recruitment platform integrated with data algorithm, scheduled calls and more.",
+	"link": "https://app.headhuntr.io/",
+	"note": "Succesfully launched on 2022 despite pandemic challenges",
+	"date": "Jan 2020",
+	"client": {
+		"name": "Talent Scout Inc",
+		"img": "assets/img/brands/hhi.png",
+		"link": "https://www.headhuntr.io/"
+	},
+	"colors": {
+		"primary": "#50E381",
+		"secondary": "#bde350"
+	},
+	"roles": [
+		"Senior UI/UX Front-End Developer"
+	],
+	"cards": [
+		{
+			"id": "hhi-1-1",
+			"title": "The Design Guideline",
+			"paragraph": "Documentation of Style/Design Guidelines is very important part on every project. This has become the book to every design decision we had and a visual reference for our bosses. I did the Design guidelines based on Branding materials, long hours of meetings, standard elements and familiar implementaions for users and developers.",
+			"image": "assets/img/projects/hhi/cards/hhi-1-1.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "hhi-1-2",
+			"title": "BIG data",
+			"paragraph": "I could say that, this got the biggest database I ever seen, analyzing and displaying millions of candidate's data in a clean yet informative way. The data team also integrated search algorithms using data intelligence to better fetch the best set of people for the user's criteria.",
+			"image": "assets/img/projects/hhi/cards/hhi-1-2.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "hhi-1-3",
+			"title": "A different take on charts",
+			"paragraph": "We used High Charts library for data visualization, this is less complicated than D3.js library but less customizable, that gives both design and development less things to worry about on technicalities.",
+			"image": "assets/img/projects/hhi/cards/hhi-1-3.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "hhi-1-4",
+			"title": "Scheduled Calls Feature",
+			"paragraph": "We recently deployed a new feature for real-time or scheduled calls between users and candidates. The feature was integrated with Twilio, a large amazing tool that connects users to their prospect candidates thru SMS or calls with configuration options such as Recordings, Voicemail, Redials and more.",
+			"image": "assets/img/projects/hhi/cards/hhi-1-4.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "hhi-1-5",
+			"title": "What a journey for me and for this team",
+			"paragraph": "The image above is the original design before the company hired me, look at the difference in design (and in experience as well). What a journey has been, it's been 4 years since I joined as full-time and we started this project. Even the company may currently facing some challenges on business side, the team behind this project are still active and working for them as part-time since August 2023.",
+			"image": "assets/img/projects/hhi/cards/hhi-1-5.jpg",
+			"footnote": "",
+			"type": "column"
+		}
+	]
+}

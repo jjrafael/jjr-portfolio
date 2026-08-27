@@ -1,0 +1,54 @@
+{
+	"id": "jjr-7",
+		"title": "Alias Web Game",
+		"paragraph": "I loved tabletop games that I transformed one to digital game using React/Redux and Firebase",
+		"link": "https://aliasdecks.web.app/",
+		"note": "",
+		"date": "Sep 2019",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "http://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Developer"	
+		],
+	"cards": [
+		{
+			"id": "jjr-7-1",
+			"title": "First Firebase-integrated project",
+			"paragraph": "I had enough time to explore my current dev stack like React and Firebase",
+			"image": "assets/img/projects/jjr/cards/jjr-7-1.jpg",
+			"footnote": "Firebase is pretty easy and front-end friendly",
+			"type": "column"
+		},
+		{
+			"id": "jjr-7-2",
+			"title": "Real-time Gameplay",
+			"paragraph": "Alias has real-time technology that sync database with all connected devices within an active game",
+			"image": "assets/img/projects/jjr/cards/jjr-7-2.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-7-3",
+			"title": "Chrome vs. Aqua",
+			"paragraph": "I primarly used 2 sets of scheme, Chrome-set and Aqua-set. Each team has its on set of pallette",
+			"image": "assets/img/projects/jjr/cards/jjr-7-3.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-7-4",
+			"title": "Mobile Responsiveness",
+			"paragraph": "Alias usually played with three different devices, so I made the webapp responsive as possible to any devices",
+			"image": "assets/img/projects/jjr/cards/jjr-7-4.jpg",
+			"footnote": "",
+			"type": "column"
+		}
+	]
+}

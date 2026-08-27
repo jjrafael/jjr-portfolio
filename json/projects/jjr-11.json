@@ -1,0 +1,132 @@
+{
+    "id": "jjr-8",
+    "type": "walkthru",
+    "title": "Merks Box",
+    "subtitle": "My 1st Vibe Coding",
+    "link": "https://merksbox.onrender.com",
+    "note": "",
+    "banner": "assets/img/projects/hhi/cards/hhi-1-banner.jpg",
+    "date": "Aug 2026",
+    "updated-date": "Aug 2026",
+    "client": {
+        "name": "JJR",
+        "img": "assets/img/brands/jjr.png",
+        "link": "https://jjrafael.github.io"
+    },
+    "colors": {
+        "primary": "#50E381",
+        "secondary": "#bde350"
+    },
+    "roles": [
+        "Full Stack Developer / AI Engineer"
+    ],
+    "summary": {
+        "title": "About the Project",
+        "paragraph": "A recruitment platform integrated with data algorithms, scheduled calls and more. Delivering qualified candidates on every search. Successfully launched last 2022 despite the pandemic challenges. On this walkthrough, you’ll be witnessing the transformation of a specific page from start to its possible future version."
+    },
+    "fadeBlock": [
+        {
+            "id": "hhi-1-block1",
+            "title": "Docs & Data Gathering",
+            "paragraph": "Before jumping into the actual UX strategy and design process. I have gathered all existing documents related to the project. This includes: Business Model, product owners’ vision, Branding Guidelines from the Marketing team, standard Recruitment process, existing requisition documents and drafts of application description. I also conducted Competition Analysis to study and see the different approaches of other related services. Along with these big preparations, I was able to check the initial database structures the company currently has to understand the data that I'll be dealing with.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block1.png",
+            "footnote": ""
+        },
+        {
+            "id": "hhi-1-block2",
+            "title": "User Analysis",
+            "paragraph": "At this point, I have gathered enough information to acknowledge the objective of the application. I conducted several interviews with internal recruiters, product owners and external Human Resource personnels, as they are the main users of the applications. The team also discussed the scope and strategy before proceeding with the design. I have identified user personas that will help us to better understand the process from a perspective that actually makes sense. I prepared high-level user flows with the application that can mapped out the main functionality of the project. The image is a sample user flow chart of “Adding Candidates to Prospect”, it shows that the cluster of functions under “Add Candidate” is dependent on “Search Candidates” functionality.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block2-flat.png",
+            "altImage": "assets/img/projects/hhi/cards/hhi-1-block2.png",
+            "footnote": ""
+        },
+        {
+            "id": "hhi-1-block3",
+            "title": "Wireframing",
+            "paragraph": "After days (or weeks) of meetings about the strategy, user analysis and a handful of discussions with the business and development team. Personally, I always include technical discussions of the project before proceeding on my design process, at least the high level scope of technical implementations. As a developer-and-designer, it is also important to understand the technical side and limitations during the development, challenges on which most designers did not consider, therefore they are most likely to disregard those aspects while designing for a project. At this stage, it is where collaboration happens with product owners/managers, engineers and business analysts. We define user flow patterns, page navigation and initial elements using mostly black-and-white blocks. Once everyone on the team is on the same page, the next step is to create User stories, Project roadmap, Development stacks, Team estimations and Design Guidelines.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block3.png",
+            "footnote": ""
+        },
+        {
+            "id": "hhi-1-block4",
+            "title": "Design System",
+            "paragraph": "This system is an essential part of my design process. This helps me and the team minimize complex and recurring design problems. With this, we define design patterns, naming convention, standard screen coverage, common function/page behaviors and all those design basics such as color palettes, typography, iconography and all global/standard elements (too many to mention). I created interactive design system instead of multi-page documents. It is standard to have design/style guidelines before designing a prototype, but for me, this system always grows and evolves as the project expands and develops.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block4.png",
+            "footnote": ""
+        },
+        {
+            "id": "hhi-1-block5",
+            "title": "High Fidelity Prototype",
+            "paragraph": "Now we’re on to the main event of this walkthrough, this might be the most time consuming stage: the creation of high fidelity prototypes, as it demands attention to details and consistency, as it should always be. Working as a lone designer on this project, I aim to deliver high quality outputs. Luckily, with the help of my equally pro-active colleagues, we managed to validate designs and inspect overlooked details through UI reviews and UX meetings.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block5.png",
+            "footnote": ""
+        },
+        {
+            "id": "hhi-1-block6",
+            "title": "Scrum Collaboration",
+            "paragraph": "Our team is following Scrum Agile Methodology, which follows a systematic flow of deliverables within the fixed amount of time and ends with retrospective. The flow continues as the process matures. On our set up as designer, I usually work on a separate set of deliverables while also collaborating with the development team on their current plate. During the start of the sprint, I will conduct  a UI review for the upcoming design needed for that sprint, that review usually does not end that quickly, feedback is equally important with requirements we initially defined. There may be some revisions and minor tweaks but some of these enhancements are usually accompanied with prioritization approval from the product owners/managers. We used several ways to collaborate, aside from UI review and daily meetings, the team can also comment their feedback thru JIRA tickets or with Zeplin. Zeplin is a very helpful tool to organize designs and prioritize comments.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block6.png",
+            "footnote": ""
+        },
+        {
+            "id": "hhi-1-block7",
+            "title": "Users' Feedback",
+            "paragraph": "Before the release or launch, I conducted a Usability Test with internal recruiters and non-technical colleagues to validate the functionality of the application, to understand if the experience matched with their expectations and to see if there are still missing gaps in the design or in the experience. We also did Performance Experience Testing, on which we validate how fast the application can perform and accommodate users. After the release, we also have a User Acceptance Testing (UAT) team who conduct functional and UX testing. Aside from these feedback, Our COO shared with me some testimonials from our actual users and prospect clients:",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block7.png",
+            "footnote": ""
+        },
+        {
+            "id": "hhi-1-block8",
+            "title": "Always Improving the Experience",
+            "paragraph": "One thing I learned so hard about designing an application is it never ends. There will always be room for improvement, either these are new features or low-prioritized enhancements or revisiting a previously-descoped experience. Post-launch sprints are mostly test-driven or dev-driven tickets but I already worked on some user-driven proposals which includes: “Suggestion criteria”, “Refine Results”, “Drag and Drop tags”, “Highlight Matches” features and many more.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-block8.png",
+            "footnote": ""
+        }
+    ],
+    "divider1": {
+        "title": "Highlights",
+        "paragraph": "These are some of the selected features of the application that we designed and developed and a story (on last slide) of the journey I had with this project, from having a basic look drafted by product owners into a fully-functional global-standard application."
+    },
+    "scrollBlock": [
+        {
+            "id": "hhi-1-1",
+            "title": "Search by Relevance",
+            "paragraph": "Delivering qualified candidates on every search. We developed a search engine that matches candidates based on defined criteria and sorted by relevance. Relevancy is an invisible score for each of the candidates calculated with our data algorithm.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-1.jpg",
+            "footnote": "",
+            "type": "column"
+        },
+        {
+            "id": "hhi-1-2",
+            "title": "Bulk Actions",
+            "paragraph": "One feature I introduced with the product owners is the ability to do actions in bulk. Bulk Action features are designed for all lists and tables that have common actions. Through this approach (instead of doing it individually), users can save more time and energy with their repetitive tasks.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-2.jpg",
+            "footnote": "",
+            "type": "column"
+        },
+        {
+            "id": "hhi-1-3",
+            "title": "Scheduled Calls",
+            "paragraph": "This is one of the recent features we developed. This feature is powered by Twilio, a third-party service that provides calls integrated with so many features. This gives the application an edge over other recruitment platforms.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-3.jpg",
+            "footnote": "",
+            "type": "column"
+        },
+        {
+            "id": "hhi-1-4",
+            "title": "The Legal Module",
+            "paragraph": "Surely, an interesting route that the product took was to give solutions as well to the law firms. Instead of finding candidates, on this module, they can find targeted clients or witnesses based on a customized set of criterias.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-4.jpg",
+            "footnote": "",
+            "type": "column"
+        },
+        {
+            "id": "hhi-1-5",
+            "title": "From Start to Finish",
+            "paragraph": "Since I joined, I have made a valuable difference. I have witnessed the evolving interface of the application. From the look drafted using Keynote by product owners into a professional UI & UX. I’m really happy with what it turns out. And looking forward to making some improvements if time permits.",
+            "image": "assets/img/projects/hhi/cards/hhi-1-5.jpg",
+            "footnote": "",
+            "type": "column"
+        }
+    ]
+}

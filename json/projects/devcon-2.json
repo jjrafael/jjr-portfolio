@@ -1,0 +1,55 @@
+{
+	"id": "devcon-2",
+		"title": "DevCon Summit 2016 Branding",
+		"paragraph": "On my second year with DevCon, I created Branding and Style guides for the Marketing team. I also worked on the UI for DevCon Summit 2016 website. ",
+		"link": "https://summit.devcon.ph",
+		"note": "Link will only be available this month, since we'll upload soon the new 2017 website",
+		"date": "Aug 2016",
+		"client": {
+			"name": "DevCon Philippines",
+			"img": "assets/img/brands/devcon.png",
+			"link": "http://devcon.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Creative Co-Lead",
+			"Graphic Designer"		
+		],
+	"cards": [
+		{
+			"id": "devcon-2-1",
+			"title": "The Logo",
+			"paragraph": "The logo was inspired by Penrose Triangle and Infinite Loop of Fast forward icon.",
+			"image": "assets/img/projects/devcon/cards/devcon-2-1.jpg",
+			"footnote": "2016 theme: Dev Future Forward",
+			"type": "column"
+		},
+		{
+			"id": "devcon-2-2",
+			"title": "Branding",
+			"paragraph": "The objective of this years branding is to showcase modern yet next level graphics, I came up with 3D-channels concepts plus 3D objects.",
+			"image": "assets/img/projects/devcon/cards/devcon-2-2.jpg",
+			"footnote": "I used Blender for 3D renders",
+			"type": "column"
+		},
+		{
+			"id": "devcon-2-3",
+			"title": "360 Degree Creatives",
+			"paragraph": "2016, year when VR/AR emerges to our lives. I created 360degrees creative assets used for social media marketing.",
+			"image": "assets/img/projects/devcon/cards/devcon-2-3.jpg",
+			"footnote": "I used Blender and Photoshop to create these graphics",
+			"type": "column"
+		},
+		{
+			"id": "devcon-2-4",
+			"title": "The Website",
+			"paragraph": "We treat the UI for 2016 website to be an interactive version of our marketing assets, as it follows the brand guidelines I made.",
+			"image": "assets/img/projects/devcon/cards/devcon-2-4.jpg",
+			"footnote": "UI was collaborated with Eric",
+			"type": "column"
+		}
+	]
+}

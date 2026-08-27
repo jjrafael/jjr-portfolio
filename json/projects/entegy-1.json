@@ -1,0 +1,119 @@
+{
+    "id": "entegy-1",
+    "type": "beforeafter",
+    "title": "Entegy Events",
+    "subtitle": "Revamp Transformation",
+    "link": "https://entegy.events",
+    "note": "",
+    "banner": "assets/img/projects/entegy/cards/entegy-1-banner.jpeg",
+    "date": "Apr 2024",
+    "updated-date": "Aug 2026",
+    "client": {
+        "name": "Entegy",
+        "img": "assets/img/brands/entegy.png",
+        "link": "https://entegy.events"
+    },
+    "colors": {
+        "primary": "#a180ff",
+        "secondary": "#bde350"
+    },
+    "roles": [
+        "Senior UI/UX Front-End Developer"
+    ],
+    "summary": {
+        "title": "About the Project",
+        "paragraph": "A large-scale event management application that handles attendees management, interactive event details, customized app and website portals, interactive discussions that runs on multiple platforms. As part of overall rebranding/revamping of this project, it was successfully launched in early 2026. On this walkthrough, you’ll be seeing the comparison between legacy (old) interface vs the new interface of some of the pages I worked on."
+    },
+    "fadeBlock": [
+        {
+            "id": "entegy-1-block1",
+            "title": "Understanding the Legacy Version",
+            "paragraph": "I'd say this is one of the most comprehesive projects I've worked on. Not just how big the codebase is but how I have to deep-dive into the legacy system to understand the flows and patterns, cause most of modules and pages are tangled or connected with each other. But with through understanding and back-and-forth collaboration with the product owners and the team, we're able to improve the flow and the interface of the application. ",
+            "image": "assets/img/projects/entegy/cards/entegy-1-before1.jpg",
+            "afterImage": "assets/img/projects/entegy/cards/entegy-1-after1.jpg",
+            "footnote": ""
+        },
+        {
+            "id": "entegy-1-block2",
+            "title": "New Table Component",
+            "paragraph": "I have made a standardized component for Table, which most of lists are using. And that includes this Profile Panel, which gives consistency and familiarity to the users. On this version, I made sure that the layout is clean, with sufficient white space, and with clear visual hierarchy.",
+            "image": "assets/img/projects/entegy/cards/entegy-1-before2.jpg",
+            "afterImage": "assets/img/projects/entegy/cards/entegy-1-after2.jpg",
+            "footnote": ""
+        },
+        {
+            "id": "entegy-1-block3",
+            "title": "Profile Page & Panel",
+            "paragraph": "One of improvement on UI is having side panels to show details of a certain data. And that includes this profile panel, which gives users the ability to view the details of a profile without leaving the current page. The profile panel have Profile Card also a component that can be used in other pages or containers. ",
+            "image": "assets/img/projects/entegy/cards/entegy-1-before3.jpg",
+            "afterImage": "assets/img/projects/entegy/cards/entegy-1-after3.jpg",
+            "footnote": ""
+        },
+        {
+            "id": "entegy-1-block2",
+            "title": "Session Page",
+            "paragraph": "The challenge for this page is to make it more visually appealing and intuitive while keeping the multi-functions of this page.",
+            "image": "assets/img/projects/entegy/cards/entegy-1-before4.jpg",
+            "afterImage": "assets/img/projects/entegy/cards/entegy-1-after4.jpg",
+            "footnote": ""
+        },
+        {
+            "id": "entegy-1-block5",
+            "title": "Content/App/Email Editors",
+            "paragraph": "One of complicated feature of the application is the App Editor. The customization of the app is directly connected with the styling of the native app.",
+            "image": "assets/img/projects/entegy/cards/entegy-1-before5.jpg",
+            "afterImage": "assets/img/projects/entegy/cards/entegy-1-after5.jpg",
+            "footnote": ""
+        },
+        {
+            "id": "entegy-1-block6",
+            "title": "Client Testimonials",
+            "paragraph": "On early 2026, the revamped version has been launched successfully. Our boss shared with us some testimonials from our actual users:",
+            "footnote": ""
+        },
+        {
+            "id": "entegy-1-block7",
+            "title": "Always Improving the Experience",
+            "paragraph": "One hard truth about designing an application is it never ends. There will always be room for improvement, either these are new features or low-prioritized enhancements or revisiting a previously-descoped experience.",
+            "footnote": ""
+        }
+    ],
+    "divider1": {
+        "title": "Highlights",
+        "paragraph": "These are some of the selected features of the application that we designed and developed."
+    },
+    "scrollBlock": [
+        {
+            "id": "entegy-1-1",
+            "title": "Profile Filters",
+            "paragraph": "...",
+            "image": "assets/img/projects/entegy/cards/entegy-1-1.jpg",
+            "footnote": "",
+            "type": "column"
+        },
+        {
+            "id": "entegy-1-2",
+            "title": "Reorder Table Rows",
+            "paragraph": "...",
+            "image": "assets/img/projects/entegy/cards/entegy-1-2.jpg",
+            "footnote": "",
+            "type": "column"
+        },
+        {
+            "id": "entegy-1-3",
+            "title": "Company Portal",
+            "paragraph": "...",
+            "image": "assets/img/projects/entegy/cards/entegy-1-3.jpg",
+            "footnote": "",
+            "type": "column"
+        },
+        {
+            "id": "entegy-1-4",
+            "title": "Rule Sets & Company Roles",
+            "paragraph": "...",
+            "image": "assets/img/projects/entegy/cards/entegy-1-4.jpg",
+            "footnote": "",
+            "type": "column"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+	"id": "jjr-10",
+	"title": "Small worlds",
+	"paragraph": "Little spheres of my own journey through different region of the Philippines. Visualize key moments of my travel with colorful alegra-inspired illustrations.",
+	"link": "https://instagram.com/jjrafael.works",
+	"note": "Available in my instagram",
+	"date": "Nov 2022",
+	"client": {
+		"name": "JJR",
+		"img": "assets/img/brands/jjr.png",
+		"link": "https://jjrafael.github.io"
+	},
+	"colors": {
+		"primary": "#50E381",
+		"secondary": "#bde350"
+	},
+	"roles": [
+		"Illustrator"
+	],
+	"cards": [
+		{
+			"id": "jjr-10-1",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-10-1.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-10-2",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-10-2.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-10-3",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-10-3.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-10-4",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-10-4.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-10-5",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-10-5.jpg",
+			"footnote": "",
+			"type": "img-only"
+		},
+		{
+			"id": "jjr-10-6",
+			"title": "",
+			"paragraph": "",
+			"image": "assets/img/projects/jjr/cards/jjr-10-6.jpg",
+			"footnote": "",
+			"type": "img-only"
+		}
+	]
+}

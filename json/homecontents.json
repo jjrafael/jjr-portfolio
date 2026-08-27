@@ -1,0 +1,52 @@
+[
+	{
+		"description": "multimedia artist",
+		"image": "assets/img/mask/multimedia.jpg",
+		"duration": 500
+	},
+	{
+		"description": "photography",
+		"image": "assets/img/mask/photography.jpg",
+		"duration": 500
+	},
+	{
+		"description": "web developer",
+		"image": "assets/img/mask/webdeveloper.jpg",
+		"duration": 500
+	},
+	{
+		"description": "designer",
+		"image": "assets/img/mask/designer.jpg",
+		"duration": 500
+	},
+	{
+		"description": "traveller",
+		"image": "assets/img/mask/traveller.jpg",
+		"duration": 500
+	},
+	{
+		"description": "front end enthusiast",
+		"image": "assets/img/mask/frontend.jpg",
+		"duration": 500
+	},
+	{
+		"description": "illustrator",
+		"image": "assets/img/mask/illustration.jpg",
+		"duration": 500
+	},
+	{
+		"description": "interaction",
+		"image": "assets/img/mask/interaction.jpg",
+		"duration": 500
+	},
+	{
+		"description": "interface",
+		"image": "assets/img/mask/interface.jpg",
+		"duration": 500
+	},
+	{
+		"description": "developer + designer",
+		"image": "assets/img/mask/jjr.jpg",
+		"duration": 500
+	}
+]

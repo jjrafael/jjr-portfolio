@@ -1,0 +1,1391 @@
+[
+	{
+		"id": "jjr-1",
+		"detailsType": "cards",
+		"title": "MyTimeline App",
+		"paragraph": "The all-in-one calendar, remider, notes, photo-journal and anything that you keep to yourself. An android app developed for our college thesis, one of finalists that were able to compete for Intercollegiate IT Event.",
+		"link": "",
+		"note": "Source codes were kept in campus library",
+		"date": "Jan 2013",
+		"client": {
+			"name": "University of Pasig City",
+			"img": "assets/img/brands/jjr.png",
+			"link": ""
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"App Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des",
+			"others"
+		],
+		"tools": [
+			"Javascript",
+			"HTML5",
+			"CSS",
+			"jQuery",
+			"Notepad++",
+			"Phonegap",
+			"Cordova",
+			"Android Studio",
+			"Eclipse",
+			"jQuery UI",
+			"Photoshop",
+			"XAMPP"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "obs-1",
+		"detailsType": "cards",
+		"title": "OBS Website",
+		"paragraph": "My OJT-company-turned-first-company, I created a responsive website for our startup team.",
+		"link": "https://obs.ph",
+		"note": "Link closed",
+		"date": "May 2013",
+		"client": {
+			"name": "Out-of-the-box Solutions",
+			"img": "assets/img/brands/obs.png",
+			"link": "http://obs.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Notepad++",
+			"Photoshop",
+			"XAMPP",
+			"jQuery",
+			"puTTy",
+			"Filezilla"
+		],
+		"images": [
+			"assets/img/projects/obs/obs-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "obs-2",
+		"detailsType": "cards",
+		"title": "Sailfin Payroll",
+		"paragraph": "A Payroll application powered using Joomla. Sailfin was launch on Philippines' Software Freedom Day event in Aklan",
+		"link": "",
+		"note": "Link not available",
+		"date": "Sep 2013",
+		"client": {
+			"name": "Out-of-the-box Solutions",
+			"img": "assets/img/brands/obs.png",
+			"link": "http://obs.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Developer",
+			"UI Design",
+			"Logo Design"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"jQuery",
+			"Notepad++",
+			"XAMPP",
+			"php",
+			"mySQL",
+			"joomla",
+			"Photoshop",
+			"illustrator",
+			"Filezilla"
+		],
+		"images": [
+			"assets/img/projects/obs/obs-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-2",
+		"detailsType": "cards",
+		"title": "Portfolio v1",
+		"paragraph": "First Professional Porfolio website",
+		"link": "https://jjrafael.byethost7.com/version2",
+		"note": "Not updated since 2015",
+		"date": "Nov 2013",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": ""
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Developer",
+			"UI Design"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"jQuery",
+			"Notepad++",
+			"XAMPP",
+			"Photoshop",
+			"Filezilla"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-3",
+		"detailsType": "cards",
+		"title": "Laro ng Lahi",
+		"paragraph": "A set of illustrations for an article of theAsianParent Philippnes. Article by former Mega Magazine Editor-in-chief, Carla Perlas. ",
+		"link": "https://ph.theasianparent.com/rules-of-popular-laro-ng-lahi-games/",
+		"note": "",
+		"date": "Jan 2017",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-3.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "tap-1",
+		"detailsType": "cards",
+		"title": "theAsianParent Groups",
+		"paragraph": "An Q&A Community platform for Asian Parents, this project was launch already in SG and India, and soon on other Asian neighbors under the new name, ParentTown",
+		"link": "https://parenttown.com",
+		"note": "Recently renamed to ParentTown",
+		"date": "Jul 2014",
+		"client": {
+			"name": "Tickled Media",
+			"img": "assets/img/brands/tap.png",
+			"link": "http://tickledmedia.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Front End Dev"
+		],
+		"category": [
+			"dev"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"jQuery",
+			"Javascript",
+			"less",
+			"Crunch",
+			"Notepad++",
+			"APIs",
+			"FB Parse",
+			"php",
+			"Photoshop",
+			"git",
+			"SourceTree",
+			"XAMPP"
+		],
+		"images": [
+			"assets/img/projects/tap/tap-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-4",
+		"detailsType": "cards",
+		"title": "Elfam Merks Shirt Designs",
+		"paragraph": "Co-owned Merchandise/Design team. Our first collection for a fund-raising project of an Australia-based Scholarship Organization.",
+		"link": "",
+		"note": "We have raised 20,000PHP on first batch of our designs",
+		"date": "Mar 2015",
+		"client": {
+			"name": "Elfam Merks",
+			"img": "assets/img/brands/jjr.png",
+			"link": "http://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Lead Artist",
+			"Co-owner"
+		],
+		"category": [
+			"illus",
+			"others"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-4.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "devcon-1",
+		"detailsType": "cards",
+		"title": "DevCon Summit Shirt + Materials",
+		"paragraph": "DevCon PH is the biggest developer conference in the Philippines, joined the team and collaborate for 2015 Shirt design and marketing assets.",
+		"link": "https://summit.devcon.ph",
+		"note": "",
+		"date": "Sep 2015",
+		"client": {
+			"name": "DevCon",
+			"img": "assets/img/brands/devcon.png",
+			"link": "http://devcon.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Creative Co-Lead",
+			"Graphic Designer"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator"
+		],
+		"images": [
+			"assets/img/projects/devcon/devcon-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "tap-2",
+		"detailsType": "cards",
+		"title": "Pregnant.sg Mobile",
+		"paragraph": "Optimized and responsive mobile website across different devices",
+		"link": "https://m.pregnant.sg",
+		"note": "",
+		"date": "Sep 2015",
+		"client": {
+			"name": "Tickled Media",
+			"img": "assets/img/brands/tap.png",
+			"link": "http://tickledmedia.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Designer"
+		],
+		"category": [
+			"dev"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"Notepad++",
+			"git",
+			"SourceTree",
+			"XAMPP",
+			"jQuery",
+			"Wordpress"
+		],
+		"images": [
+			"assets/img/projects/tap/tap-2.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "tap-3",
+		"detailsType": "cards",
+		"title": "theAsianParent ReDesigned",
+		"paragraph": "Redesigned the company's parenting portal and Localization across different languages/countries",
+		"link": "https://theasianparent.com",
+		"note": "change .com to .ph/.th/.my/.id/.sg",
+		"date": "Oct 2015",
+		"client": {
+			"name": "Tickled Media",
+			"img": "assets/img/brands/tap.png",
+			"link": "http://tickledmedia.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Front End Developer"
+		],
+		"category": [
+			"dev"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"Notepad++",
+			"git",
+			"SourceTree",
+			"XAMPP",
+			"jQuery",
+			"Wordpress"
+		],
+		"images": [
+			"assets/img/projects/tap/tap-3.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "jjr-5",
+		"detailsType": "cards",
+		"title": "Deadpool x Star Wars Force Awakens",
+		"paragraph": "As a Marvel comics hoarder, I created a Mash-Up Fan-art illustration",
+		"link": "http://jjrafael.deviantart.com",
+		"note": "",
+		"date": "Jan 2016",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "http://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop",
+			"Wacom"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-5.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-1",
+		"detailsType": "cards",
+		"title": "Betica Website",
+		"paragraph": "Improve UI of the company website, add Articles section that fetched posts from company blog",
+		"link": "https://betica.com",
+		"note": "",
+		"date": "Apr 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"php",
+			"filezilla"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-1.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "lotus-2",
+		"detailsType": "cards",
+		"title": "Betica Blog",
+		"paragraph": "Redesigned Company blog using Wordpress",
+		"link": "https://betica.com/blog",
+		"note": "",
+		"date": "Apr 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Designer"
+		],
+		"category": [
+			"des",
+			"illus"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"wordpress",
+			"Social Media"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-2.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "lotus-3",
+		"detailsType": "cards",
+		"title": "ATHENA",
+		"paragraph": "Sportsbook events analysis application, to help the support team on tickets",
+		"link": "",
+		"note": "Internal Project",
+		"date": "Jun 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"scss",
+			"css",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"nodeJS",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-3.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-4",
+		"detailsType": "cards",
+		"title": "Sportsman Mapping Tool",
+		"paragraph": "An application for mapping events to its proper live video data across different streaming services.",
+		"link": "",
+		"note": "Internal Project",
+		"date": "Jul 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"scss",
+			"css",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"nodeJS",
+			"npm",
+			"Prototypes"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-4.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "devcon-2",
+		"detailsType": "cards",
+		"title": "DevCon Summit 2016 Branding",
+		"paragraph": "On my second year with DevCon, I created Branding and Style guides for the Marketing team. I also worked on the UI for DevCon Summit 2016 website. ",
+		"link": "https://summit.devcon.ph/2016",
+		"note": "",
+		"date": "Aug 2016",
+		"client": {
+			"name": "DevCon Philippines",
+			"img": "assets/img/brands/devcon.png",
+			"link": "http://devcon.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Creative Co-Lead",
+			"Graphic Designer"
+		],
+		"category": [
+			"des",
+			"illus",
+			"others"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator",
+			"Figma",
+			"blender",
+			"after effects",
+			"premiere pro",
+			"Social Media"
+		],
+		"images": [
+			"assets/img/projects/devcon/devcon-2.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-9",
+		"detailsType": "cards",
+		"title": "Sportsbook Mobile Native App",
+		"paragraph": "Sports betting application for Android and iOS devices. Project was developed using React Native",
+		"link": "",
+		"note": "No link available",
+		"date": "Oct 2016",
+		"client": {
+			"name": "Lotus Labs Inc",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI Designer"
+		],
+		"category": [
+			"des"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator",
+			"Prototypes"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-9.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-5",
+		"detailsType": "cards",
+		"title": "Merx",
+		"paragraph": "First project as lead + developer, Merx is a Content Management System for our clients across different sportsbook brands",
+		"link": "",
+		"note": "Internal Project",
+		"date": "Dec 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Project Lead",
+			"Web Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"scss",
+			"css",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"nodeJS",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-5.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-6",
+		"detailsType": "cards",
+		"title": "Esports Sportsbook",
+		"paragraph": "An Esports betting webapp, which explores the interface based on how real games feels. Soon to be deployed in Kenya.",
+		"link": "",
+		"note": "Link Soon",
+		"date": "Feb 2017",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Project Lead",
+			"Front End Dev",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"scss",
+			"css",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"Illustrator",
+			"Bootstrap",
+			"nodeJS",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-6.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-7",
+		"detailsType": "cards",
+		"title": "Project Omega",
+		"paragraph": "A Whitelabelling of Sportsbook webapp that can be customized through different themes developed. This was presented on Global Gaming Expo Asia in Macau last May 2017.",
+		"link": "",
+		"note": "Link not yet available",
+		"date": "Dec 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Project Lead",
+			"Web Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"jQuery",
+			"git",
+			"Sublime Text",
+			"Handlebars",
+			"scss",
+			"css",
+			"grunt",
+			"github",
+			"mify",
+			"APIs",
+			"Postman",
+			"gitx",
+			"Bootstrap",
+			"nodeJS",
+			"npm"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-7.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-6",
+		"detailsType": "cards",
+		"title": "Marvel Headshots",
+		"paragraph": "You know i still got some sparetime to do what i still love.",
+		"link": "https://jjrafael.deviantart.com",
+		"note": "",
+		"date": "Jan 2017",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop",
+			"Wacom"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-6.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "lotus-8",
+		"detailsType": "cards",
+		"title": "Phoenix",
+		"paragraph": "A collection of applications/tools for Sportsbook, spanning from customer manager, event manager, risk manager and so many more. This was set to present on Global Gaming Expo in Vienna way back 2016",
+		"link": "",
+		"note": "",
+		"date": "Apr 2016",
+		"client": {
+			"name": "Lotus Labs",
+			"img": "assets/img/brands/lotus.png",
+			"link": "http://betica.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Front End Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Photoshop",
+			"Sketch",
+			"Invision",
+			"git",
+			"React",
+			"Redux",
+			"scss",
+			"css",
+			"github",
+			"Webpack",
+			"APIs",
+			"Postman",
+			"JSX",
+			"ES6",
+			"nodeJS",
+			"npm",
+			"Prototypes"
+		],
+		"images": [
+			"assets/img/projects/lotus/lotus-8.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "devcon-3",
+		"detailsType": "cards",
+		"title": "DevCon Summit 2017 Website",
+		"paragraph": "On my 3rd year with DevCon, I collaborate with developers in PH Community to create this year's website",
+		"link": "https://summit.devcon.ph",
+		"note": "Gitlab repo available",
+		"date": "Jun 2017",
+		"client": {
+			"name": "DevCon Philippines",
+			"img": "assets/img/brands/devcon.png",
+			"link": "http://devcon.ph"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Web Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"jQuery",
+			"git",
+			"gitlab",
+			"Photoshop",
+			"Illustrator",
+			"Figma",
+			"Invision",
+			"Handlebars",
+			"nodeJS",
+			"NPM",
+			"scss",
+			"css",
+			"Gulp"
+		],
+		"images": [
+			"assets/img/projects/devcon/devcon-3.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "myas-1",
+		"detailsType": "cards",
+		"title": "MyAssets App",
+		"paragraph": "Most comprehensive tool for asset and financial management and analytics",
+		"link": "https://app.myassets.com",
+		"note": "Still under development",
+		"date": "May 2019",
+		"client": {
+			"name": "Mosed Inc.",
+			"img": "assets/img/brands/myas.png",
+			"link": "http://mosedcorp.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Front End Developer"
+		],
+		"category": [
+			"dev"
+		],
+		"tools": [
+			"HTML5",
+			"Javascript",
+			"NodeJS",
+			"React",
+			"Redux",
+			"Jest",
+			"Webpack",
+			"Babel",
+			"Axios",
+			"React-Router",
+			"Lodash",
+			"PropTypes",
+			"D3",
+			"MixPanel",
+			"ESLint",
+			"Socket.io",
+			"git",
+			"bitbucket",
+			"Sketch",
+			"Invision",
+			"Icomoon",
+			"Docker",
+			"Zeplin",
+			"NPM",
+			"scss",
+			"css",
+			"APIs",
+			"Jira",
+			"Confluence"
+		],
+		"images": [
+			"assets/img/projects/myas/myas-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-7",
+		"detailsType": "cards",
+		"title": "Alias Web Game",
+		"paragraph": "I love tabletop games that I transformed one to digital game using React/Redux and Firebase",
+		"link": "https://aliasdecks.web.app/",
+		"note": "Free to play!",
+		"date": "Sep 2019",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Full Stack Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"Javascript",
+			"NodeJS",
+			"React",
+			"Redux",
+			"Jest",
+			"Webpack",
+			"Babel",
+			"Firebase",
+			"Cloud Hosting",
+			"React-Router",
+			"Lodash",
+			"Firestore",
+			"G-Analytics",
+			"git",
+			"github",
+			"Illustrator",
+			"Icomoon",
+			"NPM",
+			"scss"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-7.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-10",
+		"detailsType": "cards",
+		"title": "Small worlds",
+		"paragraph": "Little sphere of my journey through different region of the Philippines. Visualize key moments of my travel with alegra-inspired illustrations.",
+		"link": "https://instagram.com/jjrafael.works",
+		"note": "Available in my instagram",
+		"date": "Nov 2022",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-10.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-9",
+		"detailsType": "cards",
+		"title": "2023 Virals Revisioned",
+		"paragraph": "Every end of the month of 2023, I used to curate a collection of trending subjects within that month. But revised using my own art style.",
+		"link": "https://instagram.com/jjrafael.works",
+		"note": "Available in my instagram",
+		"date": "Apr 2023",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Illustrator"
+		],
+		"category": [
+			"illus"
+		],
+		"tools": [
+			"Photoshop"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-9.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-8",
+		"detailsType": "cards",
+		"title": "Merks Games",
+		"paragraph": "Started as personal project to recall my dev stacks but it turned into something more. Collection of apps/games to play with your friends in real-time!",
+		"link": "https://merks-games.web.app/",
+		"note": "Free to play!",
+		"date": "Dec 2023",
+		"client": {
+			"name": "JJR",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://jjrafael.github.io"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"Full Stack Developer",
+			"UI Designer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"HTML5",
+			"Javascript",
+			"NodeJS",
+			"React",
+			"Redux",
+			"Jest",
+			"Webpack",
+			"Babel",
+			"Firebase",
+			"Cloud Hosting",
+			"React-Router",
+			"Lodash",
+			"Firestore",
+			"G-Analytics",
+			"git",
+			"github",
+			"Illustrator",
+			"Icomoon",
+			"NPM",
+			"scss",
+			"css",
+			"Social Media"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-8.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "hhi-3",
+		"detailsType": "cards",
+		"title": "Leadhuntr.io",
+		"paragraph": "The data-centric project based on Headhuntr.io. Aiming to cater gaps between data and service in API formats.",
+		"note": "Still in development/design phase",
+		"date": "Nov 2023",
+		"client": {
+			"name": "Talent Scout Inc",
+			"img": "assets/img/brands/hhi.png",
+			"link": "https://www.headhuntr.io/"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI/UX Designer"
+		],
+		"category": [
+			"des"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator",
+			"Adobe XD",
+			"Zeplin",
+			"Wireframing",
+			"Prototypes",
+			"Ant.Design",
+			"Jira",
+			"MS Teams"
+		],
+		"images": [
+			"assets/img/projects/hhi/hhi-3.jpg"
+		],
+		"hasMore": "false"
+	},
+	{
+		"id": "hhi-1",
+		"detailsType": "walkthru",
+		"title": "Headhuntr.io",
+		"paragraph": "Delivering qualified candidates on every search. A recruitment platform integrated with data algorithm, scheduled calls and more.",
+		"link": "https://app.headhuntr.io/",
+		"note": "Succesfully launched on 2022 despite pandemic challenges",
+		"date": "Jan 2020",
+		"client": {
+			"name": "Talent Scout Inc",
+			"img": "assets/img/brands/hhi.png",
+			"link": "https://www.headhuntr.io/"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI/UX Designer",
+			"Front-End Developer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"Photoshop",
+			"Illustrator",
+			"Adobe XD",
+			"Zeplin",
+			"Google Jamboard",
+			"Wireframing",
+			"Design System",
+			"Prototypes",
+			"HTML5",
+			"Javascript",
+			"React",
+			"Redux",
+			"React-Router",
+			"Redux Chrome Tool",
+			"scss",
+			"css",
+			"npm",
+			"Jest",
+			"Icomoon",
+			"High Charts",
+			"Ant.Design",
+			"Git",
+			"Webpack",
+			"Github",
+			"APIs",
+			"Jira",
+			"MS Teams"
+		],
+		"images": [
+			"assets/img/projects/hhi/hhi-1.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "jjr-11",
+		"detailsType": "walkthru",
+		"title": "Merks Box",
+		"paragraph": "This is my first dive on AI-Assisted Development using Google API & AntiGravity. I created a web-based super app where players can play games, host game nights and so much more!",
+		"link": "https://merksbox.onrender.com",
+		"note": "Currently available publicly to play and enjoy with friends.",
+		"date": "Aug 2026",
+		"client": {
+			"name": "Entegy",
+			"img": "assets/img/brands/jjr.png",
+			"link": "https://merksbox.onrender.com"
+		},
+		"colors": {
+			"primary": "#50E381",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI/UX Designer",
+			"Full Stack Developer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"Gemini API",
+			"AntiGravity",
+			"Typescript",
+			"Javascript",
+			"React",
+			"React-Router",
+			"Tiktok Live Connector",
+			"css",
+			"npm",
+			"Express",
+			"Git"
+		],
+		"images": [
+			"assets/img/projects/jjr/jjr-11.jpg"
+		],
+		"hasMore": "true"
+	},
+	{
+		"id": "entegy-1",
+		"detailsType": "beforeafter",
+		"title": "Entegy Events Redesign",
+		"paragraph": "A complete redesign across various platform modules. The project involved creating a new design system, new UI, and maintaining the core functions.",
+		"link": "https://entegy.events",
+		"note": "Succesfully launched on 2026",
+		"date": "Apr 2024",
+		"client": {
+			"name": "Entegy",
+			"img": "assets/img/brands/entegy.png",
+			"link": "https://entegy.events"
+		},
+		"colors": {
+			"primary": "#a180ff",
+			"secondary": "#bde350"
+		},
+		"roles": [
+			"UI/UX Designer",
+			"Front-End Developer"
+		],
+		"category": [
+			"dev",
+			"des"
+		],
+		"tools": [
+			"Vue",
+			"Tailwind",
+			"Storybook",
+			"Figma",
+			"Wireframing",
+			"Design System",
+			"Prototypes",
+			"Typescript",
+			"Javascript",
+			"React",
+			"React-Router",
+			"css",
+			"npm",
+			"Jest",
+			"Git",
+			"Webpack",
+			"Bitbucket",
+			"APIs",
+			"Jira",
+			"Slack"
+		],
+		"images": [
+			"assets/img/projects/entegy/entegy-1.jpg"
+		],
+		"hasMore": "true"
+	}
+]

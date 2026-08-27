@@ -1,0 +1,55 @@
+{
+	"id": "jjr-2",
+	"title": "Portfolio v1",
+	"paragraph": "First Professional Porfolio website",
+	"link": "https://jjrafael.byethost7.com/version2",
+	"note": "Not updated since 2015",
+	"date": "Nov 2013",
+	"client": {
+		"name": "JJR",
+		"img": "assets/img/brands/jjr.png",
+		"link": ""
+	},
+	"colors": {
+		"primary": "#50E381",
+		"secondary": "#bde350"
+	},
+	"roles": [
+		"Web Developer",
+		"UI Design"
+	],
+	"cards": [
+		{
+			"id": "jjr-2-1",
+			"title": "Challenge: Bring out all these crazy ideas to my first portfolio",
+			"paragraph": "Identity. The most crucial part when you think about it for your portolio, my concept was simply put everything what my mind wanted.",
+			"image": "assets/img/projects/jjr/cards/jjr-2-1.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-2-2",
+			"title": "The Sprite",
+			"paragraph": "Because i love new challenges, I tried to have this big animated image, instead of simply using GIF, i made a long image and animate it using jQuery, or what we usually call Sprite",
+			"image": "assets/img/projects/jjr/cards/jjr-2-2.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-2-3",
+			"title": "Weaponry Table",
+			"paragraph": "Yep my version of Chemistry Table, my every tools + technologies I used before. If i'd do it again, it will be a bigger table because im grow up boy now. Nuks!",
+			"image": "assets/img/projects/jjr/cards/jjr-2-3.jpg",
+			"footnote": "",
+			"type": "column"
+		},
+		{
+			"id": "jjr-2-4",
+			"title": "Why have new Portfolio then?",
+			"paragraph": "Because as you grow in this field, you would realized how much flaws you did before and just want a simple portfolio yet using the tools I've learned now. ",
+			"image": "assets/img/projects/jjr/cards/jjr-2-4.jpg",
+			"footnote": "",
+			"type": "column"
+		}
+	]
+}
