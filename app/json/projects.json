@@ -1332,17 +1332,17 @@
 			"Git"
 		],
 		"images": [
-			"assets/img/projects/jjr/jjr-8.jpg"
+			"assets/img/projects/jjr/jjr-11.jpg"
 		],
 		"hasMore": "true"
 	},
 	{
-		"id": "hhi-1",
-		"detailsType": "walkthru",
+		"id": "entegy-1",
+		"detailsType": "beforeafter",
 		"title": "Entegy Events Redesign",
 		"paragraph": "A complete redesign across various platform modules. The project involved creating a new design system, new UI, and maintaining the core functions.",
 		"link": "https://entegy.events",
-		"note": "Succesfully launched on 2026 despite being an in-house project with limited resources.",
+		"note": "Succesfully launched on 2026",
 		"date": "Apr 2024",
 		"client": {
 			"name": "Entegy",
@@ -1350,7 +1350,7 @@
 			"link": "https://entegy.events"
 		},
 		"colors": {
-			"primary": "#50E381",
+			"primary": "#a180ff",
 			"secondary": "#bde350"
 		},
 		"roles": [
@@ -1384,7 +1384,7 @@
 			"Slack"
 		],
 		"images": [
-			"assets/img/projects/hhi/hhi-1.jpg"
+			"assets/img/projects/entegy/entegy-1.jpg"
 		],
 		"hasMore": "true"
 	}

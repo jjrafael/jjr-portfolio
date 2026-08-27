@@ -58,7 +58,7 @@ JJR.extend('Projects', function(App) {
         var isWalkthru = 0;
         
         if(contExists){
-            isWalkthru = cont.find('.mid-column[data-type="walkthru"]').length;
+            isWalkthru = cont.find('.mid-column[data-type="walkthru"], .mid-column[data-type="beforeafter"]').length;
             //opening project details
             $(cont).toggleClass('open');
             $('body').css('overflow', 'hidden');
@@ -115,6 +115,24 @@ JJR.extend('Projects', function(App) {
         console.log('data failed: ', xhr);
     }
 
+    var updateSplitFromEvent = function(e, box) {
+        var rect = box.getBoundingClientRect();
+        var clientX = e.clientX;
+        if (e.touches && e.touches.length) {
+            clientX = e.touches[0].clientX;
+        } else if (e.originalEvent && e.originalEvent.touches && e.originalEvent.touches.length) {
+            clientX = e.originalEvent.touches[0].clientX;
+        }
+        if (typeof clientX === 'undefined') return;
+        var pos = ((clientX - rect.left) / rect.width) * 100;
+        pos = Math.max(0, Math.min(100, pos));
+        box.style.setProperty('--split-pos', pos + '%');
+        var $range = $(box).find('.slider-range');
+        if ($range.length) {
+            $range.val(pos);
+        }
+    };
+
     var bind = function() {
         var $container = $('.projects-wrapper');
         
@@ -124,6 +142,28 @@ JJR.extend('Projects', function(App) {
 
         $container.on('click', '.btn-projects', function(){
             toggleProjectDetails(this);
+        });
+
+        $container.on('input change', '.slider-range', function () {
+            var val = $(this).val();
+            var box = $(this).closest('.beforeafter-box');
+            if (box.length) {
+                box[0].style.setProperty('--split-pos', val + '%');
+            }
+        });
+
+        $container.on('mousedown touchstart', '.beforeafter-box', function(e) {
+            var box = this;
+            updateSplitFromEvent(e, box);
+            var onMove = function(moveEvent) {
+                updateSplitFromEvent(moveEvent, box);
+            };
+            var onEnd = function() {
+                $(window).off('mousemove touchmove', onMove);
+                $(window).off('mouseup touchend', onEnd);
+            };
+            $(window).on('mousemove touchmove', onMove);
+            $(window).on('mouseup touchend', onEnd);
         });
 
     };

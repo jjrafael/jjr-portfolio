@@ -60,11 +60,13 @@
 					overflow-y: auto;
 					background: $primary;
 
-					&[data-type="walkthru"] {
+					&[data-type="walkthru"],
+					&[data-type="beforeafter"] {
 						background: #161616;
 					}
 
-					.walkthru-banner {
+					.walkthru-banner,
+					.beforeafter-banner {
 						height: 50vh;
 
 						.banner-header {
@@ -73,7 +75,9 @@
 					}
 
 					.walkthru-summary,
-					.walkthru-divider1 {
+					.beforeafter-summary,
+					.walkthru-divider1,
+					.beforeafter-divider1 {
 						padding: 20px 0px;
 
 						width: 100% p {
@@ -90,13 +94,28 @@
 							height: 400px;
 						}
 
+						.beforeafter-box {
+							width: 80%;
+							height: 45vh;
+							min-height: 320px;
+						}
+
 						.details-wrap {
-							width: 100%;
+							width: 80%;
 							margin-top: 0px;
+
+							p {
+								width: 80%;
+							}
+
+							.subdetails-wrap {
+								width: 80%;
+							}
 						}
 					}
 
-					.walkthru-scrollBlock {
+					.walkthru-scrollBlock,
+					.beforeafter-scrollBlock {
 						height: 600px;
 
 						.block-subouter {
@@ -345,7 +364,8 @@
 						}
 					}
 
-					.walkthru-container {
+					.walkthru-container,
+					.beforeafter-container {
 						.banner-header {
 							.banner-title {
 								font-size: 30px;
@@ -357,13 +377,16 @@
 						}
 
 						.walkthru-summary,
-						.walkthru-divider1 {
+						.beforeafter-summary,
+						.walkthru-divider1,
+						.beforeafter-divider1 {
 							p {
 								font-size: 12px;
 							}
 						}
 
-						.walkthru-fadeBlock {
+						.walkthru-fadeBlock,
+						.beforeafter-fadeBlock {
 							padding: 20px;
 
 							.block-wrap {
@@ -373,10 +396,16 @@
 								.img-wrap {
 									height: 200px;
 								}
+
+								.beforeafter-box {
+									height: 35vh;
+									min-height: 240px;
+								}
 							}
 						}
 
-						.walkthru-scrollBlock {
+						.walkthru-scrollBlock,
+						.beforeafter-scrollBlock {
 							.block-subouter {
 								width: calc(330px * 5);
 								padding-left: 20px;
