@@ -9,7 +9,7 @@ html,
 body {
 	@include nopads();
 	font-family: "Roboto", Helvetica;
-	font-size: 12;
+	font-size: 12px;
 	color: $primary;
 	background: $clr-bg;
 }

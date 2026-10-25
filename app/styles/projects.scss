@@ -292,7 +292,8 @@
 			}
 		}
 
-		.walkthru-container {
+		.walkthru-container,
+		.beforeafter-container {
 			width: 100%;
 			color: $white;
 			position: relative;
@@ -492,7 +493,8 @@
 				z-index: 13;
 				overflow-y: auto;
 
-				&[data-type="walkthru"] {
+				&[data-type="walkthru"],
+				&[data-type="beforeafter"] {
 					background: #161616;
 
 					.btn-more {
@@ -519,7 +521,8 @@
 			}
 
 			.details-container,
-			.walkthru-container {
+			.walkthru-container,
+			.beforeafter-container {
 				display: block;
 			}
 

@@ -37,7 +37,7 @@ var JJR = (function (){
             var id = pathname ? pathname.substring(1) : false;
             var cont = id ? $('#'+id+'.project-container') : false;
             var contExists = id ? cont.length : 0;
-            var isWalkthru = id ? cont.find('.mid-column[data-type="walkthru"]').length : 0;
+            var isWalkthru = id ? cont.find('.mid-column[data-type="walkthru"], .mid-column[data-type="beforeafter"]').length : 0;
             
             if(id && contExists && isWalkthru) {
                 App.Projects.openProjectDetails(id);

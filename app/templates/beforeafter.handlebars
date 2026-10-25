@@ -1,0 +1,120 @@
+<div class="beforeafter-container walkthru-container" data-type="{{data.type}}" data-id="{{data.id}}">
+	<div class="beforeafter-banner walkthru-banner" style="background-image: url({{data.banner}})">
+		<div class="banner-header">
+			<div class="banner-title" style="background-color: {{data.colors.primary}};">{{data.title}}</div>
+			<div class="banner-meta">
+				<div class="banner-logo" style="background-image: url({{data.client.img}})"></div>
+				<div class="banner-subtitle">{{data.subtitle}}</div>
+				<div class="banner-date">Project Date: {{data.date}}</div>
+				<div class="banner-updated">Page Updated: {{data.updated-date}}</div>
+			</div>
+		</div>
+	</div>
+	<div class="beforeafter-summary walkthru-summary">
+		<div class="title" style="color: {{data.colors.primary}};">{{data.summary.title}}</div>
+		<p>{{data.summary.paragraph}}</p>
+	</div>
+	<div class="beforeafter-inner walkthru-inner">
+		<div class="beforeafter-fadeBlock">
+			{{#each data.fadeBlock}}
+			<div class="block-wrap" id="{{this.id}}">
+				{{#if this.image}}
+				{{#if this.afterImage}}
+				<div class="beforeafter-box" style="--split-pos: 50%;">
+					<div class="image-layer before-image" style="background-image: url({{this.image}})">
+						<span class="badge badge-before">BEFORE</span>
+					</div>
+					<div class="image-layer after-image" style="background-image: url({{this.afterImage}})">
+						<span class="badge badge-after"
+							style="background-color: {{@root.data.colors.primary}};">AFTER</span>
+					</div>
+					<div class="slider-divider" style="--primary-color: {{@root.data.colors.primary}};">
+						<div class="slider-handle" style="background-color: {{@root.data.colors.primary}};">
+							<i class="mdi mdi-swap-horizontal"></i>
+						</div>
+					</div>
+					<input type="range" min="0" max="100" value="50" class="slider-range"
+						aria-label="Before and After comparison slider">
+				</div>
+				{{else}}
+				<div class="img-wrap" style="background-image: url({{this.afterImage}})"></div>
+				{{/if}}
+				{{else}}
+				<div class="divider-line"></div>
+				{{/if}}
+				<div class="details-wrap">
+					<h4 style="color: {{@root.data.colors.primary}};">{{this.title}}</h4>
+					<p>{{this.paragraph}}</p>
+					{{#ifCond this.id '===' 'entegy-1-block6'}}
+					<div class="subdetails-wrap">
+						<div class="subdetails">
+							<h4 style="color: {{@root.data.colors.primary}};">Fenix</h4>
+							<p>"Entegy is Fenix Event Tech's trusted platform for delivering conferences, trade shows,
+								and corporate events across international markets. The platform's flexibility,
+								reliability, and end-to-end event capabilities allow us to deliver seamless attendee
+								experiences at scale, while adapting to the unique requirements of each client and event
+								format. Beyond the technology itself, the Entegy team has been an outstanding partner to
+								work with, responsive, supportive, and consistently going above and beyond to help us
+								deliver world-class events for our clients worldwide." </p>
+							<h5>Matteo Poggio - Co-Founder</h5>
+						</div>
+						<div class="subdetails">
+							<h4 style="color: {{@root.data.colors.primary}};">Real Estate Institute of NZ</h4>
+							<p>"The platform itself is really user-friendly and easy to get around. On top of that, the
+								Entegy team has been amazing - always happy to help and super responsive whenever we've
+								hit something a bit tricky." </p>
+							<h5>Tayo Griffiths - Events Specialist </h5>
+						</div>
+						<div class="subdetails">
+							<h4 style="color: {{@root.data.colors.primary}};">MCI (Biggest Professional Conference)</h4>
+							<p>"Entegy is a trusted, long-standing partner to MCI Australia for over a decade,
+								developing robust event apps, with end-to-end event technology services. Their platform
+								is reliable, intuitive and continually evolving. The Entegy Team consistency bring
+								collaborative, solutions-focussed approach to every project. Most notably their support
+								team, and expertise have played a key role in delivering seamless digital experiences
+								for our events." </p>
+							<h5>Event Organizer</h5>
+						</div>
+						<div class="subdetails">
+							<h4 style="color: {{@root.data.colors.primary}};">Independent Schools NSW</h4>
+							<p>"I wanted to also mention that we had our big conference last week - and it was a roaring
+								success. The app worked brilliantly for everything. Thanks to you and the team. There
+								were lots of comments about the app looking fresh and new and easier to get around" </p>
+							<h5>Event Organizer</h5>
+						</div>
+					</div>
+					{{/ifCond}}
+				</div>
+			</div>
+			{{/each}}
+		</div>
+		<div class="beforeafter-divider1 walkthru-divider1">
+			<div class="title" style="color: {{data.colors.primary}};">{{data.divider1.title}}</div>
+			<p>{{data.divider1.paragraph}}</p>
+		</div>
+		<div class="beforeafter-scrollBlock walkthru-scrollBlock">
+			<div class="block-outer">
+				<div class="block-subouter">
+					{{#each data.scrollBlock}}
+					<div class="block-wrap" id="{{this.id}}"
+						style="background-color: color-mix(in srgb, {{@root.data.colors.primary}}, #000 75%);">
+						<div class="img-wrap" style="background-image: url({{this.image}})"></div>
+						<div class="details-wrap">
+							<h4 style="color: {{@root.data.colors.primary}};">{{this.title}}</h4>
+							<p>{{this.paragraph}}</p>
+						</div>
+					</div>
+					{{/each}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="btn-wrapper">
+			<div class="btn-projects">View all Projects</div>
+		</div>
+		<div class="footer-inner">
+			<h6 class="copyr">JJRAFAEL © 2026</h6>
+		</div>
+	</footer>
+</div>

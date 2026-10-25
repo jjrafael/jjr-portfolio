@@ -1,7 +1,7 @@
 <div class="walkthru-container" data-type="{{data.type}}" data-id="{{data.id}}">
 	<div class="walkthru-banner" style="background-image: url({{data.banner}})">
 		<div class="banner-header">
-			<div class="banner-title">{{data.title}}</div>
+			<div class="banner-title" style="background-color: {{data.colors.primary}};">{{data.title}}</div>
 			<div class="banner-meta">
 				<div class="banner-logo" style="background-image: url({{data.client.img}})"></div>
 				<div class="banner-subtitle">{{data.subtitle}}</div>
@@ -11,67 +11,71 @@
 		</div>
 	</div>
 	<div class="walkthru-summary">
-		<div class="title">{{data.summary.title}}</div>
+		<div class="title" style="color: {{data.colors.primary}};">{{data.summary.title}}</div>
 		<p>{{data.summary.paragraph}}</p>
 	</div>
 	<div class="walkthru-inner">
 		<div class="walkthru-fadeBlock">
 			{{#each data.fadeBlock}}
-				<div class="block-wrap" id="{{this.id}}">
-					<div class="img-wrap"  style="background-image: url({{this.image}})"></div>
-					<div class="details-wrap">
-						<h4>{{this.title}}</h4>
-						<p>{{this.paragraph}}</p>
-						{{#ifCond this.id '===' 'hhi-1-block7'}}
-							<div class="subdetails-wrap">
-								<div class="subdetails">
-									<h4>Obsidian (Fortune 100 Gaming Company)</h4>
-									<p>"I really like the UI and ease of use of the headhuntr.io platform in finding specialized gaming-qualified candidates. </p>
-									<h5>- Recruiter</h5>
-								</div>
-								<div class="subdetails">
-									<h4>Apple</h4>
-									<p>"I have been in the industry for over 20 years, and I haven’t seen any recruiting platform that looks this good and is so intuitive to use." </p>
-									<h5>- Lead Recruiter</h5>
-								</div>
-								<div class="subdetails">
-									<h4>Iron Mountain</h4>
-									<p>"The look and feel of the headhuntr.io platform are the best that I have seen. The layout of the features like the Must Haves, filters, and likely-to-jump indicator enables anyone to find qualified candidates faster." </p>
-									<h5>- Suzanne Hovhannesian, VP of Talent</h5>
-								</div>
-							</div>
-						{{/ifCond}}
+			<div class="block-wrap" id="{{this.id}}">
+				<div class="img-wrap" style="background-image: url({{this.image}})"></div>
+				<div class="details-wrap">
+					<h4 style="color: {{@root.data.colors.primary}};">{{this.title}}</h4>
+					<p>{{this.paragraph}}</p>
+					{{#ifCond this.id '===' 'hhi-1-block7'}}
+					<div class="subdetails-wrap">
+						<div class="subdetails">
+							<h4 style="color: {{@root.data.colors.primary}};">Obsidian (Fortune 100 Gaming Company)</h4>
+							<p>"I really like the UI and ease of use of the headhuntr.io platform in finding specialized
+								gaming-qualified candidates."</p>
+							<h5>- Recruiter</h5>
+						</div>
+						<div class="subdetails">
+							<h4 style="color: {{@root.data.colors.primary}};">Apple</h4>
+							<p>"I have been in the industry for over 20 years, and I haven’t seen any recruiting
+								platform that looks this good and is so intuitive to use." </p>
+							<h5>- Lead Recruiter</h5>
+						</div>
+						<div class="subdetails">
+							<h4 style="color: {{@root.data.colors.primary}};">Iron Mountain</h4>
+							<p>"The look and feel of the headhuntr.io platform are the best that I have seen. The layout
+								of the features like the Must Haves, filters, and likely-to-jump indicator enables
+								anyone to find qualified candidates faster." </p>
+							<h5>- Suzanne Hovhannesian, VP of Talent</h5>
+						</div>
 					</div>
+					{{/ifCond}}
 				</div>
+			</div>
 			{{/each}}
 		</div>
 		<div class="walkthru-divider1">
-			<div class="title">{{data.divider1.title}}</div>
+			<div class="title" style="color: {{data.colors.primary}};">{{data.divider1.title}}</div>
 			<p>{{data.divider1.paragraph}}</p>
 		</div>
 		<div class="walkthru-scrollBlock">
 			<div class="block-outer">
 				<div class="block-subouter">
 					{{#each data.scrollBlock}}
-						<div class="block-wrap" id="{{this.id
-						}}">
-							<div class="img-wrap"  style="background-image: url({{this.image}})"></div>
-							<div class="details-wrap">
-								<h4>{{this.title}}</h4>
-								<p>{{this.paragraph}}</p>
-							</div>
+					<div class="block-wrap" id="{{this.id}}"
+						style="background-color: color-mix(in srgb, {{@root.data.colors.primary}}, #000 75%);">
+						<div class="img-wrap" style="background-image: url({{this.image}})"></div>
+						<div class="details-wrap">
+							<h4 style="color: {{@root.data.colors.primary}};">{{this.title}}</h4>
+							<p>{{this.paragraph}}</p>
 						</div>
+					</div>
 					{{/each}}
 				</div>
 			</div>
 		</div>
 	</div>
 	<footer>
-        <div class="btn-wrapper">
+		<div class="btn-wrapper">
 			<div class="btn-projects">View all Projects</div>
-        </div>
-        <div class="footer-inner">
-            <h6 class="copyr">JJRAFAEL © 2023</h6>
-        </div>
-    </footer>
+		</div>
+		<div class="footer-inner">
+			<h6 class="copyr">JJRAFAEL © 2023</h6>
+		</div>
+	</footer>
 </div>
