@@ -1298,13 +1298,13 @@
 		"detailsType": "walkthru",
 		"title": "Merks Box",
 		"paragraph": "This is my first dive on AI-Assisted Development using Google API & AntiGravity. I created a web-based super app where players can play games, host game nights and so much more!",
-		"link": "https://merksbox.onrender.com",
+		"link": "https://merksbox.web.app",
 		"note": "Currently available publicly to play and enjoy with friends.",
 		"date": "Aug 2026",
 		"client": {
-			"name": "Entegy",
+			"name": "JJR",
 			"img": "assets/img/brands/jjr.png",
-			"link": "https://merksbox.onrender.com"
+			"link": "https://merksbox.web.app"
 		},
 		"colors": {
 			"primary": "#50E381",
